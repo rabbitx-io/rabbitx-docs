@@ -6,10 +6,20 @@ Websocket endpoint: "wss://api.testnet.rabbitx.io/ws"
 
 Rabbit<mark style="color:red;">X</mark> offers a complete pub/sub API with table diffing over WebSocket. You may subscribe to real-time changes on any available channel. All channels require [authentication](./#authentication).
 
-To subscribe to a channel, send
+#### Authentication
+
+Before subscribing to channels, you must first authenticate using JWT token received through onboarding. You only need to authenticate once at the beginning. To authenticate, send the following message:
 
 ```
-{"subscribe": "<channel name>", "id": "<counter increment>"}
+data = {'connect': {'token':"<jwt token>", name='js'}, 'id'=1}
+```
+
+jwt\_token can be retrieved by [onboarding](./#undefined).
+
+Once onboarded, to subscribe to a channel, send
+
+```
+{"subscribe": {'channel':"<channel name>", 'name':"js"}, 'id': "<counter increment>"}
 ```
 
 #### Reference implementation for channel subscription
@@ -37,17 +47,7 @@ def on_open(self, ws: WebSocketApp):
 
 ```
 
-#### Authentication
-
-Before subscribing to channels, you must first authenticate using JWT token received through onboarding. You only need to authenticate once at the beginning. To authenticate, send the following message:
-
-```
-data = {'connect': {'token':"<jwt token>", name='js'}, 'id'=1}
-```
-
-jwt\_token can be retrieved by [onboarding](./#undefined).
-
-#### Public channels
+#### Market channels
 
 ```
 "trade:<marketID>"
@@ -55,25 +55,21 @@ jwt\_token can be retrieved by [onboarding](./#undefined).
 "market:<marketID>"
 ```
 
-#### Private channels
+#### Account channels
 
 ```
-"account#<profileID>"
+"account@<profileID>"
 ```
-
-####
 
 
 
 Websocket connections go through the following lifecycle:
 
-* Establish a websocket connection with **wss://rabbitx.io/ws/**
-* (Optional) Authenticate with AUTH jwt (above)
-* Send pings at regular intervals: `{'op': 'ping'}`. You will see an `{'type': 'pong'}` response.
-* Subscribe to a channel with `{'op': 'subscribe', 'channel': ['trades', 'orderbook']}`
-* Receive data `{'type': 'update', 'channel': 'trades', 'market': 'BTC-USD', 'data': {'id': 15884651, 'price': 5231.0, 'size': 0.07, 'side': 'sell', 'liquidation': false, 'time': '2021-08-12T03:03:31.656050+00:00'}}`
-* Unsubscribe `{'op': 'unsubscribe', 'channel': 'trades', 'market': 'BTC-USD'}`
-* Receive unsubsubscribe response `{'type': 'unsubscribed', 'channel': 'trades', 'market': 'BTC-USD'}`
+* Establish a websocket connection with **wss://api.testnet.rabbitx.io/ws/**
+* Authenticate with jwt token
+* Subscribe to a channel with `{'subscribe': ['trade:BTC-USD']}`
+* Receive data from channels
+* Handle pings at regular intervals: `{'op': 'ping'}`. You will see an `{'type': 'pong'}` response.
 
 ### Reference implementation
 
