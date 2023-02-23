@@ -1,6 +1,6 @@
 # Account
 
-All account updates (orders, fills, balance, positions) are published in the "account" channel.&#x20;
+All account updates (orders, fills, balance, positions) are published in the "account" channel. To subscribe to the account channel, subscribe to "account@\<account\_id>"
 
 #### Initial Snapshot
 
@@ -110,9 +110,9 @@ The initial snapshot will send ALL information about the account.
  'withdrawableBalance': 9735834.182111563}
 ```
 
-#### Updates
+#### Websocket updates
 
-Updates will only send updated information about the account. Empty fields mean that no changes were made.&#x20;
+Updates will only send updated information about the account. **Empty fields mean that no changes were made.**&#x20;
 
 ```json
 {'accountEquity': 9881328.926627692,

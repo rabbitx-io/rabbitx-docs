@@ -2,15 +2,50 @@
 
 ### General Information
 
-Websocket endpoint: "<mark style="color:red;">wss://rbt-api-dev.strips.finance/ws</mark>"
+Websocket endpoint: "wss://api.testnet.rabbitx.io/ws"
 
-Rabbit<mark style="color:red;">X</mark> offers a complete pub/sub API with table diffing over WebSocket. You may subscribe to real-time changes on any available channel. Private channels require authentication.
+Rabbit<mark style="color:red;">X</mark> offers a complete pub/sub API with table diffing over WebSocket. You may subscribe to real-time changes on any available channel. All channels require [authentication](./#authentication).
 
-To subscribe to a channel, simply send
+To subscribe to a channel, send
 
 ```
-{"subscribe": "<channel name>"}
+{"subscribe": "<channel name>", "id": "<counter increment>"}
 ```
+
+#### Reference implementation for channel subscription
+
+```python
+def on_open(self, ws: WebSocketApp):
+    # authenticate 
+    data = dict(connect=dict(token=self.session._jwt, name='js'), id=1)
+    ws.send(json.dumps(data)) 
+    
+    channels = [f'account@{self.session.profile_id}']
+
+    for market_id in self.market_ids:
+        channels.append(f'orderbook:{market_id}')
+        channels.append(f'trade:{market_id}')
+        channels.append(f'market:{market_id}')
+
+    channels = list(set(channels))
+
+    # subscribe to channels
+    for idx, ch in enumerate(channels):
+        data = dict(subscribe=dict(channel=ch, name='js'), id=idx + 1)
+        self._id_to_channel[idx + 1] = ch
+        ws.send(json.dumps(data)) 
+
+```
+
+#### Authentication
+
+Before subscribing to channels, you must first authenticate using JWT token received through onboarding. You only need to authenticate once at the beginning. To authenticate, send the following message:
+
+```
+data = {'connect': {'token':"<jwt token>", name='js'}, 'id'=1}
+```
+
+jwt\_token can be retrieved by [onboarding](./#undefined).
 
 #### Public channels
 
@@ -26,15 +61,7 @@ To subscribe to a channel, simply send
 "account#<profileID>"
 ```
 
-#### Authentication
-
-To authenticate to a private websocket channel send the following message:
-
-```
-data = {'connect': {'token':jwt_token, name='js'}, 'id'=1}
-```
-
-jwt\_token can be retrieved by [onboarding](./#undefined).
+####
 
 
 
