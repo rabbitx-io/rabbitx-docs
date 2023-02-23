@@ -8,9 +8,9 @@ Note: Rabbit<mark style="color:red;">X</mark> only accepts **ERC-20 USDT on Ethe
 
 <figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption><p>Step 2: Approve</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption><p>Step 3: Deposit USDT</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Step 3: Deposit USDT</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption><p>Step 4: Pending deposits will show up in the Deposit/Withdrawal tab</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Step 4: Pending deposits will show up in the Deposit/Withdrawal tab</p></figcaption></figure>
 
 Reach out to our [support channel](https://discord.gg/yFHNDe4KDY) if you have any issues during the deposit process.
 
@@ -20,9 +20,9 @@ Withdrawals may take up to **4 hours** to be confirmed from Starknet to Ethereum
 
 <figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption><p>Step 1: Initiate withdrawal to Ethereum L1</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Step 2: Confirm to withdraw</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption><p>Step 2: Confirm to withdraw</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Step 3: Pending withdrawals will show up in the Deposit / Withdrawal tab</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption><p>Step 3: Pending withdrawals will show up in the Deposit / Withdrawal tab</p></figcaption></figure>
 
 Reach out to our [support channel](https://discord.gg/yFHNDe4KDY) if you have any issues during the withdrawal process.
 
