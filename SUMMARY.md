@@ -25,9 +25,8 @@
   * [Profile](api-documentation/private-endpoints/profile.md)
   * [Balance History](api-documentation/private-endpoints/balance-history.md)
 * [Websocket](api-documentation/websocket/README.md)
-  * [Channel](api-documentation/websocket/channel.md)
-  * [Account](api-documentation/websocket/account/README.md)
-    * [Market Trades](api-documentation/websocket/account/market-trades.md)
+  * [Market Trades](api-documentation/websocket/market-trades.md)
+  * [Account](api-documentation/websocket/account.md)
 * [Data Structure](api-documentation/data-structure.md)
 
 ***
