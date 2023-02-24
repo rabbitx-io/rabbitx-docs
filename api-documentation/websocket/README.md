@@ -22,6 +22,26 @@ Once onboarded, to subscribe to a channel, send
 {"subscribe": {'channel':"<channel name>", 'name':"js"}, 'id': "<counter increment>"}
 ```
 
+### Initial snapshot
+
+The initial snapshot will send ALL information about the account. Subsequent messages will only send account change updates.&#x20;
+
+Initial messages will always be in the following format
+
+```
+{'id':<channel id>, 'subscribe':{'data':<data>}}
+```
+
+### Updates
+
+Subsequent messages will only send account updates.&#x20;
+
+Update messages are in the following format
+
+```
+{'push':{'channel':<channel name>, 'pub':{'data':<data>}}}
+```
+
 #### Reference implementation for channel subscription
 
 ```python
