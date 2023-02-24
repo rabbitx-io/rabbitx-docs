@@ -70,9 +70,9 @@ def on_open(self, ws: WebSocketApp):
 ### Channels
 
 ```
-"trade:<market_id>"
-"orderbook:<market_id>"
-"market:<market_id>"
+"trade:<symbol>"
+"orderbook:<symbol>"
+"market:<symbol>"
 "account@<profile_id>"  // contains account balances, fills, orders, transfers
 ```
 
@@ -138,95 +138,3 @@ if __name__ == '__main__':
 
 ```
 
-#### Example responses
-
-```json
-# Example websocket response
-
-market_init "BTC-USD"
-{'id': 'BTC-USD', 'status': 'active', 'minInitialMargin': 0.05, 'maintenanceMargin': 0.03, 'liquidationMargin': 0.02, 'minTick': 1, 'minOrder': 0.0001, 'bestBid': 19000, 'bestAsk': 19950, 'marketPrice': 19475, 'indexPrice': 19056.525, 'lastTradePrice': 19000, 'fairPrice': 19345.718387096775, 'instantFundingRate': 0.012467630555878564, 'instantDailyVolume': 5085874.244599999, 'lastFundingRate': 0.0044839357004183445, 'marketPrice24hChangePremium': -719.5, 'marketPrice24hChangeBasis': -0.03562851271385773, 'marketPrice24hHigh': 19899, 'marketPrice24hLow': 17426, 'marketVolume24h': 1598212.544499999, 'marketVolume24hChangePremium': -1870449.155600001, 'marketVolume24hChangeBasis': -0.539242312257225}
-
-market_update "BTC-USD"
-{'id': 'BTC-USD', 'status': 'active', 'minInitialMargin': 0.05, 'maintenanceMargin': 0.03, 'liquidationMargin': 0.02, 'minTick': 1, 'minOrder': 0.0001, 'bestBid': 19000, 'bestAsk': 19950, 'marketPrice': 19475, 'indexPrice': 19056.525, 'lastTradePrice': 19000, 'fairPrice': 19345.718387096775, 'instantFundingRate': 0.012467630555878564, 'instantDailyVolume': 5085874.244599999, 'lastFundingRate': 0.0044839357004183445, 'marketPrice24hChangePremium': -719.5, 'marketPrice24hChangeBasis': -0.03562851271385773, 'marketPrice24hHigh': 19899, 'marketPrice24hLow': 17426, 'marketVolume24h': 1598212.544499999, 'marketVolume24hChangePremium': -1870449.155600001, 'marketVolume24hChangeBasis': -0.539242312257225}
-
-trade_init "BTC-USD"
-[
-{'id': 937, 'marketID': 'BTC-USD', 'timestamp': 1663868945, 'price': 19000, 'size': 1, 'liquidation': False, 'takerSide': 'short'}, 
-{'id': 934, 'marketID': 'BTC-USD', 'timestamp': 1663868869, 'price': 19000, 'size': 1, 'liquidation': False, 'takerSide': 'short'}, 
-{'id': 931, 'marketID': 'BTC-USD', 'timestamp': 1663867991, 'price': 19000, 'size': 1, 'liquidation': False, 'takerSide': 'short'}
-]
-
-orderbook_init "BTC-USD"
-{'marketID': 'BTC-USD', 'bids': [[20445, 19.1007], ...], 'asks': [[23453, 100], ...], 'checksum': 'not_implemented', 'timestamp': 1665996854}
-
-orderbook_update "BTC-USD"
-{'marketID': 'BTC-USD', 'bids': [[20445, 0]], 'checksum': 'not_implemented', 'timestamp': 1665996854}
-```
-
-#### Orderbook&#x20;
-
-The initial snapshot will send all the open orders in the orderbook sorted by price on bids (highest to lowest) and on asks (lowest to highest).&#x20;
-
-Orderbook updates are keyed by **price level**. Orderbook data is returned as:
-
-```json
-{'marketID': 'BTC-USD', 'bids': [[price, size], ...], 'asks': [[price, size], ...], 'checksum': 'not_implemented', 'timestamp': 1665996854}
-```
-
-If the bid size at the price level 19,800 changed to 10.2, the _bids_ field would be \[\[19800, 10.2]]. If there are no more bids at the price level 19,800, then the _bids_ filed would be \[\[19800, 0]].
-
-#### Trades
-
-Subscribe to real-time market trade updates.
-
-```json
-[{'id': 'ETH-USD-13230788',
-  'liquidation': False,
-  'market_id': 'ETH-USD',
-  'price': '1751.5',
-  'size': '0.061',
-  'taker_side': 'short',
-  'timestamp': 1677222281960306},
- {'id': 'ETH-USD-13230785',
-  'liquidation': False,
-  'market_id': 'ETH-USD',
-  'price': '1751.5',
-  'size': '1.066',
-  'taker_side': 'short',
-  'timestamp': 1677222213001608},
-  ...]
-```
-
-#### Market info
-
-Subscribe to real-time market information updates.
-
-```
-{'average_daily_volume': '2401820.374635',
- 'average_daily_volume_change_basis': '0',
- 'average_daily_volume_change_premium': '0',
- 'average_daily_volume_q': '94024.7',
- 'best_ask': '25.4949',
- 'best_bid': '25.4944',
- 'fair_price': '24.1895',
- 'forced_margin': '0.03',
- 'id': 'SOL-USD',
- 'index_price': '23.95',
- 'instant_daily_volume': '0',
- 'instant_funding_rate': '0.00273966823038845141406334164590479235',
- 'last_funding_rate_basis': '0.00275322341295428046383659139400384672',
- 'last_funding_update_time': 1677223163016247,
- 'last_trade_price': '25.4944',
- 'last_trade_price_24h_change_basis': '-0.02196647101699466758737100548586335213',
- 'last_trade_price_24h_change_premium': '-0.5726',
- 'last_trade_price_24high': '27.9',
- 'last_trade_price_24low': '19.3886',
- 'last_update_sequence': 9093289,
- 'last_update_time': 1677223553148672,
- 'liquidation_margin': '0.02',
- 'market_price': '25.49465',
- 'min_initial_margin': '0.05',
- 'min_order': '0.01',
- 'min_tick': '0.0001',
- 'status': 'active'}
-```

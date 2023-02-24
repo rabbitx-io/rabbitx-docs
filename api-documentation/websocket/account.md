@@ -1,28 +1,8 @@
 # Account
 
-All account updates (orders, fills, balance, positions) are published in the "account" channel. To subscribe to the account channel, subscribe to "account@\<account\_id>"
+All account updates (orders, fills, balance, positions) are published in the "account" channel. To subscribe to the account channel, subscribe to "account@\<your\_profile\_id>"
 
-### Initial snapshot
-
-The initial snapshot will send ALL information about the account. Subsequent messages will only send account change updates.&#x20;
-
-Initial messages will always be in the following format
-
-```
-{'id':<channel id>, 'subscribe':{'data':<data>}}
-```
-
-### Updates
-
-Subsequent messages will only send account updates.&#x20;
-
-Update messages are in the following format
-
-```
-{'push':{'channel':<channel name>, 'pub':{'data':<data>}}}
-```
-
-#### Example data
+#### Example snapshot data
 
 ```json
 {'accountEquity': 9881314.182111563,
@@ -128,11 +108,11 @@ Update messages are in the following format
  'withdrawableBalance': 9735834.182111563}
 ```
 
-### Websocket updates
+
 
 Updates will only send updated information about the account. **Empty fields mean that no changes were made.**&#x20;
 
-**Example response**
+**Example update data**
 
 ```json
 {'account_equity': '26820.952219892065306000000000000000016',
