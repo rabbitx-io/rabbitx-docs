@@ -6,7 +6,7 @@ Websocket endpoint: "wss://api.testnet.rabbitx.io/ws"
 
 Rabbit<mark style="color:red;">X</mark> offers a complete pub/sub API with table diffing over WebSocket. You may subscribe to real-time changes on any available channel. All channels require [authentication](./#authentication).
 
-#### Authentication
+### Authentication
 
 Before subscribing to channels, you must first authenticate using JWT token received through onboarding. You only need to authenticate once at the beginning. To authenticate, send the following message:
 
@@ -14,7 +14,7 @@ Before subscribing to channels, you must first authenticate using JWT token rece
 data = {'connect': {'token':"<jwt token>", name='js'}, 'id'=1}
 ```
 
-jwt\_token can be retrieved by [onboarding](./#undefined).
+`jwt_token` can be retrieved by [onboarding](../private-endpoints/authentication.md).
 
 Once onboarded, to subscribe to a channel, send
 
@@ -47,27 +47,22 @@ def on_open(self, ws: WebSocketApp):
 
 ```
 
-#### Market channels
+### Channels
 
 ```
-"trade:<marketID>"
-"orderbook:<marketID>"
-"market:<marketID>"
+"trade:<market_id>"
+"orderbook:<market_id>"
+"market:<market_id>"
+"account@<profile_id>"  // contains account balances, fills, orders, transfers
 ```
 
-#### Account channels
-
-```
-"account@<profileID>"
-```
-
-
+`profile_id` is retrieved by [onboarding](../private-endpoints/authentication.md).
 
 Websocket connections go through the following lifecycle:
 
 * Establish a websocket connection with **wss://api.testnet.rabbitx.io/ws/**
 * Authenticate with jwt token
-* Subscribe to a channel with `{'subscribe': ['trade:BTC-USD']}`
+* Subscribe to a channel with {"subscribe": {'channel':"trade:BTC-USD", 'name':"js"}, 'id': "\<counter increment>"}
 * Receive data from channels
 * Handle pings at regular intervals: `{'op': 'ping'}`. You will see an `{'type': 'pong'}` response.
 
@@ -77,7 +72,7 @@ Python: [https://github.com/rabbitx-io/rabbitx-python-client](https://github.com
 
 Examples: [https://github.com/rabbitx-io/rabbitx-python-client/blob/main/examples/ws.py](https://github.com/rabbitx-io/rabbitx-python-client/blob/main/examples/ws.py)
 
-#### Example Script
+#### Example script
 
 ```python
 from websocket import WebSocketApp
@@ -123,9 +118,9 @@ if __name__ == '__main__':
 
 ```
 
-#### Example Responses
+#### Example responses
 
-```python
+```json
 # Example websocket response
 
 market_init "BTC-USD"
@@ -154,8 +149,64 @@ The initial snapshot will send all the open orders in the orderbook sorted by pr
 
 Orderbook updates are keyed by **price level**. Orderbook data is returned as:
 
-```python
+```json
 {'marketID': 'BTC-USD', 'bids': [[price, size], ...], 'asks': [[price, size], ...], 'checksum': 'not_implemented', 'timestamp': 1665996854}
 ```
 
 If the bid size at the price level 19,800 changed to 10.2, the _bids_ field would be \[\[19800, 10.2]]. If there are no more bids at the price level 19,800, then the _bids_ filed would be \[\[19800, 0]].
+
+#### Trades
+
+Subscribe to real-time market trade updates.
+
+```json
+[{'id': 'ETH-USD-13230788',
+  'liquidation': False,
+  'market_id': 'ETH-USD',
+  'price': '1751.5',
+  'size': '0.061',
+  'taker_side': 'short',
+  'timestamp': 1677222281960306},
+ {'id': 'ETH-USD-13230785',
+  'liquidation': False,
+  'market_id': 'ETH-USD',
+  'price': '1751.5',
+  'size': '1.066',
+  'taker_side': 'short',
+  'timestamp': 1677222213001608},
+  ...]
+```
+
+#### Market info
+
+Subscribe to real-time market information updates.
+
+```
+{'average_daily_volume': '2401820.374635',
+ 'average_daily_volume_change_basis': '0',
+ 'average_daily_volume_change_premium': '0',
+ 'average_daily_volume_q': '94024.7',
+ 'best_ask': '25.4949',
+ 'best_bid': '25.4944',
+ 'fair_price': '24.1895',
+ 'forced_margin': '0.03',
+ 'id': 'SOL-USD',
+ 'index_price': '23.95',
+ 'instant_daily_volume': '0',
+ 'instant_funding_rate': '0.00273966823038845141406334164590479235',
+ 'last_funding_rate_basis': '0.00275322341295428046383659139400384672',
+ 'last_funding_update_time': 1677223163016247,
+ 'last_trade_price': '25.4944',
+ 'last_trade_price_24h_change_basis': '-0.02196647101699466758737100548586335213',
+ 'last_trade_price_24h_change_premium': '-0.5726',
+ 'last_trade_price_24high': '27.9',
+ 'last_trade_price_24low': '19.3886',
+ 'last_update_sequence': 9093289,
+ 'last_update_time': 1677223553148672,
+ 'liquidation_margin': '0.02',
+ 'market_price': '25.49465',
+ 'min_initial_margin': '0.05',
+ 'min_order': '0.01',
+ 'min_tick': '0.0001',
+ 'status': 'active'}
+```
