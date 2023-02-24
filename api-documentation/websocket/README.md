@@ -2,7 +2,7 @@
 
 ### General Information
 
-Websocket endpoint: "wss://api.testnet.rabbitx.io/ws"
+Testnet websocket endpoint: "wss://api.testnet.rabbitx.io/ws"
 
 Rabbit<mark style="color:red;">X</mark> offers a complete pub/sub API with table diffing over WebSocket. You may subscribe to real-time changes on any available channel. All channels require [authentication](./#authentication).
 
@@ -19,7 +19,7 @@ data = {'connect': {'token':"<jwt token>", name='js'}, 'id'=1}
 Once onboarded, to subscribe to a channel, send
 
 ```
-{"subscribe": {'channel':"<channel name>", 'name':"js"}, 'id': "<counter increment>"}
+{"subscribe": {'channel':"<channel name>", 'name':"js"}, 'id': "<internal counter>"}
 ```
 
 ### Initial snapshot
@@ -29,7 +29,7 @@ The initial snapshot will send ALL information about the account. Subsequent mes
 Initial messages will always be in the following format
 
 ```
-{'id':<channel id>, 'subscribe':{'data':<data>}}
+{'id':<internal counter>, 'subscribe':{'data':<data>}}
 ```
 
 ### Updates
