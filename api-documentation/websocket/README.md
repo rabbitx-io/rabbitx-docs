@@ -82,9 +82,9 @@ def on_open(self, ws: WebSocketApp):
 
 Websocket connections go through the following lifecycle:
 
-* Establish a websocket connection with **wss://api.testnet.rabbitx.io/ws/**
+* Establish a websocket connection with `wss://api.testnet.rabbitx.io/ws/`
 * Authenticate with jwt token
-* Subscribe to a channel with {"subscribe": {'channel':"trade:BTC-USD", 'name':"js"}, 'id': "\<counter increment>"}
+* Subscribe to a channel with `{"subscribe": {'channel':"trade:BTC-USD", 'name':"js"}, 'id': "<counter increment>"}`
 * Receive data from channels
 * Handle pings at regular intervals: `{'op': 'ping'}`. You will see an `{'type': 'pong'}` response.
 
