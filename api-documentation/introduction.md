@@ -4,14 +4,20 @@ By using any API provided by RabbitX, you agree to its Terms of Use and Privacy 
 
 ## General Info
 
-*   The base REST endpoint for testnet:
+*   Mainnet endpoints:
 
     ```go
-    https://api.testnet.rabbitx.io
+    // REST
+    https://api.prod.rabbitx.io
+    // Websocket
+    wss://api.prod.rabbitx.io/ws
     ```
-*   The websocket endpoint for testnet:
+*   Testnet endpoints:
 
     ```go
+    // REST
+    https://api.testnet.rabbitx.io
+    // Websocket
     wss://api.testnet.rabbitx.io/ws
     ```
 * All endpoints return either a JSON object or an array.

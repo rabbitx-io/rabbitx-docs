@@ -2,16 +2,6 @@
 
 ## General Info
 
-*   The base REST endpoint for testnet:
-
-    ```go
-    https://api.testnet.rabbitx.io
-    ```
-*   The websocket endpoint for testnet:
-
-    ```go
-    wss://api.testnet.rabbitx.io/ws
-    ```
 * All endpoints return either a JSON object or an array.
 * All private endpoints require onboarding first.
 
