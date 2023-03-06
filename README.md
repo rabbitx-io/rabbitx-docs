@@ -8,7 +8,7 @@ description: Where the world comes to trade
 
 Rabbit<mark style="color:red;">X</mark> is a global permissionless perpetuals exchange built on Starknet. Rabbit<mark style="color:red;">X</mark> is building the most secure and liquid global derivatives network, giving you 24/7 access to global markets anywhere in the world.
 
-Combining blockchain infrastructure with the most powerful risk engine and beautiful user interface. With Rabbit<mark style="color:red;">X</mark>, you can trade 24/7 markets with 20x leverage with the security of Ethereum. Our derivatives DEX is built using state-of-the-art, low-latency [ZK-STARK](https://starkware.co/stark/) technology atop Ethereum, providing blazing fast speed, peak security, and zero gas fees.&#x20;
+Combining the most innovative ZK infrastructure with the most powerful risk engine, and beautiful user interface. With Rabbit<mark style="color:red;">X</mark>, you can trade 24/7 markets with 20x leverage with the security of Ethereum. Our derivatives DEX is built using state-of-the-art, low-latency [ZK-STARK](https://starkware.co/stark/) technology atop Ethereum, providing blazing fast speed, peak security, and zero gas fees.&#x20;
 
 Rabbit<mark style="color:red;">X</mark> is rebuilding a better financial system by offering price transparency, instant settlements, and automated clearing for derivatives trading. Rabbit<mark style="color:red;">X</mark> is where the world comes to trade.
 
