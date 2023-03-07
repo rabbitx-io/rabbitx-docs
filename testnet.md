@@ -1,48 +1,30 @@
 # Get Started
 
-## Get Started
-
-**Connecting:**
+### **Connect your wallet**
 
 * Visit [https://app.rabbitx.io](https://testnet.rabbitx.io)
 * Enter the access code (you can get the access code from our Discord https://discord.com/invite/rabbitx)
 * Click the "Connect Wallet" button in upper-right corner:
 
-<div>
-
-<figure><img src=".gitbook/assets/1 (1).png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/4.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+![](<.gitbook/assets/image (2).png>)
 
 * Connect your Metamask wallet > switch to "Ethereum network" > Sign and verify to ownership of your wallet
 * If you don't have a web3 wallet, you can download Metamask here [https://metamask.io/download/](https://metamask.io/download/)
 
-**Trading:**
+### **Trading**
 
 * Deposit up to $10,000 during invitational mainnet
 * The order panel is in the right hand side. There you can input your order type, limit price (if applicable), and the size of your trade.
 
-<figure><img src=".gitbook/assets/6.png" alt=""><figcaption></figcaption></figure>
+<img src=".gitbook/assets/image (4).png" alt="" data-size="original">
 
-**Reviewing your orders and order history:**
+### **Review your positions, trades and orders**
 
 * At the bottom of the page you will see your completed and open orders under the Orders option
 * Clicking the Positions tab will show your current positions on RabbitX
 * Clicking the Account tab shows your account balances, margin requirement, PnL, leverage, and volume figures
 
-<figure><img src=".gitbook/assets/5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## **FAQs**
 
