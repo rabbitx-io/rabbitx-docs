@@ -1,10 +1,11 @@
-# Testnet
+# Get Started
 
 ## Get Started
 
 **Connecting:**
 
-* Visit [https://testnet.rabbitx.io](https://testnet.rabbitx.io)
+* Visit [https://app.rabbitx.io](https://testnet.rabbitx.io)
+* Enter the access code (you can get the access code from our Discord https://discord.com/invite/rabbitx)
 * Click the "Connect Wallet" button in upper-right corner:
 
 <div>
@@ -25,18 +26,15 @@
 
 </div>
 
-* Connect your Metamask wallet > switch to "Goerli test network" > Sign and verify
+* Connect your Metamask wallet > switch to "Ethereum network" > Sign and verify to ownership of your wallet
 * If you don't have a web3 wallet, you can download Metamask here [https://metamask.io/download/](https://metamask.io/download/)
-* If you don’t see the Goerli test network, go to Metamask settings > "Show test networks" > ON
 
 **Trading:**
 
-* All testnet accounts start with $10M in USDT collateral to trade with.
-* In the upper-right side, you will see parameters to send your order. There you can input your order type, limit price (if applicable), and the size of your trade.
+* Deposit up to $10,000 during invitational mainnet
+* The order panel is in the right hand side. There you can input your order type, limit price (if applicable), and the size of your trade.
 
 <figure><img src=".gitbook/assets/6.png" alt=""><figcaption></figcaption></figure>
-
-
 
 **Reviewing your orders and order history:**
 
@@ -48,28 +46,28 @@
 
 ## **FAQs**
 
-**Q:** How do I deposit testnet collateral to start trading?
+**Q:** How do I deposit collateral to start trading?
 
-**A:** You don’t need to. All accounts start out with a $10M USDT balance to begin trading. For this reason, the Deposit function currently is not operational.
+**A:** You must deposit USDT-ERC20 to start trading
 
-**Q:** How do I get gas to start trading?
+**Q:** Do I need to pay gas to trade?
 
-**A:** You do not need testnet ETH to start trading. However if you try to use the Deposit/Withdraw feature for your USDT balance, you will need testnet ETH. We do not provide this since we are providing testnet USDT for you to trade on the RabbitX platform.
+**A:** You do not need to pay gas for trading. However you will need to pay gas for depositing and withdrawals.
 
-**Q:** Why am I interacting on an Ethereum testnest (Goerli) if you’re on Starknet?
+**Q:** Why am I interacting on an Ethereum if you’re on Starknet?
 
-**A:** You will be depositing and withdrawing on Ethereum L1 for RabbitX (even on mainnet). We then bridge to Starknet for you on the backend. This is why you can use an EVM wallet with us and don’t have to use a cairo-specific wallet like other ZK projects. Your trades are still occurring on Starknet, we’ve simply removed the hassle of bridging for you.
+**A:** Deposits and withdrawals on RabbitX are done on Ethereum layer 1. RabbitX then uses Starknet for settlement service to handle your deposits and withdrawals. Using our L1-to-L2 Link, we conveniently take care of all the backend processes for you. This is why you can use an EVM wallet with us and don’t have to use a cairo-specific wallet.&#x20;
 
-Since your interactions will be on Ethereum but your trades will be batched and occurring on Starknet, we're deployed on Goerli. but starknet tech is still being used.
+**Q:** Why do withdrawals take so long?
+
+Withdrawals may take up to 12 hours, the length of time for a new batch of transactions to be confirmed from Starknet to Ethereum. Please note the process for withdrawals, in order of occurrence:
+
+* Your wallet balance on RabbitX will be immediately deducted by the withdrawn amount
+* You will see the withdrawn amount display initially as “Pending” in your Transfers tab
+* Once the withdrawal is accepted by Starknet, the status will change to “Transferring”
+* In “Transferring” status, your withdrawal is now being processed by Starknet. Depending on Starknet’s block time this process currently takes up to 12 hours, with an estimated time of 6-10 hours.
+* Once completed, the transfer status will change to “Success” in your Transfers tab
 
 **Q:** Why do my market orders sometimes not immediately fill?
 
-**A:** Market orders are currently sent out as limits around the bid/ask price when you place new orders or when you close your positions. This may not be immediately marketable and if not it will not fill like a regular market order. The market order feature will be updated soon so it’s routed like a true market order. In the interim, to send out an order that can be filled immediately, please send a marketable limit order instead.
-
-**Q:** Why am I seeing negative prices?
-
-**A:** Our risk management engine is currently not integrated, hence you may see negative prices. This will be fixed once we integrate our risk management engine.
-
-**Q:** Why can't I deposit / withdraw?
-
-**A:** Deposits and withdrawals are currently disabled for testnet. Your account will have a $10M starting balance when you connect your wallet.
+**A:** To protect traders from adverse price movements when executing a market order, if the execution price of a market order deviates beyond 5%, the exchange will automatically place the remaining unfilled portion of the order at 5% away from the fair price

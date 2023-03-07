@@ -1,6 +1,7 @@
 # Table of contents
 
 * [👋 Introduction](README.md)
+* [Get Started](testnet.md)
 * [Roadmap](roadmap.md)
 * [Liquidations](liquidations.md)
 * [Index Price](index-price.md)
@@ -9,7 +10,6 @@
 * [Trading Fees](trading-fees.md)
 * [Profit / Loss Calculation](profit-loss-calculation.md)
 * [Insurance Fund](insurance-fund.md)
-* [Testnet](testnet.md)
 * [FAQ](faq.md)
 
 ## API Documentation
