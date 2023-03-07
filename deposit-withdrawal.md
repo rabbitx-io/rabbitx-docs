@@ -6,23 +6,28 @@ Note: Rabbit<mark style="color:red;">X</mark> only accepts **ERC-20 USDT on Ethe
 
 <figure><img src=".gitbook/assets/image (12).png" alt="Connect your wallet"><figcaption><p>Step 1. Connect your wallet</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption><p>Step 2: Approve</p></figcaption></figure>
+![](<.gitbook/assets/image (17).png>)![](<.gitbook/assets/image (10).png>)
 
-<figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Step 3: Deposit USDT</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption><p>Deposits and withdrawals are shown in "Transfers"</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Step 4: Pending deposits will show up in the Deposit/Withdrawal tab</p></figcaption></figure>
-
-Reach out to our [support channel](https://discord.gg/yFHNDe4KDY) if you have any issues during the deposit process.
+Deposits require at least 12 on-chain confirmations. Deposits typically take **3-6 minutes.** Reach out to our [support channel](https://discord.gg/yFHNDe4KDY) if you have any issues during the deposit process.
 
 ## Withdrawal
 
-Withdrawals may take up to **4 hours** to be confirmed from Starknet to Ethereum L1. Withdrawals will be deposited back to your Ethereum wallet.
+Withdrawals may take up to **12 hours** to be confirmed from Starknet to Ethereum L1. Withdrawals are a two-step process. Once a withdrawal request has been processed and ready to be claimed, it will be shown in the "Transfers" tab.
 
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption><p>Step 1: Initiate withdrawal to Ethereum L1</p></figcaption></figure>
+Please note the process for withdrawals:
 
-<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption><p>Step 2: Confirm to withdraw</p></figcaption></figure>
+* Your wallet balance on RabbitX will be immediately deducted by the withdrawn amount
+* You will see the withdrawn amount display initially as “Pending” in your Transfers tab
+* Once the withdrawal is accepted by Starknet, the status will change to “Transferring”
+* In “Transferring” status, your withdrawal is now being processed by Starknet. Depending on Starknet’s block time this process currently takes up to 12 hours, with an estimated time of 6-10 hours.
+* Once completed, the transfer status will change to “Success” in your Transfers tab
+* You will be able to claim your requested withdrawal amount back to your wallet
 
-<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption><p>Step 3: Pending withdrawals will show up in the Deposit / Withdrawal tab</p></figcaption></figure>
+![](<.gitbook/assets/image (2).png>)
+
+
 
 Reach out to our [support channel](https://discord.gg/yFHNDe4KDY) if you have any issues during the withdrawal process.
 
