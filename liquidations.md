@@ -16,7 +16,7 @@ When an account's equity falls below the maintenance margin requirement it will 
 
 #### Waterfall #2
 
-If an account's equity falls below the liquidation margin, the account will be fully liquidated at the zero-price. If Rabbit<mark style="color:red;">X</mark> is able to liquidate the position at a price better than the zero-price, the difference will be added to the Insurance Fund. If Rabbit<mark style="color:red;">X</mark> is unable to liquidate the position at a price better than the zero-price, the losses will be taken by the Insurance Fund.
+If an account's equity falls below the liquidation margin, the account will be fully liquidated at the zero-price. A portion of the remaining collateral (if any) will go to the Insurance Fund. If Rabbit<mark style="color:red;">X</mark> is unable to liquidate the position at a price better than the zero-price, the losses will be taken by the Insurance Fund.
 
 #### Waterfall #3
 
