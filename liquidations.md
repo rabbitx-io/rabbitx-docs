@@ -4,7 +4,7 @@ The Rabbit<mark style="color:red;">X</mark> risk-management engine is based on r
 
 ### Margin Requirements
 
-<table><thead><tr><th>Name</th><th>Account Margin</th><th data-hidden>Initial Margin</th></tr></thead><tbody><tr><td>Full Liquidation Margin</td><td>2%</td><td>5%</td></tr><tr><td>Partial Liquidation Maintenance Margin</td><td>3%</td><td>5%</td></tr></tbody></table>
+<table><thead><tr><th>Name</th><th>Account Margin</th><th data-hidden>Initial Margin</th></tr></thead><tbody><tr><td>Full Liquidation Margin Ratio</td><td>2%</td><td>5%</td></tr><tr><td>Maintenance Margin Ratio</td><td>3%</td><td>5%</td></tr></tbody></table>
 
 ### Liquidation Waterfalls
 
