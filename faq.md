@@ -59,3 +59,15 @@ Withdrawable balance is the amount available for withdrawal. It is min(wallet ba
 ### What are fair price and market price?
 
 Fair price is the price used to mark your position unrealised pnl. Market price is the mid price between the current best bid and best offer.
+
+### Why hasn't my withdrawal arrived yet?
+
+Withdrawals may take up to **12 hours** to be confirmed from Starknet to Ethereum L1. Withdrawals are a two-step process. Once a withdrawal request has been processed and ready to be claimed, it will be shown in the "Transfers" tab.
+
+Please note the process for withdrawals:
+
+* Your wallet balance on RabbitX will be immediately deducted by the withdrawn amount
+* You will see the withdrawn amount display initially as “Pending” in your Transfers tab
+* Once the withdrawal is accepted by Starknet, the status will change to “Transferring”
+* In “Transferring” status, your withdrawal is now being processed by Starknet. Depending on Starknet’s block time this process currently takes up to 12 hours, with an estimated time of 6-10 hours.
+* You will then be able to claim your requested withdrawal amount back to your wallet. You must initiate the claim and sign the transaction from the "Transfers" tab.
