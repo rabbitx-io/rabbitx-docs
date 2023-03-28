@@ -66,9 +66,9 @@ Params
 {
     market_id: 'BTC-USD',
     price: 19800,
-    side: 'long',    // accepts LONG or SHORT
+    side: 'long',    // accepts 'long' or 'short'
     size: 0.45, 
-    type: 'limit'    // accepts MARKET or LIMIT
+    type: 'limit'    // accepts 'market' or 'limit'
 }
 ```
 
@@ -94,7 +94,7 @@ Example response
 
 To keep an orderly market, RabbitX has a 1,000 open order limit per account.
 
-### Delete orders
+### Cancel orders
 
 ```
 DELETE /orders
@@ -103,7 +103,8 @@ DELETE /orders
 ```json
 Params
 {
-    orderID: 33928
+    order_id: 'BTC-USD@1859'
+    market_id: 'BTC-USD'
 }
 ```
 
@@ -132,10 +133,10 @@ PUT /orders
 ```json
 Params
 {
-    orderID: 33928,
+    order_id: 33928,
+    market_id: 'BTC-USD'
     price: 19800,
     size: 0.45, 
-    type: 'LIMIT'    // accepts MARKET or LIMIT
 }
 ```
 
