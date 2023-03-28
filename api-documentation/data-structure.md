@@ -30,6 +30,7 @@ type ProfileData struct {
 	LastLiqCheck        *int64                      `msgpack:"last_liq_check" json:"last_liq_check,omitempty"`
 	Positions     []*PositionData        `msgpack:"positions" json:"positions,omitempty"`
 	Orders        []*OrderData           `msgpack:"orders" json:"orders,omitempty"`
+	Fills         []*FillData            `msgpack:"fills" json:"fills,omitempty"`
 	Notifications []*ProfileNotification `msgpack:"notifications" json:"profile_notifications,omitempty"`
 }
 
