@@ -133,7 +133,7 @@ PUT /orders
 ```json
 Params
 {
-    order_id: 33928,
+    order_id: 'BTC-USD@1872',
     market_id: 'BTC-USD'
     price: 19800,
     size: 0.45, 
