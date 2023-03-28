@@ -154,7 +154,6 @@ type Profile struct {
 	Wallet    string `msgpack:"wallet" json:"wallet"`
 }
 
-
 type BalanceOps struct {
 	OpsId     string           `msgpack:"id" json:"id"`
 	Status    string           `msgpack:"status" json:"status"`
@@ -166,6 +165,7 @@ type BalanceOps struct {
 	Id2       string           `msgpack:"ops_id2" json:"ops_id2"`
 	Amount    tdecimal.Decimal `msgpack:"amount" json:"amount"`
 	Timestamp int64            `msgpack:"timestamp" json:"timestamp"`
+	ShardId   string           `msgpack:"shard_id" json:"shard_id"`
 }
 
 
