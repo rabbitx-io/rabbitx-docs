@@ -29,7 +29,7 @@
   * [Orderbook](api-documentation/websocket/orderbook.md)
   * [Market Info](api-documentation/websocket/market-info.md)
   * [Account](api-documentation/websocket/account.md)
-* [Data Structure](api-documentation/data-structure.md)
+* [Responses Data Structure](api-documentation/data-structure.md)
 
 ***
 
