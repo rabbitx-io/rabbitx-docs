@@ -1,6 +1,6 @@
 # Data Structure
 
-#### Data responses
+### Response structure
 
 ```go
 type DataResponse[T any] struct {

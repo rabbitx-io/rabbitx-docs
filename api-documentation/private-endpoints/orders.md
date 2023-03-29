@@ -9,7 +9,7 @@ GET /orders
 ```
 
 ```json
-Params
+Parameters
 {
     status: 'open',            // (optional) 'open', 'closed', 'canceled', 'rejected', 'processing', 'amending', 'cancelingall', 'canceling'
     market_id: 'BTC-USD',      // (optional)
@@ -62,7 +62,7 @@ POST /orders
 ```
 
 ```json
-Params
+Parameters
 {
     market_id: 'BTC-USD',
     price: 19800,
@@ -101,7 +101,7 @@ DELETE /orders
 ```
 
 ```json
-Params
+Parameters
 {
     order_id: 'BTC-USD@1859'
     market_id: 'BTC-USD'
@@ -131,7 +131,7 @@ PUT /orders
 ```
 
 ```json
-Params
+Parameters
 {
     order_id: 'BTC-USD@1872',
     market_id: 'BTC-USD'

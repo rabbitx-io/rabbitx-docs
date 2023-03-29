@@ -9,7 +9,7 @@ GET /fills
 ```
 
 ```json
-Params:
+Parameters
 {
     market_id: 'BTC-USD'    // (optional)
     start_time: 1623654624  // (optional)
@@ -60,7 +60,7 @@ GET /fills/order
 ```
 
 ```
-Params:
+Parameters
 {
     order_id: 'BTC-USD@445126'  // (required)
 }
