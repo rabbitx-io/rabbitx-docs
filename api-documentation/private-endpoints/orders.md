@@ -11,6 +11,7 @@ GET /orders
 ```json
 Parameters
 {
+    order_id: 'BTC-USD@1777'   // (optional)
     status: 'open',            // (optional) 'open', 'closed', 'canceled', 'rejected', 'processing', 'amending', 'cancelingall', 'canceling'
     market_id: 'BTC-USD',      // (optional)
     start_time: 1673668624     // (optional)
