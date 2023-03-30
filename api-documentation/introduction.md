@@ -22,3 +22,9 @@ By using any API provided by RabbitX, you agree to its Terms of Use and Privacy 
     ```
 * All endpoints return either a JSON object or an array.
 * All private endpoints require onboarding first.
+
+### Reference implementation
+
+Python: [https://github.com/rabbitx-io/rabbitx-python-client](https://github.com/rabbitx-io/rabbitx-python-client)
+
+Examples: [https://github.com/rabbitx-io/rabbitx-python-client/tree/main/examples](https://github.com/rabbitx-io/rabbitx-python-client/tree/main/examples)
