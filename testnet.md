@@ -6,7 +6,7 @@
 * Enter the access code (you can get the access code from our Discord https://discord.com/invite/rabbitx)
 * Click the "Connect Wallet" button in upper-right corner:
 
-![](<.gitbook/assets/image (1) (1).png>)
+![](<.gitbook/assets/image (1).png>)
 
 * Connect your Metamask wallet > switch to "Ethereum network" > Sign and verify to ownership of your wallet
 * If you don't have a web3 wallet, you can download Metamask here [https://metamask.io/download/](https://metamask.io/download/)
