@@ -19,4 +19,3 @@ _Note:_
 
 _Rabbit<mark style="color:red;">X</mark> uses a proprietary protection mechanism to prevent and discard malformed, anomalous, or inaccurate data. For the avoidance of doubt, and in accordance with the Rabbit<mark style="color:red;">X</mark> Terms of Service, Rabbit<mark style="color:red;">X</mark> accepts no responsibility for the accuracy of the data received from any exchange, and carries no liability whatsoever for any claimed losses arising in connection with its calculation and publication of such index._&#x20;
 
-__

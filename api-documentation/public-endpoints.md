@@ -154,7 +154,7 @@ Response
 }
 ```
 
-__
+
 
 _Notes:_\
 _The following documentation is provided as-is and Rabbit<mark style="color:red;">X</mark> accepts no responsibility for the accuracy of the data received, and carries no liability whatsoever for any claimed losses arising in connection with inaccuracies with the API._&#x20;

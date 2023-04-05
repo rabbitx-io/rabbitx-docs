@@ -16,11 +16,11 @@ Rabbit<mark style="color:red;">X</mark> is rebuilding a better financial system 
 **-** Realtime proof-of-reserves
 
 **Phase 2:**\
-****- Decentralised sequencer\
+\- Decentralised sequencer\
 \- Decentralised recursive zk-rollup orderbook
 
 **Phase 3:**\
-****- Decentralised spot trading\
+\- Decentralised spot trading\
 \- Decentralised perpetuals trading
 
 ## Product Roadmap
@@ -35,5 +35,5 @@ Rabbit<mark style="color:red;">X</mark> is rebuilding a better financial system 
 \- Trade global markets (FX, commodities, interest rates)
 
 **Phase 3:**\
-****- Multiasset collateral\
+\- Multiasset collateral\
 \- Options trading\

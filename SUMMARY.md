@@ -9,6 +9,7 @@
 * [Deposit / Withdrawal](deposit-withdrawal.md)
 * [Trading Fees](trading-fees.md)
 * [Profit / Loss Calculation](profit-loss-calculation.md)
+* [Our Margin Calculation](our-margin-calculation.md)
 * [Insurance Fund](insurance-fund.md)
 * [FAQ](faq.md)
 
