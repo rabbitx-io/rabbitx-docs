@@ -9,14 +9,6 @@ AccountMargin=AccountEquity/TotalPositionNotional
 $$
 
 $$
-PositionMargin=\sum(PositionQty*Price_{market})/Leverage_{market}
-$$
-
-$$
-OrderMargin=\sum(OrderQty_{market}*Price_{market})/Leverage_{market}
-$$ 
-
-$$
 TotalPositionNotional=\sum (Qty*fairPrice)
 $$
 
@@ -27,6 +19,14 @@ $$
 $$
 Withdrawalable Balance = Wallet Balance + Unrealised PnL - Order Margin - Position Margin
 $$
+
+$$
+PositionMargin=\sum(PositionQty*Price_{market})/Leverage_{market}
+$$
+
+$$
+OrderMargin=\sum(OrderQty_{market}*Price_{market})/Leverage_{market}
+$$ 
 
 ### Risk Checks
 1. When an order is placed, our risk engine calculates the required Order Margin based on the leverage selected by the user for the market (note: to give users more flexibility for their risk management, leverage is set independently for each market). 
