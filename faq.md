@@ -38,7 +38,11 @@ Yes. Coming soon :tm:
 
 ### Is there any airdrop?
 
-No airdrops have been officially announced by the RabbitX team.
+Yes, read this [announcement ](https://twitter.com/rabbitx\_io/status/1641408506044780544)for details.
+
+### Why can't I close my position?
+
+Please read our [Margin Calculation ](margin-calculation.md#faq-why-cant-i-close-my-position-and-i-see-a-post-match-error)documentation for more details.
 
 ### How does your liquidation engine work?
 
