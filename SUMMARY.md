@@ -11,6 +11,7 @@
 * [Profit / Loss Calculation](profit-loss-calculation.md)
 * [Margin Calculation](margin-calculation.md)
 * [Insurance Fund](insurance-fund.md)
+* [Contract Details](contract-details.md)
 * [FAQ](faq.md)
 
 ## API Documentation
