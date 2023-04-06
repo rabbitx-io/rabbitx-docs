@@ -33,14 +33,14 @@ $$
 2. The order is then simulated in our CoreGuard Risk Engine, and the Account Margin, Position Margin, Order Margin are all recalculated based on the post-match simulation.
 3. If the order results in the account Withdrawable Balance < 0 OR the account margin < 3% then the order is rejected. 
 
-### FAQ: Why am I seeing a post-match: WB = -xxx error?
+#### FAQ: Why am I seeing a post-match: WB = -xxx error?
 This is due to insufficient Withdrawable Balance in your account. You can try the following to increase your Withdrawable Balance:
 1. Cancel open orders (this will free up Order Margin)
 2. Increase your market leverage  (this will reduce your Order Margin)
 3. Try to deposit more funds
 4. Close some positions (this will reduce your Position Margin)
 
-### FAQ: Why can't I close my position and I see a post-match error?
+#### FAQ: Why can't I close my position and I see a post-match error?
 Unfortunately, due to the very strict nature of our CoreGuard Risk Engine, if the order placed results in a negative Withdrawable Balance, your order will be rejected. Try the following to increase your Withdrawable Balance:
 
 1. Cancel open orders (this will free up Order Margin)
