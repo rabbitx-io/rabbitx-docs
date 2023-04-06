@@ -13,7 +13,7 @@ TotalPositionNotional=\sum (Qty*fairPrice)
 $$
 
 $$
-WalletBalance = Deposits - Withdrawals + RealizedPnL + Fees + Funding
+WalletBalance = Deposits - Withdrawals + RealizedPnL - Fees + Funding
 $$
 
 $$
