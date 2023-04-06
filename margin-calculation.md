@@ -17,7 +17,7 @@ WalletBalance = Deposits - Withdrawals + RealizedPnL - Fees + Funding
 $$
 
 $$
-Withdrawalable Balance = Wallet Balance + Unrealised PnL - Order Margin - Position Margin
+Withdrawalable Balance = min(Account Equity, Wallet Balance) - Order Margin - Position Margin
 $$
 
 $$
@@ -46,6 +46,6 @@ Unfortunately, due to the very strict nature of our CoreGuard Risk Engine, if th
 1. Cancel open orders (this will free up Order Margin)
 2. Increase your market leverage  (this will reduce your Order Margin)
 3. Try to deposit more funds
-4. Use market order (this will decrease your post-match Position Margin)
+4. Use market order to close some positions (this will decrease your post-match Position Margin)
 
 Note: We understand some users are still experiencing an issue even if their account leverage is 20x and do not have any open orders. Our team is working hard to upgrade the CoreGuard Risk Engine to allow closing orders to be accepted as long as the order is immediately executable to reduce the position.
