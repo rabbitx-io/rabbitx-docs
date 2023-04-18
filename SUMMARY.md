@@ -38,3 +38,4 @@
 * [Twitter](https://twitter.com/rabbitx\_io)
 * [Discord](https://discord.com/invite/rabbitx)
 * [Try Testnet](https://testnet.rabbitx.io)
+* [Apply to become a market maker](mailto:vip@rabbitx.io?subject=Market\_Maker\_Application)
