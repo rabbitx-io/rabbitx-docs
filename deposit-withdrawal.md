@@ -29,7 +29,7 @@ Please note the process for withdrawals:
 * Once completed, the transfer status will change to “Success” in your Transfers tab
 * You will be able to claim your requested withdrawal amount back to your wallet
 
-![](<.gitbook/assets/image (2).png>)
+![](<.gitbook/assets/image (2) (2).png>)
 
 
 

@@ -40,9 +40,21 @@ Yes. Coming soon :tm:
 
 Yes, read this [announcement ](https://twitter.com/rabbitx\_io/status/1641408506044780544)for details.
 
-### Why can't I close my position?
+### Why am I experiencing "POST\_CHECK\_MARGIN" error?
 
 Please read our [Margin Calculation ](margin-calculation.md#faq-why-cant-i-close-my-position-and-i-see-a-post-match-error)documentation for more details.
+
+### Why am I experiencing "Ownership Verification Failed" error?
+
+### ![](.gitbook/assets/image.png)&#x20;
+
+This error could be due to an out of sync computer clock. Please try to sync your computer clock.
+
+There are several ways to sync your computer clock. Here are a few methods:
+
+On Windows: Right-click on the clock in the taskbar, select "Adjust date/time", then click "Sync now".&#x20;
+
+On Mac: Click on the Apple menu, select "System Preferences", click "Date & Time", then click "Set date and time automatically".
 
 ### How does your liquidation engine work?
 
