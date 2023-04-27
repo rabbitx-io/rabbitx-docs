@@ -12,6 +12,7 @@ GET /orders
 Parameters
 {
     order_id: 'BTC-USD@1777'   // (optional)
+    client_order_id: ''        // (optional)
     status: 'open',            // (optional) 'open', 'closed', 'canceled', 'rejected', 'processing', 'amending', 'cancelingall', 'canceling'
     market_id: 'BTC-USD',      // (optional)
     start_time: 1673668624     // (optional)
@@ -67,9 +68,10 @@ Parameters
 {
     market_id: 'BTC-USD',
     price: 19800,
-    side: 'long',    // accepts 'long' or 'short'
+    side: 'long',        // accepts 'long' or 'short'
     size: 0.45, 
-    type: 'limit'    // accepts 'market' or 'limit'
+    type: 'limit'        // accepts 'market' or 'limit'
+    client_order_id: ''  // (optional)
 }
 ```
 
@@ -88,6 +90,7 @@ Example response
         'side': 'long',
         'size': '1',
         'status': 'processing',
+        'client_order_id':''
         'type': 'limit'}
     ]
 }
