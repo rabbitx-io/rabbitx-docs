@@ -36,6 +36,7 @@ Example response
             'reason': '',
             'side': 'long',
             'size': '1',
+            'client_order_id':''
             'status': 'open',
             'timestamp': 1669629461258298,
             'total_filled_size': '0'},
@@ -48,6 +49,7 @@ Example response
             'reason': '',
             'side': 'long',
             'size': '1',
+            'client_order_id':''
             'status': 'open',
             'timestamp': 1669629461258298,
             'total_filled_size': '0'}
