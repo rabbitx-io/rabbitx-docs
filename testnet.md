@@ -13,7 +13,7 @@
 
 ### **Trading**
 
-* Deposit up to $10,000 during invitational mainnet
+* Deposit USDT via the 'deposit' button
 * The order panel is in the right hand side. There you can input your order type, limit price (if applicable), and the size of your trade.
 
 <img src=".gitbook/assets/image (16).png" alt="" data-size="original">
