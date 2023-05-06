@@ -46,7 +46,7 @@ Please read our [Margin Calculation ](margin-calculation.md#faq-why-cant-i-close
 
 ### Why am I experiencing "Ownership Verification Failed" error?
 
-### ![](.gitbook/assets/image.png)&#x20;
+### ![](<.gitbook/assets/image (5).png>)&#x20;
 
 This error could be due to an out of sync computer clock. Please try to sync your computer clock.
 

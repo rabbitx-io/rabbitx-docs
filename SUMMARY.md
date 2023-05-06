@@ -11,6 +11,7 @@
 * [Profit / Loss Calculation](profit-loss-calculation.md)
 * [Margin Calculation](margin-calculation.md)
 * [Insurance Fund](insurance-fund.md)
+* [Liquidity Incentive Program](liquidity-incentive-program.md)
 * [Contract Details](contract-details.md)
 * [FAQ](faq.md)
 
@@ -38,4 +39,4 @@
 * [Twitter](https://twitter.com/rabbitx\_io)
 * [Discord](https://discord.com/invite/rabbitx)
 * [Try Testnet](https://testnet.rabbitx.io)
-* [Apply to become a market maker](mailto:vip@rabbitx.io?subject=Market\_Maker\_Application)
+* [Apply to become a market maker](mailto:mm@rabbitx.io?Subject=LP%20Application\&Body=Application%20to%20apply%20as%20a%20market%20maker%20for%20RabbitX.)
