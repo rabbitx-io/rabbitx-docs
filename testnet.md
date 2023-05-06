@@ -16,7 +16,7 @@
 * Deposit USDT via the 'deposit' button
 * The order panel is in the right hand side. There you can input your order type, limit price (if applicable), and the size of your trade.
 
-<img src=".gitbook/assets/image (16).png" alt="" data-size="original">
+<img src=".gitbook/assets/image (16) (1).png" alt="" data-size="original">
 
 ### **Review your positions, trades and orders**
 
