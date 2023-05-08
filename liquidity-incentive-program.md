@@ -1,10 +1,10 @@
-# Liquidity Incentive Program
+# Liquidity Incentive Rewards
 
 ### Liquidity Incentive Program
 
 To attract more liquidity to RabbitX, the Liquidity Incentive Program is a scheme that offers incentives to liquidity providers who provide deep, two-sided markets.
 
-The Liquidity Incentive Program has been carefully designed to maximize the liquidity of the exchange and reward traders that supply effective liquidity.
+The RabbitX Liquidity Incentive Program has been carefully designed to maximize the liquidity of the exchange and reward liquidity providers that supply effective liquidity.
 
 The incentive program will provide 7.5% of the initial token supply of RabbitX tokens (75,000,000 RBX) to be distributed to Liquidity Providers (LP) over two years based on metrics measuring the LP's spread, depth and uptime. The program is currently open; apply through the link below.
 
@@ -32,7 +32,7 @@ The program's goal is to incentivize market liquidity based on three metrics:
 
 #### Fee Schedule
 
-| Tier               | Maker Volume (30 days)       | Maker Fee | Taker Fee |
+| Tier               | Maker Volume (monthly)       | Maker Fee | Taker Fee |
 | ------------------ | ---------------------------- | --------- | --------- |
 | Liquidity Provider | 2%+ of exchange maker volume | -0.02%    | 0.031%    |
 
@@ -46,7 +46,7 @@ $$
 
 **Calculation methodology**
 
-The following methodology calculates how much token rewards each liquidity provider receives per 30-day epoch. Liquidity providers earn token rewards proportionate to their relative share of $$Q_{FINAL}$$.
+The following methodology calculates how much token rewards each liquidity provider receives per monthly epoch. Liquidity providers earn token rewards proportionate to their relative share of $$Q_{FINAL}$$.
 
 Orders below a certain minimum depth (MinDepth) per market are excluded, and orders over a certain maximum spread (mid-market spread) (MaxSpread) are also excluded. Snapshots are taken every minute using random sampling.
 
