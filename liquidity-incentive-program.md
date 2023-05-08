@@ -8,7 +8,9 @@ The RabbitX Liquidity Incentive Program has been carefully designed to maximize 
 
 The incentive program will provide 7.5% of the initial token supply of RabbitX tokens (75,000,000 RBX) to be distributed to Liquidity Providers (LP) over two years based on metrics measuring the LP's spread, depth and uptime. The program is currently open; apply through the link below.
 
-[Apply here](mailto:mm@rabbitx.io?Subject=LP%20Application\&Body=Application%20to%20apply%20as%20a%20market%20maker%20for%20RabbitX.)
+[Apply here](https://forms.gle/Ze127AbDjvqiBj4ZA)
+
+RBX token on [Coingecko](https://www.coingecko.com/en/coins/rabbitx).
 
 ### Eligibility
 
