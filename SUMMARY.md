@@ -11,7 +11,7 @@
 * [Profit / Loss Calculation](profit-loss-calculation.md)
 * [Margin Calculation](margin-calculation.md)
 * [Insurance Fund](insurance-fund.md)
-* [Liquidity Incentive Program](liquidity-incentive-program.md)
+* [Liquidity Incentive Rewards](liquidity-incentive-rewards.md)
 * [Contract Details](contract-details.md)
 * [FAQ](faq.md)
 
