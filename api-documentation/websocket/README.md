@@ -8,6 +8,20 @@ Mainnet websocket endpoint: `wss://api.prod.rabbitx.io/ws`
 
 Rabbit<mark style="color:red;">X</mark> offers a complete pub/sub API with table diffing over WebSocket. You may subscribe to real-time changes on any available channel. All channels require [authentication](./#authentication).
 
+Websocket packets may contain multiple messages separated `\n` . It is recommended to split the message string before parsing the json.
+
+```
+def on_message(self, ws: WebSocketApp, message: str):
+        for line in message.split('\n'):
+            try:
+                data = json.loads(line)
+            except Exception as e:
+                print(u'\u001b[31m ~~~ EXCEPTION ~~~')
+                print(e)
+                print(message, u'u\u001b[0m')
+                return
+```
+
 ### Authentication
 
 Before subscribing to channels, you must first authenticate using JWT token received through onboarding. You only need to authenticate once at the beginning. To authenticate, send the following message:
