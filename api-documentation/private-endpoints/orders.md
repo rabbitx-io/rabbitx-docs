@@ -15,8 +15,8 @@ Parameters
     client_order_id: ''        // (optional)
     status: 'open',            // (optional) 'open', 'closed', 'canceled', 'rejected', 'processing', 'amending', 'cancelingall', 'canceling'
     market_id: 'BTC-USD',      // (optional)
-    start_time: 1673668624     // (optional) epoch time in seconds
-    end_time: 1673668624       // (optional)
+    start_time: 1669629461258298  // (optional) epoch time in microseconds
+    end_time: 1669629461258298    // (optional)
 }
 ```
 

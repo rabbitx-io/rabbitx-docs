@@ -12,8 +12,8 @@ GET /fills
 Parameters
 {
     market_id: 'BTC-USD'    // (optional)
-    start_time: 1623654624  // (optional)
-    end_time: 1673668624    // (optional)
+    start_time: 1669629461258298  // (optional)
+    end_time: 1669629461258298  // (optional)
 }
 ```
 
