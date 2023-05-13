@@ -15,7 +15,7 @@ Parameters
     client_order_id: ''        // (optional)
     status: 'open',            // (optional) 'open', 'closed', 'canceled', 'rejected', 'processing', 'amending', 'cancelingall', 'canceling'
     market_id: 'BTC-USD',      // (optional)
-    start_time: 1673668624     // (optional)
+    start_time: 1673668624     // (optional) epoch time in seconds
     end_time: 1673668624       // (optional)
 }
 ```
@@ -56,6 +56,8 @@ Example response
     ]
 }
 ```
+
+tip: orders are indexed by timestamp, if start\_time is not specified, the response will take longer as it will parse through your full order history. Queries with start\_time parameter could be up to 10x faster than queries without start\_time.
 
 ### Place orders
 
