@@ -38,7 +38,7 @@ Once onboarded, to subscribe to a channel, send
 {"subscribe": {'channel':"<channel name>", 'name':"js"}, 'id': "<internal counter>"}
 ```
 
-If your jwt token is expired, you will need to update it. If your jwt token is expired, the connection will be disconnected and you will need to resubscribe with a new token. jwt tokens typically expire in 24hrs.
+If your jwt token is expired, you will need to update it. If your jwt token is expired, the connection will be disconnected and you will need to resubscribe with a new token. jwt tokens expire in 48hrs.
 
 ### Initial snapshot
 
