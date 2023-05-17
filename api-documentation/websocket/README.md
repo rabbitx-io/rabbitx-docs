@@ -100,7 +100,7 @@ Websocket connections go through the following lifecycle:
 * Authenticate with jwt token
 * Subscribe to a channel with `{"subscribe": {'channel':"trade:BTC-USD", 'name':"js"}, 'id': "<counter increment>"}`
 * Receive data from channels
-* Handle pings at regular intervals: `{'op': 'ping'}`. You will see an `{'type': 'pong'}` response.
+* Handle pings at regular intervals: send an empty frame to the server`{}` when you get an empty message from the exchange.
 
 ### Reference implementation
 
