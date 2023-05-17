@@ -43,7 +43,7 @@ The program's goal is to incentivize market liquidity based on three metrics:
 7.5% of the initial token supply of RabbitX (75,000,000 RBX) will be distributed to liquidity providers based on the $$Q_{FINAL}$$ measuring the liquidity provider's width, depth and uptime per monthly epoch.
 
 $$
-Q_{FINAL} = Q_{EPOCH}^{0.65}*MakerVolume^{0.25}*UptimeScore
+Q_{FINAL} = Q_{EPOCH}^{0.65}*MakerVolume^{0.35}*UptimeScore
 $$
 
 **Calculation methodology**
