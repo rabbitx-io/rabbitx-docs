@@ -6,21 +6,20 @@ Gone are the days of navigating through multiple screens and windows to execute 
 
 Here's how Chart Trader can transform your trading experience:
 
-1️⃣ Visualize and Strategize: With Chart Trader, you can effortlessly visualize where to place your orders on the chart. By simply right-clicking on the chart, you can now initiate trades with precision and confidence. 🎯
+1. Visualize and Strategize: With Chart Trader, you can effortlessly visualize where to place your orders on the chart. By simply right-clicking on the chart, you can now initiate trades with precision and confidence. 🎯
 
 <figure><img src=".gitbook/assets/Untitled.png" alt="" width="364"><figcaption></figcaption></figure>
 
-2️⃣ Amend Orders with Ease: Experience the freedom to adapt to market changes swiftly. Chart Trader allows you to easily amend your buy and sell orders by dragging and dropping them on the chart. Seamlessly adjust your positions to align with your evolving trading strategies. ⚙️💼
+2. Amend Orders with Ease: Experience the freedom to adapt to market changes swiftly. Chart Trader allows you to easily amend your buy and sell orders by dragging and dropping them on the chart. Seamlessly adjust your positions to align with your evolving trading strategies. ⚙️💼
 
 <figure><img src=".gitbook/assets/2023-05-17 00-17-30.gif" alt="" width="563"><figcaption></figcaption></figure>
 
-3️⃣ Cancel Orders Instantly: No more hassle or time wasted on canceling orders. Chart Trader lets you cancel orders directly from the chart, making it quick and effortless to manage your trading activity. 🚫❌
+3. Cancel Orders Instantly: No more hassle or time wasted on canceling orders. Chart Trader lets you cancel orders directly from the chart, making it quick and effortless to manage your trading activity. 🚫❌
 
 <figure><img src=".gitbook/assets/Untitled (1).png" alt="" width="309"><figcaption></figcaption></figure>
 
-4️⃣ Position Entry Price and Size: Gain a comprehensive overview of your positions without leaving the chart. With Chart Trader, you can see your position entry price and size directly from the chart itself. Stay informed and make well-informed trading decisions based on real-time data. 💹📊
-
-5️⃣ Long and Short Indicators: Never lose track of your trading positions again. Chart Trader provides clear and concise indicators on the chart, highlighting where you entered long and short positions. Effortlessly identify your trades and manage them effectively to maximize your profitability. 🔍📈
+4. Position Entry Price and Size: Gain a comprehensive overview of your positions without leaving the chart. With Chart Trader, you can see your position entry price and size directly from the chart itself. Stay informed and make well-informed trading decisions based on real-time data. 💹📊
+5. Long and Short Indicators: Never lose track of your trading positions again. Chart Trader provides clear and concise indicators on the chart, highlighting where you entered long and short positions. Effortlessly identify your trades and manage them effectively to maximize your profitability. 🔍📈
 
 **Here are some testimonials from RabbitX users who are already using Chart Trader:**
 
