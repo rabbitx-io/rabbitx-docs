@@ -24,9 +24,9 @@ Here's how Chart Trader can transform your trading experience:
 
 **Here are some testimonials from RabbitX users who are already using Chart Trader:**
 
-* "RabbitX Chart Trader is a game-changer. I can now place, cancel, and amend orders quickly and easily, which has helped me improve my trading performance."
-* "I'm a beginner trader, and Chart Trader has made it so much easier for me to understand the market and make trading decisions by looking at the chart."
-* "Chart Trader is the best trading tool I've ever used. It's so intuitive and easy to use, and it's helped me take my trading to the next level”
+* _"RabbitX Chart Trader is a game-changer. I can now place, cancel, and amend orders quickly and easily, which has helped me improve my trading performance."_
+* _"I'm a beginner trader, and Chart Trader has made it so much easier for me to understand the market and make trading decisions by looking at the chart."_
+* _"Chart Trader is the best trading tool I've ever used. It's so intuitive and easy to use, and it's helped me take my trading to the next level”_
 
 We believe that Chart Trader will be a game-changer in how you approach and execute your trades. It streamlines the trading process, empowering you to focus on what really matters: making profitable decisions in the market.&#x20;
 
