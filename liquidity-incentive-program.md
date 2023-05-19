@@ -110,11 +110,11 @@ Anyone who meets the minimum requirements are eligible to participate in this pr
 
 #### **What are the maximum acceptable spreads per market?**
 
-| Market                  | Max Spread vs Market-Mid (Bid & Ask) |
-| ----------------------- | ------------------------------------ |
-| BTC/USD                 | 20 bps                               |
-| ETH/USD                 | 20 bps                               |
-| Other perpetual markets | 30 bps                               |
+| Market                  | Max distance from market-mid |
+| ----------------------- | ---------------------------- |
+| BTC/USD                 | 20 bps                       |
+| ETH/USD                 | 20 bps                       |
+| Other perpetual markets | 30 bps                       |
 
 #### **What is the minimum depth (size) per order per market?**
 
