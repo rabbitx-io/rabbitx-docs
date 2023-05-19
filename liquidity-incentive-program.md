@@ -114,7 +114,7 @@ Anyone who meets the minimum requirements are eligible to participate in this pr
 | ----------------------- | ---------------------------- |
 | BTC/USD                 | 20 bps                       |
 | ETH/USD                 | 20 bps                       |
-| Other perpetual markets | 30 bps                       |
+| Other perpetual markets | 50 bps                       |
 
 #### **What is the minimum depth (size) per order per market?**
 
@@ -130,9 +130,9 @@ Rewards allocation per market may change given a 30-day notice.
 
 | Market  | Rewards Allocation |
 | ------- | ------------------ |
-| BTC-USD | 15%                |
-| ETH-USD | 15%                |
-| Others  | 70%                |
+| BTC-USD | 20%                |
+| ETH-USD | 20%                |
+| Others  | 60%                |
 
 #### What is the minimum uptime requirement?
 
