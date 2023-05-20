@@ -62,7 +62,7 @@ For example, Assume a liquidity provider has multiple open bid orders (1 BTC at 
 
 The second order, 10 BTC at $29,500, is not qualified, as the order spread exceeds the max spread.
 
-$$Q_{BID} = 129995/(5/30000)^2 + 529960/(40/30000)^2$$
+$$Q_{BID} = 1*29995/(5/30000)^2 + 5*29960/(40/30000)^2$$
 
 2. Calculate $$Q_{ask}=\frac{AskDepth_1}{(Spread_1)^2}+\frac{AskDepth_2}{(Spread_2)^2}+\frac{AskDepth_3}{(Spread_3)^2}...$$
 
