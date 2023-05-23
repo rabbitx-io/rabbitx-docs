@@ -13,8 +13,12 @@
 * [Insurance Fund](insurance-fund.md)
 * [Liquidations](liquidations.md)
 * [Liquidity Incentive Rewards](liquidity-incentive-program.md)
-* [Contract Details](contract-details.md)
-* [FAQ](faq.md)
+* [Frequently Asked Questions](faq.md)
+
+## Token
+
+* [Explore $RBX](token/explore-usdrbx.md)
+* [Contract Details](token/contract-details.md)
 
 ## API Documentation
 
