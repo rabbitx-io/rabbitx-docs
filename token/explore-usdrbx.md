@@ -1,5 +1,7 @@
 # Explore $RBX
 
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 We are excited to announce a major milestone in the evolution of the RabbitX platform: the launch of RabbitX (RBX) utility token. With a native utility token RBX, RabbitX is preparing to assume its leading role in the rapidly growing DeFi derivatives space.&#x20;
 
 Our state-of-the-art platform built using a hybrid architecture, is optimized to deliver unparalleled speed and security for our traders. With the deepest orderbook liquidity, zero gas fees, and up to 20x leverage, RabbitX is the best derivatives DEX to trade on. The RBX utility token is our commitment to give power back to the community: if we succeed, you succeed.

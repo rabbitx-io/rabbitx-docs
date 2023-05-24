@@ -12,7 +12,7 @@ Note: Rabbit<mark style="color:red;">X</mark> only accepts **ERC-20 USDT on Ethe
 
 ![](<.gitbook/assets/image (17).png>)![](<.gitbook/assets/image (10).png>)
 
-<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption><p>Deposits and withdrawals are shown in "Transfers"</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7) (2).png" alt=""><figcaption><p>Deposits and withdrawals are shown in "Transfers"</p></figcaption></figure>
 
 Deposits require at least 12 on-chain confirmations. Deposits typically take **3-6 minutes.** Reach out to our [support channel](https://discord.gg/yFHNDe4KDY) if you have any issues during the deposit process.
 
