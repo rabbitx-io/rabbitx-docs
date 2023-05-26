@@ -4,12 +4,7 @@
 
 We are excited to announce a major milestone in the evolution of the RabbitX platform: the launch of RabbitX (RBX) utility token. With a native utility token RBX, RabbitX is preparing to assume its leading role in the rapidly growing DeFi derivatives space.&#x20;
 
-Our state-of-the-art platform built using a hybrid architecture, is optimized to deliver unparalleled speed and security for our traders. With the deepest orderbook liquidity, zero gas fees, and up to 20x leverage, RabbitX is the best derivatives DEX to trade on. The RBX utility token is our commitment to give power back to the community: if we succeed, you succeed.
-
-1. RBX Contract Address: [https://etherscan.io/address/0x3Ba925fdeAe6B46d0BB4d424D829982Cb2F7309e](https://etherscan.io/address/0x3Ba925fdeAe6B46d0BB4d424D829982Cb2F7309e)
-2. RBX Uniswap Address: [https://app.uniswap.org/#/swap?outputCurrency=0x3Ba925fdeAe6B46d0BB4d424D829982Cb2F7309e](https://app.uniswap.org/#/swap?outputCurrency=0x3Ba925fdeAe6B46d0BB4d424D829982Cb2F7309e)
-3. Coingecko: [https://www.coingecko.com/en/coins/rabbitx](https://www.coingecko.com/en/coins/rabbitx)
-4. Coinmarketcap: [https://coinmarketcap.com/currencies/rabbitx/](https://coinmarketcap.com/currencies/rabbitx/)\
+Our state-of-the-art platform built using a hybrid architecture, is optimized to deliver unparalleled speed and security for our traders. With the deepest orderbook liquidity, zero gas fees, and up to 20x leverage, RabbitX is the best derivatives DEX to trade on. The RBX utility token is our commitment to give power back to the community: if we succeed, you succeed.\
 
 
 The RBX token will have an initial supply of 1 billion tokens (1,000,000,000 RBX). Here’s how the tokens will be allocated:
@@ -33,4 +28,7 @@ If you have any questions regarding this update or RBX tokenomics, please reach 
 
 Thank you for being a valued member of our community. :heart:
 
-\
+* RBX Contract Address: [https://etherscan.io/address/0x3Ba925fdeAe6B46d0BB4d424D829982Cb2F7309e](https://etherscan.io/address/0x3Ba925fdeAe6B46d0BB4d424D829982Cb2F7309e)
+* RBX Uniswap Address: [https://app.uniswap.org/#/swap?outputCurrency=0x3Ba925fdeAe6B46d0BB4d424D829982Cb2F7309e](https://app.uniswap.org/#/swap?outputCurrency=0x3Ba925fdeAe6B46d0BB4d424D829982Cb2F7309e)
+* Coingecko: [https://www.coingecko.com/en/coins/rabbitx](https://www.coingecko.com/en/coins/rabbitx)
+* Coinmarketcap: [https://coinmarketcap.com/currencies/rabbitx/](https://coinmarketcap.com/currencies/rabbitx/)
