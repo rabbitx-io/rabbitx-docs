@@ -11,6 +11,10 @@ Premium = (Market Price - Spot Index Price)
 Basis = Premium / Spot Index Price
 ```
 
+\*Basis is capped at +/- 6% from the index price
+
+\*Funding rate is capped at 1% per hour
+
 #### Explanation
 
 When the perpetual contract is trading above the spot index price over a 1-hour TWAP, the funding rate is positive, and shorts will receive funding payments that are paid for by longs. Conversely, when the perpetual contract is trading below the spot index price over a 1-hour TWAP, the funding rate is negative, and longs will receive funding payments that are paid for by shorts.&#x20;
