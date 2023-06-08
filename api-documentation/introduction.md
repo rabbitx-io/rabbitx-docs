@@ -28,3 +28,7 @@ By using any API provided by RabbitX, you agree to its Terms of Use and Privacy 
 Python: [https://github.com/rabbitx-io/rabbitx-python-client](https://github.com/rabbitx-io/rabbitx-python-client)
 
 Examples: [https://github.com/rabbitx-io/rabbitx-python-client/tree/main/examples](https://github.com/rabbitx-io/rabbitx-python-client/tree/main/examples)
+
+### Rate Limit
+
+There is a rate limit of 20 orders/sec per account. Rate limits will return a 429 error code.
