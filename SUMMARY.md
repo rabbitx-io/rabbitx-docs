@@ -23,7 +23,11 @@
 ## API Documentation
 
 * [Introduction](api-documentation/introduction.md)
-* [Public Endpoints](api-documentation/public-endpoints.md)
+* [Public Endpoints](api-documentation/public-endpoints/README.md)
+  * [Market Info](api-documentation/public-endpoints/market-info.md)
+  * [Trades](api-documentation/public-endpoints/trades.md)
+  * [Orderbook](api-documentation/public-endpoints/orderbook.md)
+  * [Candles](api-documentation/public-endpoints/candles.md)
 * [Private Endpoints](api-documentation/private-endpoints/README.md)
   * [Account Operations](api-documentation/private-endpoints/account-operations.md)
   * [Authentication](api-documentation/private-endpoints/authentication.md)
