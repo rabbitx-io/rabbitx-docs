@@ -2,6 +2,16 @@
 
 ### General Information
 
+RabbitX uses centrifuge scalable real-time websocket for publishing messages. We recommend using one of the client SDKs available on the official centrifuge [page](https://centrifugal.dev/docs/transports/client\_sdk).&#x20;
+
+### List of centrifuge websocket client SDKs[​](https://centrifugal.dev/docs/transports/client\_sdk#list-of-client-sdks) <a href="#list-of-client-sdks" id="list-of-client-sdks"></a>
+
+* [centrifuge-js](https://github.com/centrifugal/centrifuge-js) – for browser, NodeJS and React Native
+* [centrifuge-go](https://github.com/centrifugal/centrifuge-go) - for Go language
+* [centrifuge-dart](https://github.com/centrifugal/centrifuge-dart) - for Dart and Flutter
+* [centrifuge-swift](https://github.com/centrifugal/centrifuge-swift) – for native iOS development
+* [centrifuge-java](https://github.com/centrifugal/centrifuge-java) – for native Android development and general Java
+
 Testnet websocket endpoint: `wss://api.testnet.rabbitx.io/ws`
 
 Mainnet websocket endpoint: `wss://api.prod.rabbitx.io/ws`
