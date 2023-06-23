@@ -1,5 +1,17 @@
 # Private Endpoints
 
+### Security
+
+For onboarding with private keys, we suggest using AWS KMS service or Secrets Manager.&#x20;
+
+The Secrets Manager is a service that helps protect access to your applications, services, and IT resources. This protection does not require upfront investment or on-going maintenance costs. Unlike AWS KMS, Secrets Manager is designed to protect text blobs.
+
+To learn more about AWS KMS or Secrets Manager, refer to the official AWS documentation.
+
+KMS [https://docs.aws.amazon.com/kms/latest/developerguide/getting-started.html](https://docs.aws.amazon.com/kms/latest/developerguide/getting-started.html)
+
+Secrets Manager [https://docs.aws.amazon.com/secretsmanager/latest/userguide/create\_secret.html](https://docs.aws.amazon.com/secretsmanager/latest/userguide/create\_secret.html)
+
 ### Reference implementation
 
 Python: [https://github.com/rabbitx-io/rabbitx-python-client](https://github.com/rabbitx-io/rabbitx-python-client)
