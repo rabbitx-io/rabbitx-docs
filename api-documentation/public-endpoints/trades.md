@@ -10,7 +10,9 @@ GET /trades
 Params
 {
 market_id: "BTC-USD",
-limit: 100,
+p_limit: 100, // max 1000
+p_page: 1, 
+p_order: "DESC" // default "DESC" for descending and "ASC" for ascending
 }
 ```
 
