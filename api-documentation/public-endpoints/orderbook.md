@@ -12,6 +12,9 @@ GET markets/orderbook
 Params
 {
 market_id: "BTC-USD"
+p_limit: 100, // max 1000
+p_page: 0, // page starts at 0
+p_order: "DESC" // default "DESC" for descending and "ASC" for ascending
 }
 ```
 

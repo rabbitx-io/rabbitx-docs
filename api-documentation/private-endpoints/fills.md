@@ -14,6 +14,9 @@ Parameters
     market_id: 'BTC-USD'    // (optional)
     start_time: 1669629461258298  // (optional)
     end_time: 1669629461258298  // (optional)
+    p_limit: 100, // max 1000
+    p_page: 0, // page starts at 0
+    p_order: "DESC" // default "DESC" for descending and "ASC" for ascending
 }
 ```
 
