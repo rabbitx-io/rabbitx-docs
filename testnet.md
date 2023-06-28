@@ -3,7 +3,6 @@
 ### **Connect your wallet**
 
 * Visit [https://app.rabbitx.io](https://testnet.rabbitx.io)
-* Enter the access code (you can get the access code from our Discord https://discord.com/invite/rabbitx)
 * Click the "Connect Wallet" button in upper-right corner:
 
 ![](<.gitbook/assets/image (8).png>)
