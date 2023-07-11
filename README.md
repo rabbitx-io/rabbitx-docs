@@ -38,6 +38,8 @@ Founded in 2021, RabbitX brought together a seasoned team of skilled builders, a
 
 From inception, the RabbitX team has remained dedicated to a first-principles approach in product development, emphasizing a robust risk engine, trader-centric design, and equipping traders with powerful, innovative tools.
 
+RabbitX is backed by the biggest and most successful investors in the world, including Sequoia Capital US, Peak XV Partners (previously Sequoia India), Multicoin Capital, Crypto.com, OKX Ventures and more.
+
 ## Features
 
 ### Unparalleled Speed ⚡
