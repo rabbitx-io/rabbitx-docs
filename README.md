@@ -32,6 +32,12 @@ Today's financial infrastructure is archaic, expensive and inefficient. Rabbit<m
 
 Tell your friends, and spread the word. It's time to go down the rabbit hole.
 
+## Our History
+
+Founded in 2021, RabbitX brought together a seasoned team of skilled builders, accomplished derivatives traders, and billion-dollar portfolio managers. Originally launched as Strips Finance—a decentralized interest rate swaps exchange on Arbitrum—the team soon expanded its mission and vision and rebranded as RabbitX. The focus shifted from creating solely decentralized interest rate derivatives to building a comprehensive suite of derivatives for every single global asset class.&#x20;
+
+From inception, the RabbitX team has remained dedicated to a first-principles approach in product development, emphasizing a robust risk engine, trader-centric design, and equipping traders with powerful, innovative tools.
+
 ## Features
 
 ### Unparalleled Speed ⚡
