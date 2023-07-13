@@ -2,7 +2,7 @@
 description: Frequently Asked Questions
 ---
 
-# FAQ
+# Frequently Asked Questions
 
 ### What are ZK Rollups?
 
@@ -82,7 +82,7 @@ Fair price is the price used to mark your position unrealised pnl. Market price 
 
 ### Why hasn't my withdrawal arrived yet?
 
-Withdrawals may take up to **12 hours** to be confirmed from Starknet to Ethereum L1. Withdrawals are a two-step process. Once a withdrawal request has been processed and ready to be claimed, it will be shown in the "Transfers" tab.
+Withdrawals may take up to **6 hours** to be confirmed from Starknet to Ethereum L1. Withdrawals are a two-step process. Once a withdrawal request has been processed and ready to be claimed, it will be shown in the "Transfers" tab.
 
 <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
