@@ -116,7 +116,7 @@ Anyone who meets the minimum requirements are eligible to participate in this pr
 | ETH/USD                 | 20 bps                       |
 | Other perpetual markets | 50 bps                       |
 
-#### **What is the minimum depth (size) per market?**
+#### **What is the minimum cumulative depth ($) per market?**
 
 | Market                  | Min Depth |
 | ----------------------- | --------- |
