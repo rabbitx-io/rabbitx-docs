@@ -42,7 +42,7 @@ Yes, read this [announcement ](https://twitter.com/rabbitx\_io/status/1641408506
 
 ### What is TradingView?
 
-TradingView is one of the world’s leading charting and trading platforms, offering an array of technical, drawing and analytical tools. Supercharged by robust technologies across browser, desktop and mobile apps, the platform provides unparalleled access to live data, the latest news, financial reports, and integrations with selected brokers. Visit TradingView [here](https://www.tradingview.com/).
+TradingView is one of the world’s leading charting and trading platforms, offering an array of technical, drawing and analytical tools. Supercharged by robust technologies across browser, desktop and mobile apps, the platform provides unparalleled access to live data, e.g. [BTC USD](https://www.tradingview.com/symbols/BTCUSD/) and [ETH USD](https://www.tradingview.com/symbols/ETHUSD/), the latest news, financial reports, and integrations with selected brokers. Visit TradingView [here](https://www.tradingview.com/).
 
 ### Why am I experiencing "POST\_CHECK\_MARGIN" error?
 
