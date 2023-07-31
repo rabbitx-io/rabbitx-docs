@@ -36,7 +36,7 @@ Response
 	average_daily_volume                 string
 	instant_funding_rate                 string
 	instant_daily_volume                 string
-	last_funding_rate                    string
+	last_funding_rate_basis              string
 	market_price_24h_change_premium      string
 	market_price_24h_change_basis        string
 	average_daily_volume_change_premium  string
