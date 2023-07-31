@@ -33,6 +33,8 @@ Response
 
 	last_trade_price_24high              string
 	last_trade_price_24low               string
+	last_trade_price_24h_change_premium  string
+	last_trade_price_24h_change_basis    string
 	average_daily_volume                 string
 	instant_funding_rate                 string
 	last_funding_rate_basis              string
