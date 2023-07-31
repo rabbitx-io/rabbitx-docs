@@ -35,13 +35,9 @@ Response
 	last_trade_price_24low               string
 	average_daily_volume                 string
 	instant_funding_rate                 string
-	instant_daily_volume                 string
 	last_funding_rate_basis              string
-	market_price_24h_change_premium      string
-	market_price_24h_change_basis        string
 	average_daily_volume_change_premium  string
 	average_daily_volume_change_basis    string
-	average_daily_volume_q		     string
 
 	last_update_time         int64 
 	last_update_sequence     int64 
