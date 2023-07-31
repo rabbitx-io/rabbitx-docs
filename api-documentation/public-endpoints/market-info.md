@@ -2,7 +2,7 @@
 
 ## Market Info
 
-Get basic market info and metadata.
+Get basic market info and metadata. Try it out: [https://api.prod.rabbitx.io/markets](https://api.prod.rabbitx.io/markets).
 
 ```
 GET /markets
@@ -17,7 +17,7 @@ GET /markets
 ```go
 Response
 {
-	market_id           string
+	id                  string
 	status              string
 	min_initial_margin  string
 	forced_margin       string
