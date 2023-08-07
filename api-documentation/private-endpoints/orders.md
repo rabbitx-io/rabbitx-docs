@@ -116,6 +116,7 @@ Parameters
 {
     order_id: 'BTC-USD@1859'
     market_id: 'BTC-USD'
+    client_order_id: ''        // (optional)
 }
 ```
 
