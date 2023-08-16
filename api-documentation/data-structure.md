@@ -2,6 +2,10 @@
 
 ### Responses data structure
 
+All documentation herein is provided ​“AS IS”. RabbitX makes no other warranties, express or implied, and hereby disclaims all implied warranties, including any warranty of merchantability and warranty of fitness for a particular purpose.
+
+The data structure model below is provided for golang.
+
 ```go
 type DataResponse[T any] struct {
 	Res   T      `msgpack:"res" json:"res"`

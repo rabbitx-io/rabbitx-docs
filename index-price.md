@@ -13,7 +13,7 @@ Rabbit<mark style="color:red;">X</mark> index price is calculated as a median of
 
 ### Fair Price Calculation
 
-The fair price is used to calculate trader positions' unrealized profit and loss (PnL). The unrealized PnL is used in calculation of the trader's account equity and account margin.&#x20;
+The fair price is used to calculate trader positions' unrealized profit and loss (P\&L) and also liquidations. The unrealized PnL is used in calculation of the trader's account equity and account margin.&#x20;
 
 $$FairPrice=Median(Price_1, Price_2, MarketPrice)$$
 
@@ -23,7 +23,7 @@ $$Price_2=IndexPrice*(1+Average(30min\ basis))$$
 
 note: 30min, 60min basis is clamped within +/- 1%
 
-
+Our fair price uses a robust methodology in order to protect traders against unfair liquidations caused by "scam wicks".
 
 _Note:_
 
