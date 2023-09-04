@@ -2,16 +2,6 @@
 
 The Funding Rate is comprised of two parts: the **Interest Rate** and the **Premium Basis** . The funding rate aims to keep the traded price of the perpetual contract in line with the underlying reference price. The contract mimics how margin-trading markets work as buyers and sellers of the contract exchange interest payments periodically.
 
-### Interest Rate Component
-
-The Interest Rate is a function of interest rates between the base currency and the quote currency. For example, for BTC-USD the base currency would be BTC while the quote currency would be USD.&#x20;
-
-```
-Interest Rate (I) = (Quote Currency Interest - Base Currency Interest)
-```
-
-RabbitX uses a fixed Interest Rate for cryptocurrency markets of 0.125bps.
-
 ### Calculation
 
 <pre><code>Funding Payment = Position Notional * Funding Rate 
@@ -25,6 +15,16 @@ where
 \*Basis is capped at +/- 2% from the index price unless specified otherwise
 
 \*Funding rate is capped at 0.25% per hour unless specified otherwise
+
+### Interest Rate Component
+
+The Interest Rate is a function of interest rates between the base currency and the quote currency. For example, for BTC-USD the base currency would be BTC while the quote currency would be USD.&#x20;
+
+```
+Interest Rate (I) = (Quote Currency Interest - Base Currency Interest)
+```
+
+RabbitX uses a fixed Interest Rate for cryptocurrency markets of 0.125bps.
 
 #### Explanation
 
