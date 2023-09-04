@@ -42,7 +42,8 @@ Example response
             'client_order_id':''
             'status': 'open',
             'timestamp': 1669629461258298,
-            'total_filled_size': '0'},
+            'total_filled_size': '0',
+            'time_in_force':'post_only'},
            {'id': 'BTC-USD@1777',
             'initial_size': '1',
             'market_id': 'BTC-USD',
@@ -55,7 +56,8 @@ Example response
             'client_order_id':''
             'status': 'open',
             'timestamp': 1669629461258298,
-            'total_filled_size': '0'}
+            'total_filled_size': '0',
+            'time_in_force':'post_only'}
     ]
 }
 ```
@@ -79,7 +81,7 @@ Parameters
     size: 0.45, 
     type: 'limit'        // 'market' or 'limit'
     client_order_id: ''  // (optional)
-    time_in_force: '' // (optional) 'post_only' 'immediate_or_cancel' 'fill_or_kill'
+    time_in_force: 'post_only' // (optional) 'post_only' 'immediate_or_cancel' 'fill_or_kill'
 }
 ```
 
@@ -99,7 +101,8 @@ Example response
         'size': '1',
         'status': 'processing',
         'client_order_id':''
-        'type': 'limit'}
+        'type': 'limit',
+        'time_in_force':'post_only'}
     ]
 }
 ```
