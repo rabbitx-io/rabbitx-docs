@@ -81,7 +81,7 @@ Parameters
     size: 0.45, 
     type: 'limit'        // 'market' or 'limit'
     client_order_id: ''  // (optional)
-    time_in_force: 'post_only' // (optional) 'post_only' 'immediate_or_cancel' 'fill_or_kill'
+    time_in_force: 'post_only' // (optional) 'good_till_cancel' 'post_only' 'immediate_or_cancel' 'fill_or_kill'
 }
 ```
 
