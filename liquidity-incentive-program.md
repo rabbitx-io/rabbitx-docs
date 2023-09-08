@@ -52,6 +52,11 @@ The following methodology calculates how much token rewards each liquidity provi
 
 Orders below a certain minimum depth (MinDepth) per market are excluded, and orders over a certain maximum spread (mid-market spread) (MaxSpread) are also excluded. Snapshots are taken every minute using random sampling.
 
+{% hint style="info" %}
+_note: starting 1 October 2023, Spread will be clamped to 0.005% or 0.00005._ \
+_Spread = max(0.00005, Spread)_
+{% endhint %}
+
 Calculation steps:
 
 1. Calculate  $$Q_{bid}=\frac{BidDepth_1}{(Spread_1)^2}+\frac{BidDepth_2}{(Spread_2)^2}+\frac{BidDepth_3}{(Spread_3)^2}...$$

@@ -66,6 +66,8 @@ tip: orders are indexed by timestamp, if start\_time is not specified, the respo
 
 ### Place orders
 
+#### Limit and market orders
+
 Submitted orders will immediately return a response that the order is in "processing" state and will include an order ID. To verify the status of the order is "confirmed", we recommend subscribing to the accounts websocket channel. Alternatively, check the order status by the order ID.
 
 ```
@@ -108,6 +110,36 @@ Example response
 ```
 
 To keep an orderly market, RabbitX has a 1,000 open order limit per account.
+
+#### Stop loss and take profits
+
+```
+Parameters
+{
+    market_id: 'BTC-USD',
+    price: 19800,
+    side: 'long',        // 'long' or 'short'
+    size: 0.45, 
+    type: 'limit'        // 'market' or 'limit'
+    client_order_id: ''  // (optional)
+    time_in_force: 'post_only' // (optional) 'good_till_cancel' 'post_only' 'immediate_or_cancel' 'fill_or_kill'
+}
+```
+
+#### Stop limit and stop market
+
+```
+Parameters
+{
+    market_id: 'BTC-USD',
+    price: 19800,
+    side: 'long',        // 'long' or 'short'
+    size: 0.45, 
+    type: 'limit'        // 'market' or 'limit'
+    client_order_id: ''  // (optional)
+    time_in_force: 'post_only' // (optional) 'good_till_cancel' 'post_only' 'immediate_or_cancel' 'fill_or_kill'
+}
+```
 
 ### Cancel orders
 
