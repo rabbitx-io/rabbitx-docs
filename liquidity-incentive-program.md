@@ -131,13 +131,15 @@ Anyone who meets the minimum requirements are eligible to participate in this pr
 
 #### What are the token rewards allocation per market?
 
-Rewards allocation per market may change given a 30-day notice.
+Rewards allocation per market may change given a 7-day notice.
+
+_Note: starting 1 October 2023, rewards for BTC-USD and ETH-USD will be reduced to 15% respectively._
 
 | Market  | Rewards Allocation |
 | ------- | ------------------ |
-| BTC-USD | 20%                |
-| ETH-USD | 20%                |
-| Others  | 60%                |
+| BTC-USD | 15%                |
+| ETH-USD | 15%                |
+| Others  | 70%                |
 
 #### What is the minimum uptime requirement?
 
