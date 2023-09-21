@@ -135,11 +135,11 @@ Rewards allocation per market may change given a 7-day notice.
 
 _Note: starting 1 October 2023, rewards for BTC-USD and ETH-USD will be reduced to 15% respectively._
 
-| Market  | Rewards Allocation |
-| ------- | ------------------ |
-| BTC-USD | 15%                |
-| ETH-USD | 15%                |
-| Others  | 70%                |
+| Market                   | Rewards Allocation |
+| ------------------------ | ------------------ |
+| BTC-USD                  | 15%                |
+| ETH-USD                  | 15%                |
+| Others perpetual markets | 70%                |
 
 #### What is the minimum uptime requirement?
 
