@@ -111,7 +111,7 @@ Example response
 
 To keep an orderly market, RabbitX has a 1,000 open order limit per account.
 
-#### Stop loss and take profits
+#### Position stop loss and take profits
 
 ```json
 Parameters
@@ -119,7 +119,7 @@ Parameters
     market_id: 'BTC-USD',
     price: 19800,
     side: 'long',              // 'long' or 'short'
-    size: 0.45, 
+    size: 1.00,                // size is percentage of the position. 0.5 means 50% of the position. 1.0 means 100% of the position.
     type: 'stop_loss'          // 'stop_loss' or 'take_profit'
     type: 'limit'              // 'market' or 'limit'
     client_order_id: ''        // (optional)
