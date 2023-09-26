@@ -4,7 +4,7 @@
 
 [https://github.com/rabbitx-io/rabbitx-python-client/blob/main/rabbitx/client/endpoints/onboarding.py](https://github.com/rabbitx-io/rabbitx-python-client/blob/main/rabbitx/client/endpoints/onboarding.py)
 
-### Onboarding with API Key/Secret
+### Authenticating with API Key/Secret
 
 To create a API Key and API Secret, go to the app and click on the :gear: icon
 
@@ -110,9 +110,9 @@ headers = _header(api_key, _signature)
 resp = session.post(f'{url}/orders', json=data, headers=_header()).json()
 ```
 
-### Private Key Onboarding (expert users)
+### Wallet Private Key Onboarding (expert users)
 
-If you would like to onboard with your wallet private key instead of generating an api key and secret, you can retrieve your account api key and secret by calling the onboarding endpoint and signing a message with your wallet private key. However, not that this method requires you to export your private key to safe location and is generally not recommended.
+If you would like to onboard with your wallet private key instead of generating an api key and secret, you can retrieve your account api key and secret by calling the onboarding endpoint and signing a message with your wallet private key. However, note that this method is generally not recommended.
 
 ```python
 from rabbitx import const
@@ -126,6 +126,8 @@ order_resp = client.orders.create('BTC-USD', 19000, OrderSide.LONG, 1, OrderType
 ```
 
 #### Private Key Authentication Steps
+
+First call the `/onboarding` endpoint such as the example below, and then save the response api key and secret to be used for authenticating private endpoints.
 
 note: expires must be greater than or equal to 600 secs.
 
