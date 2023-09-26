@@ -113,30 +113,33 @@ To keep an orderly market, RabbitX has a 1,000 open order limit per account.
 
 #### Stop loss and take profits
 
-```
+```json
 Parameters
 {
     market_id: 'BTC-USD',
     price: 19800,
-    side: 'long',        // 'long' or 'short'
+    side: 'long',              // 'long' or 'short'
     size: 0.45, 
-    type: 'limit'        // 'market' or 'limit'
-    client_order_id: ''  // (optional)
+    type: 'stop_loss'          // 'stop_loss' or 'take_profit'
+    type: 'limit'              // 'market' or 'limit'
+    client_order_id: ''        // (optional)
+    trigger_price: 20000       // required
     time_in_force: 'post_only' // (optional) 'good_till_cancel' 'post_only' 'immediate_or_cancel' 'fill_or_kill'
 }
 ```
 
 #### Stop limit and stop market
 
-```
+```json
 Parameters
 {
     market_id: 'BTC-USD',
-    price: 19800,
-    side: 'long',        // 'long' or 'short'
+    price: 19800,              // required for stop_limit order type
+    side: 'long',              // 'long' or 'short'
     size: 0.45, 
-    type: 'limit'        // 'market' or 'limit'
-    client_order_id: ''  // (optional)
+    type: 'stop_limit'         // 'stop_limit' or 'stop_market'
+    client_order_id: ''        // (optional)
+    trigger_price: 20000       // required
     time_in_force: 'post_only' // (optional) 'good_till_cancel' 'post_only' 'immediate_or_cancel' 'fill_or_kill'
 }
 ```
