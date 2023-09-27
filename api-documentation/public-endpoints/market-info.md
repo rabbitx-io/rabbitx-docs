@@ -40,6 +40,8 @@ Response
 	last_funding_rate_basis              string
 	average_daily_volume_change_premium  string
 	average_daily_volume_change_basis    string
+	icon_url 			     string
+	market_title 			     string
 
 	last_update_time         int64 
 	last_update_sequence     int64 
