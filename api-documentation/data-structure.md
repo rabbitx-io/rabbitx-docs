@@ -67,6 +67,9 @@ type PositionData struct {
 	Margin            *tdecimal.Decimal `msgpack:"margin" json:"margin,omitempty"`
 	LiquidationPrice  *tdecimal.Decimal `msgpack:"liquidation_price" json:"liquidation_price,omitempty"`
 	FairPrice         *tdecimal.Decimal `msgpack:"fair_price" json:"fair_price,omitempty"`
+	StopLoss          *OrderData `msgpack:"stop_loss" json:"stop_loss"`
+	TakeProfit        *OrderData `msgpack:"take_profit" json:"take_profit"`
+	
 }
 
 
