@@ -6,24 +6,26 @@ All documentation herein is provided ​“AS IS”. RabbitX makes no other warr
 
 ## General Info
 
-*   Mainnet endpoints:
+#### Mainnet endpoints
 
-    ```go
-    // REST
-    https://api.prod.rabbitx.io
-    // Websocket
-    wss://api.prod.rabbitx.io/ws
-    ```
-*   Testnet endpoints:
+```go
+// REST
+https://api.prod.rabbitx.io
+// Websocket
+wss://api.prod.rabbitx.io/ws
+```
 
-    ```go
-    // REST
-    https://api.testnet.rabbitx.io
-    // Websocket
-    wss://api.testnet.rabbitx.io/ws
-    ```
+#### Testnet endpoints
+
+```go
+// REST
+https://api.testnet.rabbitx.io
+// Websocket
+wss://api.testnet.rabbitx.io/ws
+```
+
 * All endpoints return either a JSON object or an array.
-* All private endpoints require onboarding first.
+* All private endpoints require [authentication](private-endpoints/authentication.md).
 
 ### Reference implementation
 
