@@ -1,6 +1,6 @@
 # Explore $RBX
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 We are excited to announce a major milestone in the evolution of the RabbitX platform: the launch of RabbitX (RBX) utility token. With a native utility token RBX, RabbitX is preparing to assume its leading role in the rapidly growing DeFi derivatives space.&#x20;
 
