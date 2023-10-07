@@ -6,29 +6,21 @@
 
 ### Authenticating with API Key/Secret
 
-To create a API Key and API Secret, go to the app and click on the :gear: icon
+#### HTTP Headers
 
-![](<../../.gitbook/assets/image (20).png>)
+Authentication of requests is done by sending the following HTTP headers:
 
-You will then be prompted to sign a message "Welcome to Rabbit DEX" with your wallet to authenticate you. This message is safe to sign.&#x20;
+`RBT-SIGNATURE` : Signature of the request generated with your secret key. It is calculated as hex(HMAC\_SHA256(secret, payload)). Read how to generate signatures in the section below.
 
-![](<../../.gitbook/assets/image (23).png>)
+`RBT-API-KEY` : Your API key.
 
-You will then be prompted to create a new api key by specifying the length of expiration of the api key along with any ip restrictions that you would like to set.
+`RBT-TS` : A UNIX (in seconds) timestamp after which the request is no longer valid. This is to prevent replay attacks. Only accepts integers.
 
-![](<../../.gitbook/assets/image (24).png>)
-
-Once your api key is created, you will be able to copy the API Key, Secret, Public and Private JWT tokens.&#x20;
-
-* You will need the API Key, Secret to place orders and retrieve private data through REST
-* Private JWT token for websocket private account data
-* Refresh token is used to renew your keys
-
-Note: you can renew your tokens by clicking the "Renew Now" button to renew it for 30 days.
+_`Note: UNIX timestamps are in seconds. For example, 2018-02-08T04:30:37Z is 1518064237.`_
 
 #### Example: Authenticating Private Endpoints
 
-[Click ](../generate-your-api-keys/signing-with-api-key.md)to read more about signing with API key and secrets.&#x20;
+[Click ](../generate-your-api-keys/api-key-usage.md)to read more about signing with API key and secrets.&#x20;
 
 ```python
 PAYLOAD_KEY_METHOD = 'method'
