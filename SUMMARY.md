@@ -23,7 +23,7 @@
 ## API Documentation
 
 * [Introduction](api-documentation/introduction.md)
-* [Generate Your API Keys](api-documentation/generate-your-api-keys/README.md)
+* [Generate Your API Keys](api-documentation/generate-your-api-keys.md)
   * [API Key Usage](api-documentation/generate-your-api-keys/api-key-usage.md)
 * [Public Endpoints](api-documentation/public-endpoints/README.md)
   * [Market Info](api-documentation/public-endpoints/market-info.md)

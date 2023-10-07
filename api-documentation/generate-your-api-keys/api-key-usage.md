@@ -1,6 +1,6 @@
 # API Key Usage
 
-## Signing with an API Key
+## Signing with API Key
 
 Authentication is done by sending requests with the following HTTP headers.
 
