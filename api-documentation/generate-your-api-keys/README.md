@@ -6,7 +6,7 @@ Once the api key is created, you can export into a json file and save it for you
 
 You can renew the api keys which will extend the expiry by 30 days each time.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
