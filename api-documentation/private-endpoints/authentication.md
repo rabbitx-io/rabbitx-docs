@@ -14,7 +14,7 @@ Authentication of requests is done by sending the following HTTP headers:
 
 _`Note: UNIX timestamps are in seconds. For example, 2018-02-08T04:30:37Z is 1518064237.`_
 
-#### Example: Authenticating Private Endpoints
+#### Example: Generating RBT-SIGNATURE
 
 [Click ](../generate-your-api-keys/api-key-usage.md)to read more about signing with API key and secrets. Github example [here](https://github.com/rabbitx-io/rabbitx-python-client/blob/main/rabbitx/payload.py).&#x20;
 
@@ -93,7 +93,18 @@ def sign_request(data):
     expiration_timestamp = _expiration_timestamp()
     payload = Payload(expiration_timestamp, data)
     _signature = payload.sign(api_secret)
+    
+def headers(self) -> dict[str, str]:
+    headers = {'RBT-TS': str(self.expiration_timestamp)}
 
+    if self.api_key:
+        headers['RBT-API-KEY'] = self.api_key
+
+    if self._signature:
+        headers['RBT-SIGNATURE'] = self._signature
+
+    return headers
+        
 data = dict(marketID='BTC-USD',
            price=19300,
            side='LONG', 
@@ -103,9 +114,8 @@ data = dict(marketID='BTC-USD',
            path='/orders')
            
 payload = Payload(_expiration_timestamp(), data)
-_signature = payload.sign(api_secret)
-headers = _header(api_key, _signature)
-resp = session.post(f'{url}/orders', json=data, headers=_header()).json()
+client._signature = payload.sign(api_secret)
+resp = session.post(f'{url}/orders', json=data, headers=client.headers()).json()
 ```
 
 ### Wallet Private Key Onboarding (expert users)
