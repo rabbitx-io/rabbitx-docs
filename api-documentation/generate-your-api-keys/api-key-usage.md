@@ -50,7 +50,7 @@ def hash(self) -> bytes:
 def sign(self, secret: str) -> str:
         '''
         Returns HMAC-SHA256 signature after signing payload hash with
-        provided by user secret. 
+        user secret. 
         '''
         secret_bytes = hex2bytes(secret)
 

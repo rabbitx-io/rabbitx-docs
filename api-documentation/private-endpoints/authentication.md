@@ -1,16 +1,12 @@
 # Authentication
 
-### Reference implementation
-
-[https://github.com/rabbitx-io/rabbitx-python-client/blob/main/rabbitx/client/endpoints/onboarding.py](https://github.com/rabbitx-io/rabbitx-python-client/blob/main/rabbitx/client/endpoints/onboarding.py)
-
 ### Authenticating with API Key/Secret
 
 #### HTTP Headers
 
 Authentication of requests is done by sending the following HTTP headers:
 
-`RBT-SIGNATURE` : Signature of the request generated with your secret key. It is calculated as hex(HMAC\_SHA256(secret, payload)). Read how to generate signatures in the section below.
+`RBT-SIGNATURE` : Signature of the request generated with your secret key. It is calculated as hex(HMAC\_SHA256(secret, payload)). Example given below.
 
 `RBT-API-KEY` : Your API key.
 
@@ -20,7 +16,7 @@ _`Note: UNIX timestamps are in seconds. For example, 2018-02-08T04:30:37Z is 151
 
 #### Example: Authenticating Private Endpoints
 
-[Click ](../generate-your-api-keys/api-key-usage.md)to read more about signing with API key and secrets.&#x20;
+[Click ](../generate-your-api-keys/api-key-usage.md)to read more about signing with API key and secrets. Github example [here](https://github.com/rabbitx-io/rabbitx-python-client/blob/main/rabbitx/payload.py).&#x20;
 
 ```python
 PAYLOAD_KEY_METHOD = 'method'
@@ -54,6 +50,10 @@ class Payload:
 
     @property
     def hash(self) -> bytes:
+        '''
+        Returns the hash of the payload where the params are sorted in 
+        alphabetical order.
+        '''
         keys = list(self.data.keys())
         keys.sort()
         message = [f'{k}={str(self.data[k]).lower()}' if type(self.data[k]) == bool else f'{k}={self.data[k]}' for k in keys]
@@ -66,6 +66,10 @@ class Payload:
         return h.digest()
 
     def sign(self, secret: str) -> str:
+        '''
+        Returns HMAC-SHA256 signature after signing payload hash with
+        user secret. 
+        '''
         secret_bytes = hex2bytes(secret)
 
         return '0x' + hmac.new(secret_bytes, self.hash, hashlib.sha256).hexdigest()
@@ -106,7 +110,7 @@ resp = session.post(f'{url}/orders', json=data, headers=_header()).json()
 
 ### Wallet Private Key Onboarding (expert users)
 
-If you would like to onboard with your wallet private key and generate a set of API key and secrets programmatically instead of from the frontend, you can retrieve your account API key and secret by calling the onboarding endpoint and signing a message with your wallet private key. However, note that this method is generally not recommended.
+If you would like to onboard with your wallet private key and generate a set of API key and secrets programmatically instead of from the frontend, you can retrieve your account API key and secret by calling the onboarding endpoint and signing a message with your wallet private key. However, note that this method is generally not recommended. Github example [here](https://github.com/rabbitx-io/rabbitx-python-client/blob/main/rabbitx/client/endpoints/onboarding.py).&#x20;
 
 ```python
 from rabbitx import const
@@ -121,7 +125,7 @@ order_resp = client.orders.create('BTC-USD', 19000, OrderSide.LONG, 1, OrderType
 
 #### Private Key Authentication Steps
 
-Your wallet private key is used to onboard and retrieve a set of API key and secrets.
+Your wallet private key is used to onboard and retrieve a set of API key and secrets.&#x20;
 
 First call the `/onboarding` endpoint such as in the example below. Save the response api key and secret to be used for signing private endpoint requests.
 
