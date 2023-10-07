@@ -24,7 +24,7 @@
 
 * [Introduction](api-documentation/introduction.md)
 * [Generate Your API Keys](api-documentation/generate-your-api-keys.md)
-  * [API Key Usage](api-documentation/generate-your-api-keys/api-key-usage.md)
+  * [Signing with API Key](api-documentation/generate-your-api-keys/signing-with-api-key.md)
 * [Public Endpoints](api-documentation/public-endpoints/README.md)
   * [Market Info](api-documentation/public-endpoints/market-info.md)
   * [Trades](api-documentation/public-endpoints/trades.md)

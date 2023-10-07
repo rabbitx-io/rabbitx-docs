@@ -28,6 +28,8 @@ Note: you can renew your tokens by clicking the "Renew Now" button to renew it f
 
 #### Example: Authenticating Private Endpoints
 
+[Click ](../generate-your-api-keys/signing-with-api-key.md)to read more about signing with API key and secrets.&#x20;
+
 ```python
 PAYLOAD_KEY_METHOD = 'method'
 PAYLOAD_KEY_PATH = 'path'
@@ -112,7 +114,7 @@ resp = session.post(f'{url}/orders', json=data, headers=_header()).json()
 
 ### Wallet Private Key Onboarding (expert users)
 
-If you would like to onboard with your wallet private key instead of generating an api key and secret, you can retrieve your account api key and secret by calling the onboarding endpoint and signing a message with your wallet private key. However, note that this method is generally not recommended.
+If you would like to onboard with your wallet private key and generate a set of API key and secrets programmatically instead of from the frontend, you can retrieve your account API key and secret by calling the onboarding endpoint and signing a message with your wallet private key. However, note that this method is generally not recommended.
 
 ```python
 from rabbitx import const
@@ -127,9 +129,13 @@ order_resp = client.orders.create('BTC-USD', 19000, OrderSide.LONG, 1, OrderType
 
 #### Private Key Authentication Steps
 
-First call the `/onboarding` endpoint such as the example below, and then save the response api key and secret to be used for authenticating private endpoints.
+Your wallet private key is used to onboard and retrieve a set of API key and secrets.
 
-note: expires must be greater than or equal to 600 secs.
+First call the `/onboarding` endpoint such as in the example below. Save the response api key and secret to be used for signing private endpoint requests.
+
+{% hint style="info" %}
+expires must be less than or equal to 600 secs.
+{% endhint %}
 
 ```python
 from eth_account.messages import encode_defunct
