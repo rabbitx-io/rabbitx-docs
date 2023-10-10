@@ -131,7 +131,7 @@ Anyone who meets the minimum requirements are eligible to participate in this pr
 
 #### What are the token rewards allocation per market?
 
-Rewards allocation per market may change given a 7-day notice.
+Rewards allocation per market may change given a 7-day notice. New coin listing rewards are pro-rated based on time.&#x20;
 
 _Note: starting 1 October 2023, rewards for BTC-USD and ETH-USD will be reduced to 15% respectively._
 
