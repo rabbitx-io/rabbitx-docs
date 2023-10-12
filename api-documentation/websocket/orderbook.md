@@ -7,7 +7,7 @@ The initial snapshot will send all the open orders in the orderbook sorted by pr
 Orderbook updates are keyed by **price level**. Orderbook data is returned as:
 
 ```json
-{'marketID': 'BTC-USD', 'bids': [[price, size], ...], 'asks': [[price, size], ...], 'sequence': 9097270, 'timestamp': 1665996854}
+{'market_id': 'BTC-USD', 'bids': [[price, size], ...], 'asks': [[price, size], ...], 'sequence': 9097270, 'timestamp': 1665996854}
 ```
 
 If the bid size at the price level 19,800 changed to 10.2, the _bids_ field would be \[\[19800, 10.2]]. If there are no more bids at the price level 19,800, then the _bids_ filed would be \[\[19800, 0]].&#x20;
