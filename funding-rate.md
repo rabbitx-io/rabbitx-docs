@@ -8,7 +8,7 @@ The Funding Rate is comprised of two parts: the **Interest Rate** and the **Prem
 
 where
 <strong>    Funding Rate = 1-hour TWAP(Premium Basis) / 8 + Interest Rate
-</strong>    Premium = (Market Price - Spot Index Price) 
+</strong>    Premium = (Market Mid - Spot Index Price) 
     Premium Basis = Premium / Spot Index Price
 </code></pre>
 

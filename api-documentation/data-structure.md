@@ -6,10 +6,10 @@ All documentation herein is provided ​“AS IS”. RabbitX makes no other warr
 
 The data structure model below is provided for golang.
 
-```go
-type DataResponse[T any] struct {
-	Res   T      `msgpack:"res" json:"res"`
-	Error string `msgpack:"error" json:"error"`
+<pre class="language-go"><code class="lang-go"><strong>REST response format:
+</strong>{
+result: &#x3C;result>,
+err: &#x3C;error>
 }
 
 
@@ -136,22 +136,23 @@ type FillData struct {
 }
 
 
-type OrderbookData struct {
-	MarketID  string               `msgpack:"market_id" json:"market_id"`
-	Bids      [][]tdecimal.Decimal `msgpack:"bids" json:"bids,omitempty"`
-	Asks      [][]tdecimal.Decimal `msgpack:"asks" json:"asks,omitempty"`
-	Sequence  uint                 `msgpack:"sequence" json:"sequence"`
-	Timestamp int64                `msgpack:"timestamp" json:"timestamp"`
+Orderbook:
+{
+'market_id': string, 
+'bids': [[string, string]],
+'asks': [[string, string]],
+'sequence': uint,
+'timestamp': int64
 }
 
-
-type CandleData struct {
-	Time   int64            `msgpack:"time" json:"time"`
-	Low    tdecimal.Decimal `msgpack:"low" json:"low"`
-	High   tdecimal.Decimal `msgpack:"high" json:"high"`
-	Open   tdecimal.Decimal `msgpack:"open" json:"open"`
-	Close  tdecimal.Decimal `msgpack:"close" json:"close"`
-	Volume tdecimal.Decimal `msgpack:"volume" json:"volume"`
+Candles:
+{
+'time': int64,
+'low': string,
+'high': string,
+'open': string,
+'close': string,
+'volume': string
 }
 
 
@@ -178,7 +179,7 @@ type BalanceOps struct {
 
 
 
-```
+</code></pre>
 
 ### Error Codes
 
