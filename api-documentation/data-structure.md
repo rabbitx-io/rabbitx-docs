@@ -12,13 +12,46 @@ result: &#x3C;result>,
 err: &#x3C;error>
 }
 
+Market info:
+{
+    "id": string,
+    "status": string,
+    "min_initial_margin": float,
+    "forced_margin": float,
+    "liquidation_margin": float,
+    "min_tick": float,
+    "min_order": float,
+    "best_bid": float,
+    "best_ask": float,
+    "market_price": float,
+    "index_price": float,
+    "last_trade_price": float,
+    "fair_price": float,
+    "instant_funding_rate": float,
+    "last_funding_rate_basis": float,
+    "last_update_time": uint,            // in microseconds
+    "last_update_sequence": uint,
+    "average_daily_volume_q": float,
+    "last_funding_update_time": uint,    // in microseconds
+    "icon_url": string,
+    "market_title": string,
+    "average_daily_volume": float,
+    "last_trade_price_24high": float,
+    "last_trade_price_24low": float,
+    "last_trade_price_24h_change_premium": float,
+    "last_trade_price_24h_change_basis": float,
+    "average_daily_volume_change_premium": float,
+    "average_daily_volume_change_basis": float
+}
+
+
 Trades data:
 {
         "id": string,
         "market_id": string,
         "timestamp": uint,     // in microseconds
         "price": float,
-        "size": float,     
+        "size": float,
         "liquidation": bool,
         "taker_side": string    // "long", "short"
  }
@@ -81,7 +114,7 @@ Order data:
         "side": string,                   // "long", "short"
         "size": float,
         "size_percent": float,            // only for position stoploss/take profit
-        "status": string,
+        "status": string,                 // "processing", "open", "placed", "closed", "rejected", "canceled", "canceling", "amending", "cancelingall"
         "time_in_force": string,          // good_till_cancel, post_only, immediate_or_cancel, fill_or_kill
         "timestamp": uint,                // in microseconds
         "total_filled_size": float,
@@ -108,50 +141,17 @@ Position data:
 }
 
 
-Market info:
-{
-    "id": string,
-    "status": string,
-    "min_initial_margin": float,
-    "forced_margin": float,
-    "liquidation_margin": float,
-    "min_tick": float,
-    "min_order": float,
-    "best_bid": float,
-    "best_ask": float,
-    "market_price": float,
-    "index_price": float,
-    "last_trade_price": float,
-    "fair_price": float,
-    "instant_funding_rate": float,
-    "last_funding_rate_basis": float,
-    "last_update_time": uint,            // in microseconds
-    "last_update_sequence": uint,
-    "average_daily_volume_q": float,
-    "last_funding_update_time": uint,    // in microseconds
-    "icon_url": string,
-    "market_title": string,
-    "average_daily_volume": float,
-    "last_trade_price_24high": float,
-    "last_trade_price_24low": float,
-    "last_trade_price_24h_change_premium": float,
-    "last_trade_price_24h_change_basis": float,
-    "average_daily_volume_change_premium": float,
-    "average_daily_volume_change_basis": float
-}
-
-
 Account fills data:
 {
         "id": string,
         "profile_id": uint,
         "market_id": string,
         "order_id": string,
-        "timestamp": uint, // in microseconds
+        "timestamp": uint,        // in microseconds
         "trade_id": string,
         "price": float,
         "size": float,
-        "side": string,  // "long", "short"
+        "side": string,           // "long", "short"
         "is_maker": bool,
         "fee": float,
         "liquidation": bool
