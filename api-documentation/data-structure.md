@@ -166,10 +166,10 @@ Balance Operations:
 	"txhash": string,
 	"profile_id": uint, 
 	"wallet": string,
-	"ops_type": string,
+	"ops_type": string,        // "deposit", "fee", "funding", "pnl", "withdrawal"
 	"ops_id2": string, 
 	"amount": float, 
-	"timestamp": uint,    // in microseconds
+	"timestamp": uint,        // in microseconds
 	"due_block": uint,
 	"shard_id": string,
 }
