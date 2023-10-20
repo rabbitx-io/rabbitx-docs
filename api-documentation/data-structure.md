@@ -50,7 +50,7 @@ Profile data:
     "profile_type": string,
     "status": string,
     "wallet": string,
-    "last_update": uint, // in microseconds
+    "last_update": uint,          // in microseconds
     "balance": float,
     "account_equity": float,
     "total_position_margin": float,
@@ -62,7 +62,7 @@ Profile data:
     "health": float,
     "account_leverage": float,
     "cum_trading_volume": float,
-    "leverage": {string:float},
+    "leverage": {string:float},    // {"BTC-USD":20, "SOL-USD":20}
     "last_liq_check": int
 }
 
@@ -74,18 +74,18 @@ Order data:
         "id": string,
         "initial_size": float,
         "market_id": string,
-        "order_type": string,
+        "order_type": string,             // "limit", "market", "stop_loss", "take_profit", "stop_limit", "stop_market"
         "price": float,
         "profile_id": uint,
         "reason": string,
-        "side": string,
+        "side": string,                   // "long", "short"
         "size": float,
-        "size_percent": float, // position stoploss/take profit
+        "size_percent": float,            // only for position stoploss/take profit
         "status": string,
-        "time_in_force": string, // good_till_cancel, post_only, immediate_or_cancel, fill_or_kill
-        "timestamp": uint, // in microseconds
+        "time_in_force": string,          // good_till_cancel, post_only, immediate_or_cancel, fill_or_kill
+        "timestamp": uint,                // in microseconds
         "total_filled_size": float,
-        "trigger_price": float,
+        "trigger_price": float,           // for stop limit, stop market, stop loss, take profit
         "updated_at": uint
 }
 
@@ -96,7 +96,7 @@ Position data:
         "market_id": string,
         "profile_id": uint,
         "size": float,
-        "side": string,  // "long", "short"
+        "side": string,        // "long", "short"
         "entry_price": float,
         "unrealized_pnl": float,
         "notional": float,
@@ -113,9 +113,9 @@ Market info:
     "id": string,
     "status": string,
     "min_initial_margin": float,
-    "forced_margin": string,
-    "liquidation_margin": string,
-    "min_tick": string,
+    "forced_margin": float,
+    "liquidation_margin": float,
+    "min_tick": float,
     "min_order": float,
     "best_bid": float,
     "best_ask": float,
@@ -125,10 +125,10 @@ Market info:
     "fair_price": float,
     "instant_funding_rate": float,
     "last_funding_rate_basis": float,
-    "last_update_time": uint,  // in microseconds
+    "last_update_time": uint,            // in microseconds
     "last_update_sequence": uint,
     "average_daily_volume_q": float,
-    "last_funding_update_time": uint,  // in microseconds
+    "last_funding_update_time": uint,    // in microseconds
     "icon_url": string,
     "market_title": string,
     "average_daily_volume": float,
@@ -158,8 +158,6 @@ Account fills data:
 }
 
 
-
-
 Balance Operations:
 {
 	"id": string,
@@ -171,7 +169,7 @@ Balance Operations:
 	"ops_type": string,
 	"ops_id2": string, 
 	"amount": float, 
-	"timestamp": uint, // in microseconds
+	"timestamp": uint,    // in microseconds
 	"due_block": uint,
 	"shard_id": string,
 }
