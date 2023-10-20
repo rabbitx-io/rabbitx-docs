@@ -10,7 +10,7 @@ GET /trades
 Params
 {
     market_id: "BTC-USD",
-    p_limit: 100, // max rows returned, max 1000
+    p_limit: 50, // max rows returned, max 1000
     p_page: 0, // pagination page, index begins at 0
     p_order: "DESC" // default "DESC" for descending and "ASC" for ascending
 }

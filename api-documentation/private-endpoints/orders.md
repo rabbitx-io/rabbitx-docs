@@ -187,7 +187,7 @@ Parameters
     order_id: 'BTC-USD@1872',
     market_id: 'BTC-USD'
     price: 19800,
-    size: 0.45, 
+    size: 0.45, (optional)
 }
 ```
 

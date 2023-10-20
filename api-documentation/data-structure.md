@@ -6,179 +6,175 @@ All documentation herein is provided ​“AS IS”. RabbitX makes no other warr
 
 The data structure model below is provided for golang.
 
-<pre class="language-go"><code class="lang-go"><strong>REST response format:
+<pre class="language-javascript"><code class="lang-javascript"><strong>REST response format:
 </strong>{
 result: &#x3C;result>,
 err: &#x3C;error>
 }
 
-
-type ProfileData struct {
-	ProfileID           uint                        `msgpack:"id" json:"id"`
-	ProfileType         *string                     `msgpack:"profile_type" json:"profile_type,omitempty"`
-	Status              *string                     `msgpack:"status" json:"status,omitempty"`
-	Wallet              *string                     `msgpack:"wallet" json:"wallet,omitempty"`
-	LastUpdate          *int64                      `msgpack:"last_update" json:"last_update,omitempty"`
-	Balance             *tdecimal.Decimal           `msgpack:"balance" json:"balance,omitempty"`
-	AccountEquity       *tdecimal.Decimal           `msgpack:"account_equity" json:"account_equity,omitempty"`
-	TotalPositionMargin *tdecimal.Decimal           `msgpack:"total_position_margin" json:"total_position_margin,omitempty"`
-	TotalOrderMargin    *tdecimal.Decimal           `msgpack:"total_order_margin" json:"total_order_margin,omitempty"`
-	TotalNotional       *tdecimal.Decimal           `msgpack:"total_notional" json:"total_notional,omitempty"`
-	AccountMargin       *tdecimal.Decimal           `msgpack:"account_margin" json:"account_margin,omitempty"`
-	WithdrawbleBalance  *tdecimal.Decimal           `msgpack:"withdrawable_balance" json:"withdrawable_balance,omitempty"`
-	CumUnrealizedPnl    *tdecimal.Decimal           `msgpack:"cum_unrealized_pnl" json:"cum_unrealized_pnl,omitempty"`
-	Health              *tdecimal.Decimal           `msgpack:"health" json:"health,omitempty"`
-	AccountLeverage     *tdecimal.Decimal           `msgpack:"account_leverage" json:"account_leverage,omitempty"`
-	CumTradingVolume    *tdecimal.Decimal           `msgpack:"cum_trading_volume" json:"cum_trading_volume,omitempty"`
-	Leverage            map[string]tdecimal.Decimal `msgpack:"leverage" json:"leverage,omitempty"`
-	LastLiqCheck        *int64                      `msgpack:"last_liq_check" json:"last_liq_check,omitempty"`
-	Positions     []*PositionData        `msgpack:"positions" json:"positions,omitempty"`
-	Orders        []*OrderData           `msgpack:"orders" json:"orders,omitempty"`
-	Fills         []*FillData            `msgpack:"fills" json:"fills,omitempty"`
-	Notifications []*ProfileNotification `msgpack:"notifications" json:"profile_notifications,omitempty"`
-}
-
-
-type OrderData struct {
-	OrderId         string           `msgpack:"id" json:"id"`
-	ProfileID       uint             `msgpack:"profile_id" json:"profile_id"`
-	MarketID        string           `msgpack:"market_id" json:"market_id"`
-	OrderType       string           `msgpack:"order_type" json:"order_type"`
-	Status          string           `msgpack:"status" json:"status"`
-	Price           tdecimal.Decimal `msgpack:"price" json:"price"`
-	Size            tdecimal.Decimal `msgpack:"size" json:"size"`
-	InitialSize     tdecimal.Decimal `msgpack:"initial_size" json:"initial_size"`
-	TotalFilledSize tdecimal.Decimal `msgpack:"total_filled_size" json:"total_filled_size"`
-	Side            string           `msgpack:"side" json:"side"`
-	Timestamp       int64            `msgpack:"timestamp" json:"timestamp"`
-	Reason          string           `msgpack:"reason" json:"reason"`
-}
-
-
-type PositionData struct {
-	PositionID        string            `msgpack:"id" json:"id"`
-	MarketID          string            `msgpack:"market_id" json:"market_id"`
-	ProfileID         uint              `msgpack:"profile_id" json:"profile_id"`
-	Size              tdecimal.Decimal  `msgpack:"size" json:"size"`
-	Side              string            `msgpack:"side" json:"side"`
-	EntryPrice        tdecimal.Decimal  `msgpack:"entry_price" json:"entry_price"`
-	UnrealizedPnlFair *tdecimal.Decimal `msgpack:"unrealized_pnl" json:"unrealized_pnl,omitempty"`
-	NotionalFair      *tdecimal.Decimal `msgpack:"notional" json:"notional,omitempty"`
-	Margin            *tdecimal.Decimal `msgpack:"margin" json:"margin,omitempty"`
-	LiquidationPrice  *tdecimal.Decimal `msgpack:"liquidation_price" json:"liquidation_price,omitempty"`
-	FairPrice         *tdecimal.Decimal `msgpack:"fair_price" json:"fair_price,omitempty"`
-	StopLoss          *OrderData `msgpack:"stop_loss" json:"stop_loss"`
-	TakeProfit        *OrderData `msgpack:"take_profit" json:"take_profit"`
-	
-}
-
-
-type MarketData struct {
-	MarketID          string            `msgpack:"id" json:"id"`
-	Status            *string           `msgpack:"status" json:"status,omitempty"`
-	MinInitialMargin  *tdecimal.Decimal `msgpack:"min_initial_margin" json:"min_initial_margin,omitempty"`
-	ForcedMargin      *tdecimal.Decimal `msgpack:"forced_margin" json:"forced_margin,omitempty"`
-	LiquidationMargin *tdecimal.Decimal `msgpack:"liquidation_margin" json:"liquidation_margin,omitempty"`
-	MinTick           *tdecimal.Decimal `msgpack:"min_tick" json:"min_tick,omitempty"`
-	MinOrder          *tdecimal.Decimal `msgpack:"min_order" json:"min_order,omitempty"`
-	BestBid           *tdecimal.Decimal `msgpack:"best_bid" json:"best_bid,omitempty"`
-	BestAsk           *tdecimal.Decimal `msgpack:"best_ask" json:"best_ask,omitempty"`
-	MarketPrice       *tdecimal.Decimal `msgpack:"market_price" json:"market_price,omitempty"`
-	IndexPrice        *tdecimal.Decimal `msgpack:"index_price" json:"index_price,omitempty"`
-	LastTradePrice    *tdecimal.Decimal `msgpack:"last_trade_price" json:"last_trade_price,omitempty"`
-	FairPrice         *tdecimal.Decimal `msgpack:"fair_price" json:"fair_price,omitempty"`
-
-	LastTradePrice24High *tdecimal.Decimal `msgpack:"last_trade_price_24high" json:"last_trade_price_24high,omitempty"`
-	LastTradePrice24Low  *tdecimal.Decimal `msgpack:"last_trade_price_24low" json:"last_trade_price_24low,omitempty"`
-
-	AverageDailyVolume              *tdecimal.Decimal `msgpack:"average_daily_volume" json:"average_daily_volume,omitempty"`
-	InstantFundingRate              *tdecimal.Decimal `msgpack:"instant_funding_rate" json:"instant_funding_rate,omitempty"`
-	InstantDailyVolume              *tdecimal.Decimal `msgpack:"instant_daily_volume" json:"instant_daily_volume,omitempty"`
-	LastFundingRate                 *tdecimal.Decimal `msgpack:"last_funding_rate_basis" json:"last_funding_rate_basis,omitempty"`
-	LastTradePrice24ChangePremium   *tdecimal.Decimal `msgpack:"last_trade_price_24h_change_premium" json:"last_trade_price_24h_change_premium,omitempty"`
-	LastTradePrice24ChangeBasis     *tdecimal.Decimal `msgpack:"last_trade_price_24h_change_basis" json:"last_trade_price_24h_change_basis,omitempty"`
-	AverageDailyVolumeChangePremium *tdecimal.Decimal `msgpack:"average_daily_volume_change_premium" json:"average_daily_volume_change_premium,omitempty"`
-	AverageDailyVolumeChangeBasis   *tdecimal.Decimal `msgpack:"average_daily_volume_change_basis" json:"average_daily_volume_change_basis,omitempty"`
-
-	LastUpdateTime        int64             `msgpack:"last_update_time" json:"last_update_time,omitempty"`
-	LastUpdateSequence    int64             `msgpack:"last_update_sequence" json:"last_update_sequence,omitempty"`
-	AverageDailyVolumeQ   *tdecimal.Decimal `msgpack:"average_daily_volume_q" json:"average_daily_volume_q,omitempty"`
-	LastFundingUpdateTime int64             `msgpack:"last_funding_update_time" json:"last_funding_update_time,omitempty"`
-}
-
-
-type TradeData struct {
-	TradeId     string           `msgpack:"id" json:"id"`
-	MarketId    string           `msgpack:"market_id" json:"market_id"`
-	Timestamp   uint64           `msgpack:"timestamp" json:"timestamp"`
-	Price       tdecimal.Decimal `msgpack:"price" json:"price"`
-	Size        tdecimal.Decimal `msgpack:"size" json:"size"`
-	Liquidation bool             `msgpack:"liquidation"  json:"liquidation"`
-	TakerSide   string           `msgpack:"taker_side"  json:"taker_side"`
-}
-
-
-type FillData struct {
-	Id          string           `msgpack:"id" json:"id"`
-	ProfileId   uint             `msgpack:"profile_id" json:"profile_id"`
-	MarketId    string           `msgpack:"market_id" json:"market_id"`
-	OrderId     string           `msgpack:"order_id" json:"order_id"`
-	Timestamp   int64            `msgpack:"timestamp" json:"timestamp"`
-	TradeId     string           `msgpack:"trade_id" json:"trade_id"`
-	Price       tdecimal.Decimal `msgpack:"price" json:"price"`
-	Size        tdecimal.Decimal `msgpack:"size" json:"size"`
-	Side        string           `msgpack:"side"  json:"side"`
-	IsMaker     bool             `msgpack:"is_maker"  json:"is_maker"`
-	Fee         tdecimal.Decimal `msgpack:"fee" json:"fee"`
-	Liquidation bool             `msgpack:"liquidation"  json:"liquidation"`
-	ShardId     string           `msgpack:"shard_id" json:"-"`
-	ArchiveId   int              `msgpack:"archive_id" json:"-"`
-}
-
-
-Orderbook:
+Trades data:
 {
-'market_id': string, 
-'bids': [[string, string]],
-'asks': [[string, string]],
-'sequence': uint,
-'timestamp': int64
-}
+        "id": string,
+        "market_id": string,
+        "timestamp": uint,     // in microseconds
+        "price": float,
+        "size": float,     
+        "liquidation": bool,
+        "taker_side": string    // "long", "short"
+ }
 
-Candles:
+
+Orderbook data:
 {
-'time': int64,
-'low': string,
-'high': string,
-'open': string,
-'close': string,
-'volume': string
+	'market_id': string, 
+	'bids': [[float, float]],    // [[bid_price, bid_size], ...]
+	'asks': [[float, float]],    // [[ask_price, ask_size], ...]
+	'sequence': uint,
+	'timestamp': uint
 }
 
 
-type Profile struct {
-	ProfileId uint   `msgpack:"profile_id" json:"id"`
-	Type      string `msgpack:"profile_type" json:"profile_type"`
-	Status    string `msgpack:"status" json:"status"`
-	Wallet    string `msgpack:"wallet" json:"wallet"`
+Candles data:
+{
+	'time': int64,
+	'low': float,
+	'high': float,
+	'open': float,
+	'close': float,
+	'volume': float
 }
 
-type BalanceOps struct {
-	OpsId     string           `msgpack:"id" json:"id"`
-	Status    string           `msgpack:"status" json:"status"`
-	Reason    string           `msgpack:"reason" json:"reason"`
-	Txhash    string           `msgpack:"txhash" json:"txhash"`
-	ProfileId uint             `msgpack:"profile_id" json:"profile_id"`
-	Wallet    string           `msgpack:"wallet" json:"wallet"`
-	Type      string           `msgpack:"ops_type" json:"ops_type"`
-	Id2       string           `msgpack:"ops_id2" json:"ops_id2"`
-	Amount    tdecimal.Decimal `msgpack:"amount" json:"amount"`
-	Timestamp int64            `msgpack:"timestamp" json:"timestamp"`
-	ShardId   string           `msgpack:"shard_id" json:"shard_id"`
+Profile data:
+{
+    "id": uint,
+    "profile_type": string,
+    "status": string,
+    "wallet": string,
+    "last_update": uint, // in microseconds
+    "balance": float,
+    "account_equity": float,
+    "total_position_margin": float,
+    "total_order_margin": float,
+    "total_notional": float,
+    "account_margin": float,
+    "withdrawable_balance": float,
+    "cum_unrealized_pnl": float,
+    "health": float,
+    "account_leverage": float,
+    "cum_trading_volume": float,
+    "leverage": {string:float},
+    "last_liq_check": int
+}
+
+
+Order data:
+{
+        "client_order_id": string,
+        "created_at": uint,
+        "id": string,
+        "initial_size": float,
+        "market_id": string,
+        "order_type": string,
+        "price": float,
+        "profile_id": uint,
+        "reason": string,
+        "side": string,
+        "size": float,
+        "size_percent": float, // position stoploss/take profit
+        "status": string,
+        "time_in_force": string, // good_till_cancel, post_only, immediate_or_cancel, fill_or_kill
+        "timestamp": uint, // in microseconds
+        "total_filled_size": float,
+        "trigger_price": float,
+        "updated_at": uint
+}
+
+
+Position data:
+{
+        "id": string,
+        "market_id": string,
+        "profile_id": uint,
+        "size": float,
+        "side": string,  // "long", "short"
+        "entry_price": float,
+        "unrealized_pnl": float,
+        "notional": float,
+        "margin": float,
+        "liquidation_price": float,
+        "fair_price": float,
+        "stop_loss": float,
+        "take_profit": float,
+}
+
+
+Market info:
+{
+    "id": string,
+    "status": string,
+    "min_initial_margin": float,
+    "forced_margin": string,
+    "liquidation_margin": string,
+    "min_tick": string,
+    "min_order": float,
+    "best_bid": float,
+    "best_ask": float,
+    "market_price": float,
+    "index_price": float,
+    "last_trade_price": float,
+    "fair_price": float,
+    "instant_funding_rate": float,
+    "last_funding_rate_basis": float,
+    "last_update_time": uint,  // in microseconds
+    "last_update_sequence": uint,
+    "average_daily_volume_q": float,
+    "last_funding_update_time": uint,  // in microseconds
+    "icon_url": string,
+    "market_title": string,
+    "average_daily_volume": float,
+    "last_trade_price_24high": float,
+    "last_trade_price_24low": float,
+    "last_trade_price_24h_change_premium": float,
+    "last_trade_price_24h_change_basis": float,
+    "average_daily_volume_change_premium": float,
+    "average_daily_volume_change_basis": float
+}
+
+
+Account fills data:
+{
+        "id": string,
+        "profile_id": uint,
+        "market_id": string,
+        "order_id": string,
+        "timestamp": uint, // in microseconds
+        "trade_id": string,
+        "price": float,
+        "size": float,
+        "side": string,  // "long", "short"
+        "is_maker": bool,
+        "fee": float,
+        "liquidation": bool
 }
 
 
 
+
+Balance Operations:
+{
+	"id": string,
+	"status": string, 
+	"reason": string,
+	"txhash": string,
+	"profile_id": uint, 
+	"wallet": string,
+	"ops_type": string,
+	"ops_id2": string, 
+	"amount": float, 
+	"timestamp": uint, // in microseconds
+	"due_block": uint,
+	"shard_id": string,
+}
 </code></pre>
 
 ### Error Codes
