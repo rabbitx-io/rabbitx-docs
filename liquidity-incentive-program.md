@@ -133,13 +133,31 @@ Anyone who meets the minimum requirements are eligible to participate in this pr
 
 Rewards allocation per market may change given a 7-day notice. New coin listing rewards are pro-rated based on time.&#x20;
 
-_Note: starting 1 October 2023, rewards for BTC-USD and ETH-USD will be reduced to 15% respectively._
+_Note: starting 1 November 2023, rewards will be adjusted following the table below._
 
-| Market                   | Rewards Allocation |
-| ------------------------ | ------------------ |
-| BTC-USD                  | 15%                |
-| ETH-USD                  | 15%                |
-| Others perpetual markets | 70%                |
+| Market       | Rewards Allocation |
+| ------------ | ------------------ |
+| BTC-USD      | 10%                |
+| ETH-USD      | 10%                |
+| SOL-USD      | 5%                 |
+| DOGE-USD     | 5%                 |
+| BCH-USD      | 5%                 |
+| XRP-USD      | 5%                 |
+| TRB-USD      | 5%                 |
+| AAVE-USD     | 5%                 |
+| LINK-USD     | 5%                 |
+| ARB-USD      | 3.75%              |
+| LDO-USD      | 3.75%              |
+| SUI-USD      | 3.75%              |
+| PEPE1000-USD | 3.75%              |
+| WLD-USD      | 3.75%              |
+| TON-USD      | 3.75%              |
+| STX-USD      | 3.75%              |
+| MATIC-USD    | 3.75%              |
+| APT-USD      | 3.75%              |
+| INJ-USD      | 3.75%              |
+| BNB-USD      | 3.75%              |
+| RNDR-USD     | 3.75%              |
 
 #### What is the minimum uptime requirement?
 
