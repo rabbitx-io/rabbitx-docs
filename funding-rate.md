@@ -1,6 +1,6 @@
 # Funding Rate
 
-The Funding Rate is comprised of two parts: the **Interest Rate** and the **Premium Basis** . The funding rate aims to keep the traded price of the perpetual contract in line with the underlying reference price. The contract mimics how margin-trading markets work as buyers and sellers of the contract exchange interest payments periodically.
+The Funding Rate is comprised of two parts: the **Interest Rate** and the **Premium Basis** . The funding rate aims to keep the traded price of the perpetual contract in line with the underlying reference price. The contract mimics how margin-trading markets work as buyers and sellers of the contract exchange interest payments periodically. Rabbit<mark style="color:red;">X</mark> does not charge any fees on funding.&#x20;
 
 ### Calculation
 
@@ -32,7 +32,7 @@ When the perpetual contract is trading above the spot index price over a 1-hour 
 
 When the funding rate is positive, longs pay shorts. When the funding rate is negative, shorts pay longs. You will only pay or receive funding if you hold a position at the time funding is paid. Funding is paid at the start of every hour.
 
-Rabbit<mark style="color:red;">X</mark> does not charge any fees on funding.&#x20;
+Funding rate is scaled to realise the premium basis over a period of 8 hours. That means, for example, that if a certain perpetual market trades consistently at a 0.1% premium relative to the underlying, long traders may expect to pay \~0.1% every 8 hours, and short traders may expect to earn a \~0.1% return every 8 hours (not accounting for the interest rate component).
 
 #### Funding rate caps
 
