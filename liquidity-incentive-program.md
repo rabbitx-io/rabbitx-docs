@@ -158,7 +158,7 @@ _Note: starting 1 November 2023, rewards will be adjusted following the table be
 | INJ-USD      | 3.33%              |
 | BNB-USD      | 3.33%              |
 | RNDR-USD     | 3.33%              |
-| MKR-USD      | 3.33%              |
+| TRB-USD      | 3.33%              |
 
 #### What is the minimum uptime requirement?
 
