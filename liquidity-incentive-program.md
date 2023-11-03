@@ -135,29 +135,30 @@ Rewards allocation per market may change given a 7-day notice. New coin listing 
 
 _Note: starting 1 November 2023, rewards will be adjusted following the table below._
 
-| BTC-USD      | 10%   |
-| ------------ | ----- |
-| ETH-USD      | 10%   |
-| SOL-USD      | 5%    |
-| DOGE-USD     | 5%    |
-| BCH-USD      | 5%    |
-| XRP-USD      | 5%    |
-| MKR-USD      | 5%    |
-| AAVE-USD     | 5%    |
-| LINK-USD     | 5%    |
-| MATIC-USD    | 5%    |
-| LDO-USD      | 3.33% |
-| SUI-USD      | 3.33% |
-| PEPE1000-USD | 3.33% |
-| WLD-USD      | 3.33% |
-| TON-USD      | 3.33% |
-| STX-USD      | 3.33% |
-| ARB-USD      | 3.33% |
-| APT-USD      | 3.33% |
-| INJ-USD      | 3.33% |
-| BNB-USD      | 3.33% |
-| RNDR-USD     | 3.33% |
-| MKR-USD      | 3.33% |
+| Market       | Rewards Allocation |
+| ------------ | ------------------ |
+| BTC-USD      | 10%                |
+| ETH-USD      | 10%                |
+| SOL-USD      | 5%                 |
+| DOGE-USD     | 5%                 |
+| BCH-USD      | 5%                 |
+| XRP-USD      | 5%                 |
+| MKR-USD      | 5%                 |
+| AAVE-USD     | 5%                 |
+| LINK-USD     | 5%                 |
+| MATIC-USD    | 5%                 |
+| LDO-USD      | 3.33%              |
+| SUI-USD      | 3.33%              |
+| PEPE1000-USD | 3.33%              |
+| WLD-USD      | 3.33%              |
+| TON-USD      | 3.33%              |
+| STX-USD      | 3.33%              |
+| ARB-USD      | 3.33%              |
+| APT-USD      | 3.33%              |
+| INJ-USD      | 3.33%              |
+| BNB-USD      | 3.33%              |
+| RNDR-USD     | 3.33%              |
+| MKR-USD      | 3.33%              |
 
 #### What is the minimum uptime requirement?
 
