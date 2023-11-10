@@ -119,6 +119,7 @@ Anyone who meets the minimum requirements are eligible to participate in this pr
 | ----------------------- | ---------------------------- |
 | BTC/USD                 | 20 bps                       |
 | ETH/USD                 | 20 bps                       |
+| RLB/USD, SATS/USD       | 100 bps                      |
 | Other perpetual markets | 50 bps                       |
 
 #### **What is the minimum cumulative depth ($) per market?**
@@ -127,6 +128,7 @@ Anyone who meets the minimum requirements are eligible to participate in this pr
 | ----------------------- | --------- |
 | BTC/USD                 | $50,000   |
 | ETH/USD                 | $50,000   |
+| RLB/USD, SATS/USD       | $10,000   |
 | Other perpetual markets | $25,000   |
 
 #### What are the token rewards allocation per market?
