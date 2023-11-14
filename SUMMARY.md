@@ -1,7 +1,7 @@
 # Table of contents
 
 * [👋 Introduction](README.md)
-* [Get Started](testnet.md)
+* [Get Started](get-started.md)
 * [Roadmap](roadmap.md)
 * [Chart Trader](chart-trader.md)
 * [Index Price](index-price.md)
