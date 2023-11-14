@@ -1,6 +1,6 @@
 # Liquidity Incentive Rewards
 
-### quidity Incentive Program
+### Liquidity Incentive Program
 
 To attract more liquidity to RabbitX, the Liquidity Incentive Program is a scheme that offers incentives to liquidity providers who provide deep, two-sided markets.
 
