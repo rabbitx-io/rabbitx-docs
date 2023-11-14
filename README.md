@@ -19,7 +19,7 @@ Rabbit<mark style="color:red;">X</mark> provides:
 * 20x leverage
 * Orderbook liquidity
 * 24/7 customer support
-* Global markets (Stocks, FX, Commodities, Interest Rates)
+* Global markets (Stocks, FX, Commodities, Interest Rates coming soon!)
 * A trader focused user interface
 
 In addition to our signature perpetual futures, Rabbit<mark style="color:red;">X</mark> has plans for exotic crypto-native derivatives, interest rates, FX trading, and more in our [roadmap](roadmap.md).
