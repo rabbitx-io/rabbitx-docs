@@ -28,7 +28,7 @@ Once your API key is created, you will be able to copy the API Key, Secret, Publ
 
 Note: you can renew your tokens by clicking the "Renew Now" button to renew it for 30 days.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
