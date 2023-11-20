@@ -17,7 +17,7 @@
 
 ## Token
 
-* [Explore $RBX](token/explore-usdrbx.md)
+* [Explore $RBX](token/rbx.md)
 * [Contract Details](contract-details.md)
 
 ## API Documentation

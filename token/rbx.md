@@ -17,7 +17,7 @@ The RBX token will have an initial supply of 1 billion tokens (1,000,000,000 RBX
 6. Future team members (3%): 30 million RBX tokens will be allocated to future team members. The future of RabbitX relies on our ability to attract the best talent; as we continue to grow, we must align team members’ incentives with the project’s long-term vision. These tokens will also be subject to vesting, ensuring a long-term commitment to the success of RabbitX.
 7. Advisors (2%): 20 million RBX tokens will be allocated to current and future advisors of the protocol. Advisors play a valuable role in shaping the strategic direction of RabbitX, providing invaluable insights and guidance throughout our journey.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
 RBX will provide utility and significant value to the RabbitX platform, including increased liquidity and rewards for users. Everything we do is committed to delivering the best possible trading experience and value to our users.
 
