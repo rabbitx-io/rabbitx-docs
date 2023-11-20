@@ -30,6 +30,9 @@ Response
 	index_price         string
 	last_trade_price    string
 	fair_price          string
+	open_interest 	    string
+	long_ratio	    string
+	short_ratio 	    string
 
 	last_trade_price_24high              string
 	last_trade_price_24low               string

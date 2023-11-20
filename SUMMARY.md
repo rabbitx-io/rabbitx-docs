@@ -30,7 +30,6 @@
   * [Trades](api-documentation/public-endpoints/trades.md)
   * [Orderbook](api-documentation/public-endpoints/orderbook.md)
   * [Funding Rate](api-documentation/public-endpoints/funding-rate.md)
-  * [Open Interest](api-documentation/public-endpoints/open-interest.md)
   * [Candles](api-documentation/public-endpoints/candles.md)
 * [Private Endpoints](api-documentation/private-endpoints/README.md)
   * [Account Operations](api-documentation/private-endpoints/account-operations.md)
