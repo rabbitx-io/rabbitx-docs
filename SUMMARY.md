@@ -12,7 +12,7 @@
 * [Margin Calculation](margin-calculation.md)
 * [Insurance Fund](insurance-fund.md)
 * [Liquidations](liquidations.md)
-* [Liquidity Incentive Rewards](liquidity-incentive-program.md)
+* [Liquidity Bootstrapping Program](liquidity-bootstrapping-program.md)
 * [Frequently Asked Questions](faq.md)
 
 ## Token
