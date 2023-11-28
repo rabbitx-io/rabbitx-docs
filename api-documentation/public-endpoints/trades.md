@@ -3,7 +3,7 @@
 ## Trades
 
 ```
-GET /trades
+GET /markets/trades
 ```
 
 ```json
