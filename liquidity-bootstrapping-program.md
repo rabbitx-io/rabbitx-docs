@@ -1,4 +1,4 @@
-# Liquidity Incentive Rewards
+# Liquidity Bootstrapping Program
 
 ### Liquidity Incentive Program
 
@@ -135,7 +135,7 @@ Anyone who meets the minimum requirements are eligible to participate in this pr
 
 Rewards allocation per market may change given a 7-day notice. New coin listing rewards are pro-rated based on time.&#x20;
 
-_Note: starting 1 November 2023, rewards will be adjusted following the table below._
+_Note: starting 1 December 2023, rewards will be adjusted following the table below._
 
 | Market          | Rewards Allocation |
 | --------------- | ------------------ |
@@ -149,22 +149,22 @@ _Note: starting 1 November 2023, rewards will be adjusted following the table be
 | AAVE-USD        | 5.00%              |
 | LINK-USD        | 5.00%              |
 | MATIC-USD       | 5.00%              |
-| LDO-USD         | 2.67%              |
-| SUI-USD         | 2.67%              |
-| PEPE1000-USD    | 2.67%              |
-| WLD-USD         | 2.67%              |
-| TON-USD         | 2.67%              |
-| STX-USD         | 2.67%              |
-| ARB-USD         | 2.67%              |
-| APT-USD         | 2.67%              |
-| INJ-USD         | 2.67%              |
-| BNB-USD         | 2.67%              |
-| RNDR-USD        | 2.67%              |
-| TRB-USD         | 2.67%              |
-| STG-USD         | 2.00%              |
-| RLB-USD         | 2.00%              |
-| ORDI-USD        | 2.00%              |
-| SATS1000000-USD | 2.00%              |
+| LDO-USD         | 2.50% (prev 2.67%) |
+| SUI-USD         | 2.50% (prev 2.67%) |
+| PEPE1000-USD    | 2.50% (prev 2.67%) |
+| WLD-USD         | 2.50% (prev 2.67%) |
+| TON-USD         | 2.50% (prev 2.67%) |
+| STX-USD         | 2.50% (prev 2.67%) |
+| ARB-USD         | 2.50% (prev 2.67%) |
+| APT-USD         | 2.50% (prev 2.67%) |
+| INJ-USD         | 2.50% (prev 2.67%) |
+| BNB-USD         | 2.50% (prev 2.67%) |
+| RNDR-USD        | 2.50% (prev 2.67%) |
+| TRB-USD         | 2.50% (prev 2.67%) |
+| STG-USD         | 2.50% (prev 2.67%) |
+| RLB-USD         | 2.50% (prev 2.00%) |
+| ORDI-USD        | 2.50% (prev 2.00%) |
+| SATS1000000-USD | 2.50% (prev 2.00%) |
 
 #### What is the minimum uptime requirement?
 
