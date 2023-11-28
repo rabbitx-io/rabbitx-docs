@@ -5,7 +5,7 @@
 Get market funding rate history.
 
 ```
-GET markets/fundingrate
+GET /markets/fundingrate
 ```
 
 ```json

@@ -5,7 +5,7 @@
 Get market orderbook snapshot.
 
 ```
-GET markets/orderbook
+GET /markets/orderbook
 ```
 
 ```json
