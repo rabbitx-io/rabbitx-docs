@@ -39,6 +39,7 @@
   * [Positions](api-documentation/private-endpoints/positions.md)
   * [Profile](api-documentation/private-endpoints/profile.md)
   * [Balance History](api-documentation/private-endpoints/balance-history.md)
+  * [Deadman Switch](api-documentation/private-endpoints/deadman-switch.md)
 * [Websocket](api-documentation/websocket/README.md)
   * [Trades](api-documentation/websocket/trades.md)
   * [Orderbook](api-documentation/websocket/orderbook.md)
