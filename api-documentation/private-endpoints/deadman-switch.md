@@ -6,11 +6,46 @@ The exchange will cancel all orders on all markets for your account if it has ye
 
 #### Activating Deadman Switch&#x20;
 
+```
+GET /cancel_all_after
+```
+
 GET /cancel\_all\_after response: profile\_id timeout - in milliseconds last\_updated - time in milliseconds when we saw requests from you status - the current status: "active" - means that we see requests "canceled" - means that there were not requests during timeout and orders were canceled. Will be automatically reactivated once see any request.
 
-POST /cancel\_all\_after Request: period - required in milliseconds
+```
+POST /cancel_all_after
+```
+
+```go
+Params:
+{
+    period: 600 // in milliseconds
+}
+```
+
+```go
+Example response
+
+{
+    "success": true,
+    "error": "",
+    "result":
+            {
+                profile_id:1
+                timeout:600 // in milliseconds
+                last_updated: 1701324346000000
+                status: "active" // status could be 'active' or 'canceled'
+            }
+}
+```
+
+
 
 Response: profile\_id timeout last\_updated status
+
+```
+DELETE /cancel_all_after
+```
 
 DELETE /cancel\_all\_after Response: (the deleted info) profile\_id timeout last\_updated status
 

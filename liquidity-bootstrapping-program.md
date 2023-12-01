@@ -59,7 +59,7 @@ _Spread = max(0.00005, Spread)_
 
 Calculation steps:
 
-1. Calculate  $$Q_{bid}=\frac{BidDepth_1}{(Spread_1)^2}+\frac{BidDepth_2}{(Spread_2)^2}+\frac{BidDepth_3}{(Spread_3)^2}...$$
+1. Calculate  $$Q_{bid}=\frac{BidDepth_1}{(Spread_1)^{1.5}}+\frac{BidDepth_2}{(Spread_2)^{1.5}}+\frac{BidDepth_3}{(Spread_3)^{1.5}}...$$
 
 for each order where BidDepth > MinDepth and with Spread < MaxSpread(Mid-Market)
 
@@ -67,9 +67,9 @@ For example, Assume a liquidity provider has multiple open bid orders (1 BTC at 
 
 The second order, 10 BTC at $29,500, is not qualified, as the order spread exceeds the max spread.
 
-$$Q_{BID} = 1*29995/(5/30000)^2 + 5*29960/(40/30000)^2$$
+$$Q_{BID} = 1*29995/(5/30000)^{1.5} + 5*29960/(40/30000)^{1.5}$$
 
-2. Calculate $$Q_{ask}=\frac{AskDepth_1}{(Spread_1)^2}+\frac{AskDepth_2}{(Spread_2)^2}+\frac{AskDepth_3}{(Spread_3)^2}...$$
+2. Calculate $$Q_{ask}=\frac{AskDepth_1}{(Spread_1)^{1.5}}+\frac{AskDepth_2}{(Spread_2)^{1.5}}+\frac{AskDepth_3}{(Spread_3)^{1.5}}...$$
 
 for each order where AskDepth > MinDepth and with Spread < MaxSpread(Mid-Market)
 
