@@ -137,6 +137,8 @@ Rewards allocation per market may change given a 7-day notice. New coin listing 
 
 _Note: starting 1 December 2023, rewards will be adjusted following the table below._
 
+_Note: starting 1 January 2023, BTC-USD, ETH-USD shares will be increased to 12.5%, 12.5% respective_
+
 | Market          | Rewards Allocation |
 | --------------- | ------------------ |
 | BTC-USD         | 10.00%             |
