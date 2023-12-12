@@ -151,22 +151,27 @@ _Note: starting 1 January 2023, BTC-USD, ETH-USD shares will be increased to 12.
 | AAVE-USD        | 5.00%              |
 | LINK-USD        | 5.00%              |
 | MATIC-USD       | 5.00%              |
-| LDO-USD         | 2.50% (prev 2.67%) |
-| SUI-USD         | 2.50% (prev 2.67%) |
-| PEPE1000-USD    | 2.50% (prev 2.67%) |
-| WLD-USD         | 2.50% (prev 2.67%) |
-| TON-USD         | 2.50% (prev 2.67%) |
-| STX-USD         | 2.50% (prev 2.67%) |
-| ARB-USD         | 2.50% (prev 2.67%) |
-| APT-USD         | 2.50% (prev 2.67%) |
-| INJ-USD         | 2.50% (prev 2.67%) |
-| BNB-USD         | 2.50% (prev 2.67%) |
-| RNDR-USD        | 2.50% (prev 2.67%) |
-| TRB-USD         | 2.50% (prev 2.67%) |
-| STG-USD         | 2.50% (prev 2.67%) |
-| RLB-USD         | 2.50% (prev 2.00%) |
-| ORDI-USD        | 2.50% (prev 2.00%) |
-| SATS1000000-USD | 2.50% (prev 2.00%) |
+| LDO-USD         | 2.08%              |
+| SUI-USD         | 2.08%              |
+| PEPE1000-USD    | 2.08%              |
+| WLD-USD         | 2.08%              |
+| TON-USD         | 2.08%              |
+| STX-USD         | 2.08%              |
+| ARB-USD         | 2.08%              |
+| APT-USD         | 2.08%              |
+| INJ-USD         | 2.08%              |
+| BNB-USD         | 2.08%              |
+| RNDR-USD        | 2.08%              |
+| TRB-USD         | 2.08%              |
+| STG-USD         | 2.08%              |
+| RLB-USD         | 2.08%              |
+| ORDI-USD        | 2.08%              |
+| SATS1000000-USD | 2.08%              |
+| TIA-USD         | 1.34%              |
+| BLUR-USD        | 1.34%              |
+| JTO-USD         | 1.34%              |
+| MEME-USD        | 1.34%              |
+| SEI-USD         | 1.34%              |
 
 #### What is the minimum uptime requirement?
 
