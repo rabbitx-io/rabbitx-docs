@@ -3,6 +3,7 @@
 * [👋 Introduction](README.md)
 * [Get Started](get-started.md)
 * [Roadmap](roadmap.md)
+* [Referral Rewards](referral-rewards.md)
 * [Chart Trader](chart-trader.md)
 * [Index Price](index-price.md)
 * [Funding Rate](funding-rate.md)
@@ -12,7 +13,6 @@
 * [Margin Calculation](margin-calculation.md)
 * [Insurance Fund](insurance-fund.md)
 * [Liquidations](liquidations.md)
-* [Referral](referral.md)
 * [Liquidity Bootstrapping Program](liquidity-bootstrapping-program.md)
 * [Frequently Asked Questions](faq.md)
 
