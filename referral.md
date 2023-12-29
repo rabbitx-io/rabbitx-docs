@@ -2,18 +2,20 @@
 
 ## Invite friends and earn&#x20;
 
+We're thrilled to announce the launch of our exclusive RabbitX Referral Program! This is your chance to earn massive rewards including a brand new Lambo!
+
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Refer your friends and win a lambo</p></figcaption></figure>
 
 **Visit your referral dashboard by visiting** [**https://app.rabbitx.io/portfolio/referrals**](https://app.rabbitx.io/portfolio/referrals)**.**
 
-**🚀 Program Highlights:**
+#### **🚀 Program Highlights**
 
 * **Bonus Cash Rewards:** Earn up to a staggering **$142,000** in cash rewards in addition to your referral commissions!
 * **Lambo Bonus:** Earn a brand new Lamborghini by referring more volume!
 * **Earn Huge Commissions:** Enjoy referral commissions of up to **40%**.
 * **No Minimums:** Absolutely **no minimum monthly volume requirements**. Whether you’re a whale or a shrimp, you get paid with the Bunny.
 
-**🔥 The RabbitX Referral: Track Your Earnings, Get Paid Daily**
+#### **🔥 RabbitX Referral Dashboard: Track Your Earnings, Get Paid Daily**
 
 1. **Live Tracking:** Monitor your referred volume in real-time on your dashboard.
 2. **Daily Payouts:** Receive your referral payouts daily! Your referral link is your ticket to a steady flow of rewards. Daily payouts are scheduled before 12pm UTC.
