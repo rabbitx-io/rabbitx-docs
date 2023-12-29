@@ -1,3 +1,7 @@
+---
+description: Refer your friends and get rewarded
+---
+
 # Referral
 
 ## Invite friends and earn&#x20;
