@@ -12,6 +12,7 @@
 * [Margin Calculation](margin-calculation.md)
 * [Insurance Fund](insurance-fund.md)
 * [Liquidations](liquidations.md)
+* [Referral](referral.md)
 * [Liquidity Bootstrapping Program](liquidity-bootstrapping-program.md)
 * [Frequently Asked Questions](faq.md)
 

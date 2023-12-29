@@ -185,7 +185,7 @@ The token rewards earned during each epoch will be subject to a vesting period o
 
 A total of 7.5% of token supply will be distributed to liquidity providers. 0.18% of token supply will be allocated to early liquidity providers during March and April for supporting our initial launch. Monthly rewards will increase to 4,411,765 RBX tokens for the first 15 months and slowly decrease over time. Emission schedules may change given a 30-day notice. Any changes in the schedule will be communicated well in advance.
 
-<figure><img src=".gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ![Liquidity Incentive Rewards Emission Schedule](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d576031f-8cd6-45c9-8510-518f394780d6/Untitled.png)
 
