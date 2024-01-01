@@ -34,9 +34,9 @@ The program's goal is to incentivize market liquidity based on three metrics:
 
 #### Fee Schedule
 
-| Tier               | Maker Volume (monthly)       | Maker Fee | Taker Fee |
-| ------------------ | ---------------------------- | --------- | --------- |
-| Liquidity Provider | 2%+ of exchange maker volume | -0.015%   | 0.025%    |
+| Tier               | Maker Volume (monthly)         | Maker Fee | Taker Fee |
+| ------------------ | ------------------------------ | --------- | --------- |
+| Liquidity Provider | 0.5%+ of exchange maker volume | -0.015%   | 0.025%    |
 
 #### Program Details
 
