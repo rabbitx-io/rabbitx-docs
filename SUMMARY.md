@@ -8,6 +8,7 @@
 * [Index Price](index-price.md)
 * [Funding Rate](funding-rate.md)
 * [Deposit / Withdrawal](deposit-withdrawal.md)
+* [Fiat Deposits](fiat-deposits.md)
 * [Trading Fees](trading-fees.md)
 * [Profit / Loss Calculation](profit-loss-calculation.md)
 * [Margin Calculation](margin-calculation.md)
