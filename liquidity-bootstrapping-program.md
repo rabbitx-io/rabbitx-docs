@@ -135,43 +135,39 @@ Anyone who meets the minimum requirements are eligible to participate in this pr
 
 Rewards allocation per market may change given a 7-day notice. New coin listing rewards are pro-rated based on time.&#x20;
 
-_Note: starting 1 December 2023, rewards will be adjusted following the table below._
-
-_Note: starting 1 January 2023, BTC-USD, ETH-USD shares will be increased to 12.5%, 12.5% respective_
-
-| Market          | Rewards Allocation |
-| --------------- | ------------------ |
-| BTC-USD         | 10.00%             |
-| ETH-USD         | 10.00%             |
-| SOL-USD         | 5.00%              |
-| DOGE-USD        | 5.00%              |
-| BCH-USD         | 5.00%              |
-| XRP-USD         | 5.00%              |
-| MKR-USD         | 5.00%              |
-| AAVE-USD        | 5.00%              |
-| LINK-USD        | 5.00%              |
-| MATIC-USD       | 5.00%              |
-| LDO-USD         | 2.08%              |
-| SUI-USD         | 2.08%              |
-| PEPE1000-USD    | 2.08%              |
-| WLD-USD         | 2.08%              |
-| TON-USD         | 2.08%              |
-| STX-USD         | 2.08%              |
-| ARB-USD         | 2.08%              |
-| APT-USD         | 2.08%              |
-| INJ-USD         | 2.08%              |
-| BNB-USD         | 2.08%              |
-| RNDR-USD        | 2.08%              |
-| TRB-USD         | 2.08%              |
-| STG-USD         | 2.08%              |
-| RLB-USD         | 2.08%              |
-| ORDI-USD        | 2.08%              |
-| SATS1000000-USD | 2.08%              |
-| TIA-USD         | 1.34%              |
-| BLUR-USD        | 1.34%              |
-| JTO-USD         | 1.34%              |
-| MEME-USD        | 1.34%              |
-| SEI-USD         | 1.34%              |
+| Market          | New Rewards Allocation |
+| --------------- | ---------------------- |
+| BTC-USD         | 12.50%                 |
+| ETH-USD         | 12.50%                 |
+| SOL-USD         | 4.00%                  |
+| DOGE-USD        | 4.00%                  |
+| BCH-USD         | 4.00%                  |
+| XRP-USD         | 4.00%                  |
+| MKR-USD         | 4.00%                  |
+| AAVE-USD        | 4.00%                  |
+| LINK-USD        | 4.00%                  |
+| MATIC-USD       | 4.00%                  |
+| LDO-USD         | 2.04%                  |
+| SUI-USD         | 2.04%                  |
+| PEPE1000-USD    | 2.04%                  |
+| WLD-USD         | 2.04%                  |
+| TON-USD         | 2.04%                  |
+| STX-USD         | 2.04%                  |
+| ARB-USD         | 2.04%                  |
+| APT-USD         | 2.04%                  |
+| INJ-USD         | 2.04%                  |
+| BNB-USD         | 2.04%                  |
+| RNDR-USD        | 2.04%                  |
+| TRB-USD         | 2.04%                  |
+| STG-USD         | 2.04%                  |
+| RLB-USD         | 2.04%                  |
+| ORDI-USD        | 2.04%                  |
+| SATS1000000-USD | 2.04%                  |
+| TIA-USD         | 2.04%                  |
+| BLUR-USD        | 2.04%                  |
+| JTO-USD         | 2.04%                  |
+| MEME-USD        | 2.04%                  |
+| SEI-USD         | 2.04%                  |
 
 #### What is the minimum uptime requirement?
 
