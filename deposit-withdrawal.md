@@ -12,7 +12,7 @@ Note: Rabbit<mark style="color:red;">X</mark> only accepts **ERC-20 USDT on Ethe
 
 ![](<.gitbook/assets/image (17).png>)![](<.gitbook/assets/image (10).png>)
 
-<figure><img src=".gitbook/assets/image (7) (2) (1).png" alt=""><figcaption><p>Deposits and withdrawals are shown in "Transfers"</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7) (2) (1) (1).png" alt=""><figcaption><p>Deposits and withdrawals are shown in "Transfers"</p></figcaption></figure>
 
 Deposits require at least 16 on-chain confirmations. Deposits typically take **3-6 minutes.** Reach out to our discord [support channel](https://discord.gg/yFHNDe4KDY) if you have any issues during the deposit process.
 
@@ -29,9 +29,9 @@ Please note the process for withdrawals:
 * Once completed, the transfer status will change to “Success” in your Transfers tab
 * You are able to cancel your withdrawal at any step before executing the "Claim" transaction. Once "Claim" has been executed, you must wait for the transaction to be mined by the Ethereum blockchain.
 
-![Withdrawal Window](<.gitbook/assets/image (9).png>)
+![Withdrawal Window](<.gitbook/assets/image (9) (1).png>)
 
-<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption><p>Different withdrawal statuses</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7) (2).png" alt=""><figcaption><p>Different withdrawal statuses</p></figcaption></figure>
 
 Reach out to our discord [support channel](https://discord.gg/yFHNDe4KDY) if you have any issues during the withdrawal process.
 

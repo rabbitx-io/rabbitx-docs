@@ -15,6 +15,7 @@
 * [Insurance Fund](insurance-fund.md)
 * [Liquidations](liquidations.md)
 * [Liquidity Bootstrapping Program](liquidity-bootstrapping-program.md)
+* [RabbitX Quantower](rabbitx-quantower.md)
 * [Frequently Asked Questions](faq.md)
 
 ## Token

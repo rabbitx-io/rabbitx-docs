@@ -2,13 +2,13 @@
 description: Refer your friends and get rewarded
 ---
 
-# Referral
+# Referral Rewards
 
 ## Invite friends and earn&#x20;
 
 We're thrilled to announce the launch of our exclusive RabbitX Referral Program! This is your chance to earn massive rewards including a brand new Lambo!
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Refer your friends and win a lambo</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Refer your friends and win a lambo</p></figcaption></figure>
 
 **Visit your referral dashboard by visiting** [**https://app.rabbitx.io/portfolio/referrals**](https://app.rabbitx.io/portfolio/referrals)**.**
 
@@ -25,8 +25,6 @@ We're thrilled to announce the launch of our exclusive RabbitX Referral Program!
 2. **Daily Payouts:** Receive your referral payouts daily! Your referral link is your ticket to a steady flow of rewards. Daily payouts are scheduled before 12pm UTC.
 3. **Instant Access to Earnings:** All referral payouts are automatically added to your **RabbitX account balance**. Use these funds as trading collateral immediately, boosting your trading portfolio.
 4. **Customise Your Reflink:** you can customize your referral link up to 3 times.
-
-
 
 ### **📈 Referral Volume Tiers**
 
