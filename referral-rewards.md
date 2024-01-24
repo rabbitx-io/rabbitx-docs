@@ -1,5 +1,5 @@
 ---
-description: Refer your friends and get rewarded
+description: Invite your friends and get rewarded
 ---
 
 # Referral Rewards
