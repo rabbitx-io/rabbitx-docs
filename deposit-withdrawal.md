@@ -33,6 +33,4 @@ Please note the process for withdrawals:
 
 <figure><img src=".gitbook/assets/image (7) (2).png" alt=""><figcaption><p>Different withdrawal statuses</p></figcaption></figure>
 
-Reach out to our discord [support channel](https://discord.gg/yFHNDe4KDY) if you have any issues during the withdrawal process.
-
-##
+Reach out to our [discord channel](https://discord.com/invite/rabbitx) if you have any issues during the withdrawal process.
