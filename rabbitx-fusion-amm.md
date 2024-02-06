@@ -16,7 +16,14 @@ With FAMM, you don’t need to be a pro market maker to LP on the RabbitX orderb
 
 Not only can you make passive yield staking with FAMM, you can also earn RBX while doing so!
 
+### Earn RBX Rewards
 
+25,000,000 (2.5%) of RBX tokens will be allocated to Elixir vaults over 2 years. Token rewards are distributed on a weekly basis, equally weighted across all markets on RabbitX. Your RBX rewards are based on your amount and time staked.
+
+```
+Reward APY Calculation
+Reward apy = 0.5 * 1/31 * rbx price * 25m / tvl
+```
 
 ### Guide: How To Stake
 
