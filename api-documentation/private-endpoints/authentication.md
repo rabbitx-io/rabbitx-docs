@@ -150,7 +150,7 @@ from web3.auto import w3
 from datetime import datetime
 import requests
 
-onboarding_message = 'Welcome to Rabbit DEX'
+onboarding_message = 'Welcome to RabbitX!\n\nClick to sign in and on-board your wallet for trading perpetuals.\n\nThis request will not trigger a blockchain transaction or cost any gas fees. This signature only proves you are the true owner of this wallet.\n\nBy signing this message you agree to the terms and conditions of the exchange.'
 url = 'https://rbt-api-dev.strips.finance'
 private_key = '<YOUR WALLET PRIVATE KEY>'
 wallet = '<YOUR WALLET ADDRESS>'
