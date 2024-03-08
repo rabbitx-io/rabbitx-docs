@@ -19,7 +19,7 @@ POST /cancel_all_after
 ```go
 Params:
 {
-    period: 600 // in milliseconds
+    timeout: 600 // in milliseconds
 }
 ```
 
