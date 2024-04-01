@@ -8,7 +8,7 @@ description: Invite your friends and get rewarded
 
 We're thrilled to announce the launch of our exclusive RabbitX Referral Program! This is your chance to earn massive rewards including a brand new Lambo!
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Refer your friends and win a lambo</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Refer your friends and win a lambo</p></figcaption></figure>
 
 **Visit your referral dashboard by visiting** [**https://app.rabbitx.io/portfolio/referrals**](https://app.rabbitx.io/portfolio/referrals)**.**
 

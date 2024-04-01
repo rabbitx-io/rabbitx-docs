@@ -8,15 +8,15 @@ Quantower for RabbitX features some very powerful features including price ladde
 
 <div align="left">
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 2. Generate a set of RabbitX API keys by following the instructions [here](api-documentation/generate-your-api-keys.md)&#x20;
 3. Search for "RabbitX" in the connections settings of Quantower. Enter in your API details.&#x20;
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 4. Once connected, you can now start using the powerful features on Quantower!
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
