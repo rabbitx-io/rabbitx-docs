@@ -133,45 +133,47 @@ Anyone who meets the minimum requirements are eligible to participate in this pr
 
 Rewards allocation per market may change given a 7-day notice. New coin listing rewards are pro-rated based on time.&#x20;
 
-| Market          | Rewards Allocation | Min Spread Req |
-| --------------- | ------------------ | -------------- |
-| BTC-USD         | 11.00%             | 0.20%          |
-| ETH-USD         | 11.00%             | 0.20%          |
-| SOL-USD         | 9.00%              | 0.50%          |
-| DOGE-USD        | 2.60%              | 0.50%          |
-| BCH-USD         | 2.60%              | 0.50%          |
-| XRP-USD         | 2.60%              | 0.50%          |
-| MKR-USD         | 2.60%              | 0.50%          |
-| AAVE-USD        | 2.60%              | 0.50%          |
-| LINK-USD        | 2.60%              | 0.50%          |
-| MATIC-USD       | 2.60%              | 0.50%          |
-| LDO-USD         | 1.88%              | 0.50%          |
-| SUI-USD         | 1.88%              | 0.50%          |
-| PEPE1000-USD    | 1.88%              | 0.50%          |
-| WLD-USD         | 1.88%              | 0.50%          |
-| TON-USD         | 1.88%              | 0.50%          |
-| STX-USD         | 1.88%              | 0.50%          |
-| ARB-USD         | 1.88%              | 0.50%          |
-| APT-USD         | 1.88%              | 0.50%          |
-| INJ-USD         | 1.88%              | 0.50%          |
-| BNB-USD         | 1.88%              | 0.50%          |
-| RNDR-USD        | 1.88%              | 0.50%          |
-| TRB-USD         | 1.88%              | 0.50%          |
-| STG-USD         | 1.88%              | 0.50%          |
-| RLB-USD         | 1.88%              | 0.50%          |
-| ORDI-USD        | 1.88%              | 0.50%          |
-| SATS1000000-USD | 1.88%              | 0.50%          |
-| TIA-USD         | 1.88%              | 0.50%          |
-| BLUR-USD        | 1.88%              | 0.50%          |
-| JTO-USD         | 1.88%              | 0.50%          |
-| MEME-USD        | 1.88%              | 0.50%          |
-| SEI-USD         | 1.88%              | 0.50%          |
-| YES-USD         | 1.88%              | 0.50%          |
-| WIF-USD         | 1.88%              | 0.50%          |
-| STRK-USD        | 1.88%              | 0.50%          |
-| SHIB1000-USD    | 1.88%              | 0.50%          |
-| BOME-USD        | 1.88%              | 0.50%          |
-| SLERF-USD       | 1.88%              | 0.50%          |
+| Market          | March Rewards Allocation | Min Spread Req |
+| --------------- | ------------------------ | -------------- |
+| BTC-USD         | 11.00%                   | 0.20%          |
+| ETH-USD         | 11.00%                   | 0.20%          |
+| SOL-USD         | 9.00%                    | 0.50%          |
+| DOGE-USD        | 2.60%                    | 0.50%          |
+| BCH-USD         | 2.60%                    | 0.50%          |
+| XRP-USD         | 2.60%                    | 0.50%          |
+| MKR-USD         | 2.60%                    | 0.50%          |
+| AAVE-USD        | 2.60%                    | 0.50%          |
+| LINK-USD        | 2.60%                    | 0.50%          |
+| MATIC-USD       | 2.60%                    | 0.50%          |
+| LDO-USD         | 1.75%                    | 0.50%          |
+| SUI-USD         | 1.75%                    | 0.50%          |
+| PEPE1000-USD    | 1.75%                    | 0.50%          |
+| WLD-USD         | 1.75%                    | 0.50%          |
+| TON-USD         | 1.75%                    | 0.50%          |
+| STX-USD         | 1.75%                    | 0.50%          |
+| ARB-USD         | 1.75%                    | 0.50%          |
+| APT-USD         | 1.75%                    | 0.50%          |
+| INJ-USD         | 1.75%                    | 0.50%          |
+| BNB-USD         | 1.75%                    | 0.50%          |
+| RNDR-USD        | 1.75%                    | 0.50%          |
+| TRB-USD         | 1.75%                    | 0.50%          |
+| STG-USD         | 1.75%                    | 0.50%          |
+| RLB-USD         | 1.75%                    | 0.50%          |
+| ORDI-USD        | 1.75%                    | 0.50%          |
+| SATS1000000-USD | 1.75%                    | 0.50%          |
+| TIA-USD         | 1.75%                    | 0.50%          |
+| BLUR-USD        | 1.75%                    | 0.50%          |
+| JTO-USD         | 1.75%                    | 0.50%          |
+| MEME-USD        | 1.75%                    | 0.50%          |
+| SEI-USD         | 1.75%                    | 0.50%          |
+| YES-USD         | 1.75%                    | 0.50%          |
+| WIF-USD         | 1.75%                    | 0.50%          |
+| STRK-USD        | 1.75%                    | 0.50%          |
+| SHIB1000-USD    | 1.75%                    | 0.50%          |
+| BOME-USD        | 1.75%                    | 0.50%          |
+| SLERF-USD       | 1.75%                    | 0.50%          |
+| W-USD           | 1.75%                    | 0.50%          |
+| ENA-USD         | 1.75%                    | 0.50%          |
 
 #### What is the minimum uptime requirement?
 
