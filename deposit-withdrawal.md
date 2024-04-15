@@ -43,9 +43,9 @@ Safety and security is the highest priority for RabbitX. For security, we requir
 
 | Withdrawal Amount | Processing Blocks |
 | ----------------- | ----------------- |
-| 0-9,999           | 1                 |
-| 10,000-99,999     | 100               |
-| 100,000-999,999   | 1000              |
-| 1,000,000+        | 10800             |
+| 0-9,999           | 1 (10-20s)        |
+| 10,000-99,999     | 10 (1.5 - 3mins)  |
+| 100,000-999,999   | 100 (20 - 40mins) |
+| 1,000,000+        | 1800 (6hrs)       |
 
 Reach out to our [discord channel](https://discord.com/invite/rabbitx) if you have any issues during the withdrawal process.
