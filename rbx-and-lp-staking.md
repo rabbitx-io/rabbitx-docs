@@ -6,7 +6,9 @@ RabbitX has partnered with Blast Futures (BFX) to give BFX Points airdrop to RBX
 
 ### What is Blast Futures (BFX)?
 
-As the first perpetuals DEX with native yield, BFX debuted on Blast L2 with:
+Blast Futures (BFX) [https://blastfutures.com/](https://blastfutures.com/) is the world's first perpetuals dex with native yield. They are changing crypto trading by offering 15% native yield on your balances, a first in any perpetuals exchange. Earn more - even when you're not trading.
+
+BFX debuted on Blast L2 with:
 
 a) Monthly Active Users: 27,342
 
