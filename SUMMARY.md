@@ -11,6 +11,7 @@
 * [Fiat Deposits](fiat-deposits.md)
 * [Trading Fees](trading-fees.md)
 * [RabbitX Fusion AMM](rabbitx-fusion-amm.md)
+* [RBX and LP Staking](rbx-and-lp-staking.md)
 * [Profit / Loss Calculation](profit-loss-calculation.md)
 * [Margin Calculation](margin-calculation.md)
 * [Insurance Fund](insurance-fund.md)
