@@ -6,7 +6,7 @@ description: Where the world comes to trade
 
 ## What is Rabbit<mark style="color:red;">X</mark>?
 
-Rabbit<mark style="color:red;">X</mark> is a global permissionless perpetuals and derivatives exchange built for traders. Rabbit<mark style="color:red;">X</mark> is building the most secure and liquid global derivatives network, giving you 24/7 access to global markets anywhere in the world.
+RabbitX is a global permissionless perpetuals and derivatives exchange built for traders. Built with secure multichain aggregated liquidity, RabbitX offers the deepest liquidity for traders with a seamless user experience. Giving you 24/7 access to global crypto markets.
 
 Combining the most innovative ZK infrastructure with the most powerful risk engine, and beautiful user interface. With Rabbit<mark style="color:red;">X</mark>, you can trade 24/7 markets with 20x leverage with the security of Ethereum. Our derivatives DEX is built using state-of-the-art, low-latency [ZK-STARK](https://starkware.co/stark/) technology atop Ethereum, providing blazing fast speed, peak security, and zero gas fees.&#x20;
 
