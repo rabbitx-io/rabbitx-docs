@@ -14,7 +14,7 @@ RBX token on [Coingecko](https://www.coingecko.com/en/coins/rabbitx).
 
 ### Eligibility
 
-LPs must have maker volumes greater than 2% of the total exchange maker volume and have a minimum of 90% uptime each month to be eligible to participate. LPs participating in the incentive program will not be eligible for any other rewards, including airdrops, trading rewards, etc. LPs accounts in the incentive program will not be counted toward referral rewards.
+LPs must have maker volumes greater than 0.5% of the total exchange maker volume and have a minimum of 90% uptime each month to be eligible to participate. LPs participating in the incentive program will not be eligible for any other rewards, including airdrops, trading rewards, etc. LPs accounts in the incentive program will not be counted toward referral rewards.
 
 ### Motivation
 
