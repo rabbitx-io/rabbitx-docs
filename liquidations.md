@@ -1,6 +1,6 @@
 # Liquidations
 
-The Rabbit<mark style="color:red;">X</mark> risk-management engine is based on rigorous research and testing to ensure fair and orderly liquidations. The Rabbit<mark style="color:red;">X</mark> cutting-edge risk model is built to protect both our traders and the exchange.&#x20;
+The RabbitX risk-management engine is based on rigorous research and testing to ensure fair and orderly liquidations. The RabbitX cutting-edge risk model is built to protect both our traders and the exchange.&#x20;
 
 ### Margin Requirements
 
@@ -8,7 +8,7 @@ The Rabbit<mark style="color:red;">X</mark> risk-management engine is based on r
 
 ### Liquidation Waterfalls
 
-Rabbit<mark style="color:red;">X</mark> utilizes a 3-step waterfall structure to process liquidations.&#x20;
+RabbitX utilizes a 3-step waterfall structure to process liquidations.&#x20;
 
 #### Waterfall #1
 
@@ -16,11 +16,11 @@ When an account's equity falls below the maintenance margin requirement it will 
 
 #### Waterfall #2
 
-If an account's equity falls below the liquidation margin, the account will be fully liquidated at the zero-price. A portion of the remaining collateral (if any) will go to the Insurance Fund. If Rabbit<mark style="color:red;">X</mark> is unable to liquidate the position at a price better than the zero-price, the losses will be taken by the Insurance Fund.
+If an account's equity falls below the liquidation margin, the account will be fully liquidated at the zero-price. A portion of the remaining collateral (if any) will go to the Insurance Fund. If RabbitX is unable to liquidate the position at a price better than the zero-price, the losses will be taken by the Insurance Fund.
 
 #### Waterfall #3
 
-If Rabbit<mark style="color:red;">X</mark> Insurance Fund equity falls below zero, then opposing positions will be auto-deleveraged at the Insurance Fund zero-price. Auto-deleveraging is the final step taken only when the Insurance Fund equity falls below zero. Rabbit<mark style="color:red;">X</mark> takes every possible step to avoid auto-deleveraging and has implemented an algorithm to minimize the impact of auto-deleveraging when it does occur.&#x20;
+If RabbitX Insurance Fund equity falls below zero, then opposing positions will be auto-deleveraged at the Insurance Fund zero-price. Auto-deleveraging is the final step taken only when the Insurance Fund equity falls below zero. RabbitX takes every possible step to avoid auto-deleveraging and has implemented an algorithm to minimize the impact of auto-deleveraging when it does occur.&#x20;
 
 
 

@@ -16,11 +16,11 @@ Starknet is an open, decentralized, scaling solution for Ethereum. It enables an
 
 RBX token has been announced. The ERC20 contract address is `0x3Ba925fdeAe6B46d0BB4d424D829982Cb2F7309e` . Please read this twitter announcement for more details [https://twitter.com/rabbitx\_io/status/1651800369578790913](https://twitter.com/rabbitx\_io/status/1651800369578790913).
 
-### Where can I find the Rabbit<mark style="color:red;">X</mark> API?
+### Where can I find the RabbitX API?
 
 Trading APIs are available at [Broken link](broken-reference "mention")
 
-### How did you come up with the name Rabbit<mark style="color:red;">X</mark>
+### How did you come up with the name RabbitX
 
 RabbitX is fun and fast as hell. Also bunnies are adorable.
 

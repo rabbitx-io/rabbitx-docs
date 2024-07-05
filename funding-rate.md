@@ -1,6 +1,6 @@
 # Funding Rate
 
-The Funding Rate is comprised of two parts: the **Interest Rate** and the **Premium Basis** . The funding rate aims to keep the traded price of the perpetual contract in line with the underlying reference price. The contract mimics how margin-trading markets work as buyers and sellers of the contract exchange interest payments periodically. Rabbit<mark style="color:red;">X</mark> does not charge any fees on funding.&#x20;
+The Funding Rate is comprised of two parts: the **Interest Rate** and the **Premium Basis** . The funding rate aims to keep the traded price of the perpetual contract in line with the underlying reference price. The contract mimics how margin-trading markets work as buyers and sellers of the contract exchange interest payments periodically. RabbitX does not charge any fees on funding.&#x20;
 
 ### Calculation
 

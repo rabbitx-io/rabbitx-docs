@@ -6,7 +6,7 @@ Deposits on RabbitX are done on Ethereum layer 1. RabbitX then uses Starknet for
 
 So even though you're depositing on Ethereum, you're still using Starknet layer 2.
 
-Note: Rabbit<mark style="color:red;">X</mark> only accepts **ERC-20 USDT on Ethereum** as deposits. Sending any other coins will result in irretrievable lost coins.
+Note: RabbitX only accepts **ERC-20 USDT on Ethereum** as deposits. Sending any other coins will result in irretrievable lost coins.
 
 <figure><img src=".gitbook/assets/image (12).png" alt="Connect your wallet"><figcaption><p>Step 1. Connect your wallet</p></figcaption></figure>
 

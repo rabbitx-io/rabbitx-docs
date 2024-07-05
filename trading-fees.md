@@ -1,6 +1,6 @@
 # Trading Fees
 
-Rabbit<mark style="color:red;">X</mark> offers the most competitive trading fees.
+RabbitX offers the most competitive trading fees.
 
 * **Maker** orders are orders that do not immediately fill and rest on the order book — these orders add depth and liquidity to the order book.
 * **Taker** orders, on the other hand, immediately cross existing Maker orders. They remove liquidity from the order book.

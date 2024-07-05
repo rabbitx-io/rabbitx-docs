@@ -1,10 +1,10 @@
 # Index Price
 
-Rabbit<mark style="color:red;">X</mark> uses an index price to calculate the hourly funding rate. The index price aims to track the underlying spot market price. For example, the Bitcoin index price tracks the price of spot Bitcoin on multiple spot exchanges.
+RabbitX uses an index price to calculate the hourly funding rate. The index price aims to track the underlying spot market price. For example, the Bitcoin index price tracks the price of spot Bitcoin on multiple spot exchanges.
 
 ### Index Calculation Methodology
 
-Rabbit<mark style="color:red;">X</mark> index price is calculated as a median of the market prices of multiple constituent exchange. Constituent exchange candidates include both centralized and decentralized exchanges.
+RabbitX index price is calculated as a median of the market prices of multiple constituent exchange. Constituent exchange candidates include both centralized and decentralized exchanges.
 
 #### Index price protection mechanism
 
@@ -27,5 +27,5 @@ Our fair price uses a robust methodology in order to protect traders against unf
 
 _Note:_
 
-_Rabbit<mark style="color:red;">X</mark> uses a proprietary protection mechanism to prevent and discard malformed, anomalous, or inaccurate data. For the avoidance of doubt, and in accordance with the Rabbit<mark style="color:red;">X</mark> Terms of Service, Rabbit<mark style="color:red;">X</mark> accepts no responsibility for the accuracy of the data received from any exchange, and carries no liability whatsoever for any claimed losses arising in connection with its calculation and publication of such index._&#x20;
+_RabbitX uses a proprietary protection mechanism to prevent and discard malformed, anomalous, or inaccurate data. For the avoidance of doubt, and in accordance with theRabbitX Terms of Service, RabbitX accepts no responsibility for the accuracy of the data received from any exchange, and carries no liability whatsoever for any claimed losses arising in connection with its calculation and publication of such index._&#x20;
 
