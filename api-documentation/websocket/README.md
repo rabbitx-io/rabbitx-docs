@@ -17,7 +17,7 @@ Testnet websocket endpoint: `wss://api.testnet.rabbitx.io/ws`
 
 Mainnet websocket endpoint: `wss://api.prod.rabbitx.io/ws`
 
-Rabbit<mark style="color:red;">X</mark> offers a complete pub/sub API with table diffing over WebSocket. You may subscribe to real-time changes on any available channel. All channels require [authentication](./#authentication).
+RabbitX offers a complete pub/sub API with table diffing over WebSocket. You may subscribe to real-time changes on any available channel. All channels require [authentication](./#authentication).
 
 Websocket packets may contain multiple messages separated `\n` . It is recommended to split the message string before parsing the json.
 
