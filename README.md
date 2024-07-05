@@ -26,11 +26,11 @@ In addition to our signature perpetual futures, RabbitX has plans for exotic cry
 
 ## Our Purpose
 
-Our purpose is to accelerate the development of a global, open and transparent financial system by providing fair and open access to markets. Our vision is to use technology to create the most robust, secure and liquid global derivatives network.
+We're here to build the best exchange. Period.
 
-Today's financial infrastructure is archaic, expensive and inefficient. RabbitX is building a better way of trading global derivatives by offering price transparency, instant settlements, and automated clearing, secured by the best blockchain technology.&#x20;
+Today's financial infrastructure is archaic, expensive and inefficient. RabbitX is building a better way of trading global markets by offering a trusted platform, instant speed, multichain liquidity, powered by the best technology.&#x20;
 
-Tell your friends, and spread the word. It's time to go down the rabbit hole.
+Spread the word. Tell your friends. It's time for the best trading experience.
 
 ## Our History
 
