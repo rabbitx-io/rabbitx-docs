@@ -14,7 +14,7 @@ Here's how Chart Trader can transform your trading experience:
 
 <figure><img src=".gitbook/assets/2023-05-17 00-17-30.gif" alt="" width="563"><figcaption></figcaption></figure>
 
-3. Cancel Orders Instantly: No more hassle or time wasted on canceling orders. Chart Trader lets you cancel orders directly from the chart, making it quick and effortless to manage your trading activity. 🚫❌
+3. Cancel Orders Instantly: No more hassle or time wasted on canceling orders. Chart Trader lets you cancel orders directly from the chart, making it quick and effortless to manage your trading activity.&#x20;
 
 <figure><img src=".gitbook/assets/Untitled (1) (1).png" alt="" width="309"><figcaption></figcaption></figure>
 
