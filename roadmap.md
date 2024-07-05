@@ -4,9 +4,9 @@ description: Global premier Starknet perpetuals exchange
 
 # Roadmap
 
-The Rabbit<mark style="color:red;">X</mark> vision is to build the most secure and liquid global derivatives market network. Leveraging the best security and technology with the power of zero-knowledge rollups. Rabbit<mark style="color:red;">X</mark> brings high-performance trading to traders' fingertips without any middlemen.
+The RabbitX vision is to build the most secure and liquid global derivatives market network. Leveraging the best security and technology with the power of zero-knowledge rollups. RabbitX brings high-performance trading to traders' fingertips without any middlemen.
 
-Rabbit<mark style="color:red;">X</mark> is rebuilding a better financial system by offering price transparency, instant settlements and automated clearing for derivatives trading. Rabbit<mark style="color:red;">X</mark> is where the world comes to trade.
+RabbitX is rebuilding a better financial system by offering price transparency, instant settlements and automated clearing for derivatives trading. RabbitX is where the world comes to trade.
 
 
 
