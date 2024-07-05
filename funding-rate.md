@@ -36,4 +36,4 @@ Funding rate is scaled to realise the premium basis over a period of 8 hours. Th
 
 #### Funding rate caps
 
-Rabbit<mark style="color:red;">X</mark> imposes a funding rate cap to prevent market manipulations. The absolute funding rate is capped at 0.25% per hour.
+RabbitX imposes a funding rate cap to prevent market manipulations. The absolute funding rate is capped at 0.25% per hour.
