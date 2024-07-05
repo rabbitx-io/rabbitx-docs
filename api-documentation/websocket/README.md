@@ -7,6 +7,7 @@ RabbitX uses centrifuge scalable real-time websocket for publishing messages. We
 ### List of centrifuge websocket client SDKs[​](https://centrifugal.dev/docs/transports/client\_sdk#list-of-client-sdks) <a href="#list-of-client-sdks" id="list-of-client-sdks"></a>
 
 * [centrifuge-js](https://github.com/centrifugal/centrifuge-js) – for browser, NodeJS and React Native
+* [centrifuge-python](https://github.com/centrifugal/centrifuge-python) - for Python
 * [centrifuge-go](https://github.com/centrifugal/centrifuge-go) - for Go language
 * [centrifuge-dart](https://github.com/centrifugal/centrifuge-dart) - for Dart and Flutter
 * [centrifuge-swift](https://github.com/centrifugal/centrifuge-swift) – for native iOS development
