@@ -33,5 +33,5 @@ Refer to our [Index Price](index-price.md) section for more details.&#x20;
 _Notes:_\
 _1. While RabbitX aims to reduce the likelihood of auto-deleveraging to a minimum, it is still possible._\
 _2. Estimated liquidation price is only an estimate. When an account gets liquidated will depend on multiple factors including the fair price, performance of all contracts, the currency your collateral is in, among other factors._\
-_3. US residents are restricted from using Rabbit<mark style="color:red;">X</mark>._\
+_3. US residents are restricted from using RabbitX._\
 _4. None of this is investment advice._\
