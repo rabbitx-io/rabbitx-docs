@@ -2,14 +2,14 @@
 
 ### General Information
 
-RabbitX uses centrifuge scalable real-time websocket for publishing messages. We recommend using one of the client SDKs available on the official centrifuge [page](https://centrifugal.dev/docs/transports/client\_sdk).&#x20;
+RabbitX uses a centrifuge scalable real-time websocket for publishing messages. We recommend using one of the client SDKs available on the official centrifuge [page](https://centrifugal.dev/docs/transports/client\_sdk).&#x20;
 
 ### List of centrifuge websocket client SDKs[​](https://centrifugal.dev/docs/transports/client\_sdk#list-of-client-sdks) <a href="#list-of-client-sdks" id="list-of-client-sdks"></a>
 
 * [centrifuge-js](https://github.com/centrifugal/centrifuge-js) – for browser, NodeJS and React Native
-* [centrifuge-python](https://github.com/centrifugal/centrifuge-python) - for Python
-* [centrifuge-go](https://github.com/centrifugal/centrifuge-go) - for Go language
-* [centrifuge-dart](https://github.com/centrifugal/centrifuge-dart) - for Dart and Flutter
+* [centrifuge-python](https://github.com/centrifugal/centrifuge-python) – for Python
+* [centrifuge-go](https://github.com/centrifugal/centrifuge-go) – for Go language
+* [centrifuge-dart](https://github.com/centrifugal/centrifuge-dart) – for Dart and Flutter
 * [centrifuge-swift](https://github.com/centrifugal/centrifuge-swift) – for native iOS development
 * [centrifuge-java](https://github.com/centrifugal/centrifuge-java) – for native Android development and general Java
 
@@ -19,7 +19,7 @@ Mainnet websocket endpoint: `wss://api.prod.rabbitx.io/ws`
 
 RabbitX offers a complete pub/sub API with table diffing over WebSocket. You may subscribe to real-time changes on any available channel. All channels require [authentication](./#authentication).
 
-Websocket packets may contain multiple messages separated `\n` . It is recommended to split the message string before parsing the json.
+Websocket packets may contain multiple messages separated with `\n`. It is recommended to split the message string before parsing the json.
 
 ```
 def on_message(self, ws: WebSocketApp, message: str):
@@ -35,7 +35,7 @@ def on_message(self, ws: WebSocketApp, message: str):
 
 ### Authentication
 
-Before subscribing to channels, you must first authenticate using JWT token received through onboarding. You only need to authenticate once at the beginning. To authenticate, send the following message:
+Before subscribing to channels, you must first authenticate using the JWT token received through onboarding. You only need to authenticate once at the beginning. To authenticate, send the following message:
 
 ```
 data = {'connect': {'token':"<jwt token>", name='js'}, 'id'=1}
@@ -49,7 +49,7 @@ Once onboarded, to subscribe to a channel, send
 {"subscribe": {'channel':"<channel name>", 'name':"js"}, 'id': "<internal counter>"}
 ```
 
-Note: Jwt tokens expire in 48hrs. If your jwt token is expired, you will need to update it. If your jwt token is expired, the connection will be disconnected and you will need to resubscribe with a new token.
+Note: Jwt tokens expire in 48hrs. If your JWT token is expired, you will need to update it. If your JWT token is expired, the connection will be disconnected and you will need to resubscribe with a new token.
 
 ### Initial snapshot
 
@@ -110,7 +110,7 @@ def on_open(self, ws: WebSocketApp):
 Websocket connections go through the following lifecycle:
 
 * Establish a websocket connection with `wss://api.testnet.rabbitx.io/ws/`
-* Authenticate with jwt token
+* Authenticate with JWT token
 * Subscribe to a channel with `{"subscribe": {'channel':"trade:BTC-USD", 'name':"js"}, 'id': "<counter increment>"}`
 * Receive data from channels
 * Handle pings at regular intervals: send an empty frame to the server`{}` when you get an empty message from the exchange.

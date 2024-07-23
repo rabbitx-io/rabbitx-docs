@@ -4,7 +4,7 @@
 
 For onboarding with private keys, we suggest using AWS KMS service or Secrets Manager.&#x20;
 
-The Secrets Manager is a service that helps protect access to your applications, services, and IT resources. This protection does not require upfront investment or on-going maintenance costs. Unlike AWS KMS, Secrets Manager is designed to protect text blobs.
+The Secrets Manager is a service that helps protect access to your applications, services, and IT resources. This protection does not require an upfront investment or on-going maintenance costs. Unlike AWS KMS, Secrets Manager is designed to protect text blobs.
 
 To learn more about AWS KMS or Secrets Manager, refer to the official AWS documentation.
 

@@ -2,7 +2,7 @@
 
 ### Get account order status
 
-Get your account orders
+Get your account orders.
 
 ```
 GET /orders
@@ -62,13 +62,13 @@ Example response
 }
 ```
 
-tip: orders are indexed by timestamp, if start\_time is not specified, the response will take longer as it will parse through your full order history. Queries with start\_time parameter could be up to 10x faster than queries without start\_time.
+Tip: Orders are indexed by timestamp; if start\_time is not specified, the response will take longer as it will parse through your full order history. Queries with start\_time parameter could be up to 10x faster than queries without start\_time.
 
 ### Place orders
 
 #### Limit and market orders
 
-Submitted orders will immediately return a response that the order is in "processing" state and will include an order ID. To verify the status of the order is "confirmed", we recommend subscribing to the accounts websocket channel. Alternatively, check the order status by the order ID.
+Submitted orders will immediately return a response saying that the order is in 'processing' status and will include an order ID. To verify the status of the order is 'confirmed', we recommend subscribing to the accounts websocket channel. Alternatively, check the order status by order ID.
 
 ```
 POST /orders

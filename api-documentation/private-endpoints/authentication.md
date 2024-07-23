@@ -4,13 +4,13 @@
 
 #### HTTP Headers
 
-Authentication of requests is done by sending the following HTTP headers:
+The authentication of requests is done by sending the following HTTP headers:
 
-`RBT-SIGNATURE` : Signature of the request generated with your secret key. It is calculated as hex(HMAC\_SHA256(secret, payload)). Example given below.
+`RBT-SIGNATURE`: Signature of the request generated with your secret key. It is calculated as hex(HMAC\_SHA256(secret, payload)). Example given below.
 
-`RBT-API-KEY` : Your API key.
+`RBT-API-KEY`: Your API key.
 
-`RBT-TS` : A UNIX (in seconds) timestamp after which the request is no longer valid. This is to prevent replay attacks. Only accepts integers.
+`RBT-TS`: A UNIX (in seconds) timestamp after which the request is no longer valid. This is to prevent replay attacks. Only accepts integers.
 
 _`Note: UNIX timestamps are in seconds. For example, 2018-02-08T04:30:37Z is 1518064237.`_
 
@@ -137,10 +137,10 @@ order_resp = client.orders.create('BTC-USD', 19000, OrderSide.LONG, 1, OrderType
 
 Your wallet private key is used to onboard and retrieve a set of API key and secrets.&#x20;
 
-First call the `/onboarding` endpoint such as in the example below. Save the response api key and secret to be used for signing private endpoint requests.
+First call the `/onboarding` endpoint such as in the example below. Save the response API key and secret to be used for signing private endpoint requests.
 
 {% hint style="info" %}
-expires must be less than or equal to 600 secs.
+expires must be less than or equal to 600 seconds.
 {% endhint %}
 
 ```python

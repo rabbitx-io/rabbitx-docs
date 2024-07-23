@@ -10,7 +10,7 @@ The exchange will cancel all orders on all markets for your account if it has ye
 GET /cancel_all_after
 ```
 
-GET /cancel\_all\_after response: profile\_id timeout - in milliseconds last\_updated - time in milliseconds when we saw requests from you status - the current status: "active" - means that we see requests "canceled" - means that there were not requests during timeout and orders were canceled. Will be automatically reactivated once see any request.
+GET /cancel\_all\_after response: profile\_id timeout - in milliseconds last\_updated - time in milliseconds when we saw requests from you status - the current status: "active" means that we see requests, "canceled" means that there were no requests during timeout and orders were cancelled. It will be automatically reactivated once any request is seen.
 
 ```
 POST /cancel_all_after
@@ -49,11 +49,11 @@ DELETE /cancel_all_after
 
 DELETE /cancel\_all\_after Response: (the deleted info) profile\_id timeout last\_updated status
 
-Example: You want to activate deadman switch to cancel all your orders if there is no activity for 6 seconds.
+Example: You want to activate the deadman switch to cancel all your orders if there is no activity for 6 seconds.
 
-Step 1: activate the deadman switch after POST /cancel\_all\_after with period = 600
+Step 1: Activate the the deadman switch after POST /cancel\_all\_after with period = 600
 
-Step 2: start sending any request from the list:
+Step 2: Start sending any request from the list:
 
 1. POST /orders
 2. PUT /orders
@@ -61,6 +61,6 @@ Step 2: start sending any request from the list:
 4. DELETE /orders/cancel\_all
 5. POST /cancel\_all\_after
 
-Step 3: The system will check if during period of 600 milliseconds, not any of 1-5 requests received, it will cancel all orders on all markets
+Step 3: The system will check if, during a period of 600 milliseconds, not any of 1-5 requests received, it will cancel all orders on all markets
 
-Step 4: To deactivate the deadman switch send DELETE /cancel\_all\_after
+Step 4: To deactivate the deadman switch, send DELETE /cancel\_all\_after

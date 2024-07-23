@@ -54,7 +54,7 @@ Example response:
 }
 ```
 
-tip: fills are indexed by timestamp, if start\_time is not specified, the response will take longer as it will parse through your full order history. Queries with start\_time parameter could be up to 10x faster than queries without start\_time.
+Tip: Fills are indexed by timestamp; if start\_time is not specified, the response will take longer as it will parse through your full order history. Queries with start\_time parameter could be up to 10x faster than queries without start\_time.
 
 ### Get fills by order id
 

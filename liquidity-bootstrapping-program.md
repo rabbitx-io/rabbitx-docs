@@ -4,7 +4,7 @@
 
 To attract more liquidity to RabbitX, the Liquidity Incentive Program is a scheme that offers incentives to liquidity providers who provide deep, two-sided markets.
 
-The RabbitX Liquidity Incentive Program has been carefully designed to maximize the liquidity of the exchange and reward liquidity providers that supply effective liquidity.
+The RabbitX Liquidity Incentive Program has been carefully designed to maximise the liquidity of the exchange and reward liquidity providers that supply effective liquidity.
 
 The incentive program will provide 7.5% of the initial token supply of RabbitX tokens (75,000,000 RBX) to be distributed to Liquidity Providers (LP) over two years based on metrics measuring the LP's spread, depth and uptime. The program is currently open; apply through the link below.
 
@@ -14,11 +14,11 @@ RBX token on [Coingecko](https://www.coingecko.com/en/coins/rabbitx).
 
 ### Eligibility
 
-LPs must have maker volumes greater than 0.5% of the total exchange maker volume and have a minimum of 90% uptime each month to be eligible to participate. LPs participating in the incentive program will not be eligible for any other rewards, including airdrops, trading rewards, etc. LPs accounts in the incentive program will not be counted toward referral rewards.
+LPs must have maker volumes greater than 0.5% of the total exchange maker volume and have a minimum of 90% uptime each month to be eligible to participate. LPs participating in the incentive program will not be eligible for any other rewards, including airdrops, trading rewards, etc. LPs accounts in the incentive program will not be counted towards referral rewards.
 
 ### Motivation
 
-Liquidity on RabbitX is crucial for several reasons. Firstly, liquidity makes it easier for traders to execute trades quickly, efficiently, and at a fair price. This is because there is less slippage, which occurs when there is not enough liquidity in the market, causing orders to be filled at a different price than intended. In a highly liquid market, orders can be executed at or close to the current market price, which benefits traders by minimizing costs and maximizing profits.
+Liquidity on RabbitX is crucial for several reasons. Firstly, liquidity makes it easier for traders to execute trades quickly, efficiently, and at a fair price. This is because there is less slippage, which occurs when there is not enough liquidity in the market, causing orders to be filled at a different price than intended. In a highly liquid market, orders can be executed at or close to the current market price, which benefits traders by minimising costs and maximising profits.
 
 Secondly, high levels of liquidity attract more traders to the exchange, which in turn attracts more liquidity and creates a virtuous cycle. This creates a network effect where traders are more likely to trade on a platform with high liquidity as it offers better trading opportunities and more choices in terms of trading pairs.
 
@@ -48,12 +48,12 @@ $$
 
 **Calculation methodology**
 
-The following methodology calculates how much token rewards each liquidity provider receives per monthly epoch. Liquidity providers earn token rewards proportionate to their relative share of $$Q_{FINAL}$$.
+The following methodology calculates how much token reward each liquidity provider receives per monthly epoch. Liquidity providers earn token rewards proportionate to their relative share of $$Q_{FINAL}$$.
 
 Orders below a certain minimum depth (MinDepth) per market are excluded, and orders over a certain maximum spread (mid-market spread) (MaxSpread) are also excluded. Snapshots are taken every minute using random sampling.
 
 {% hint style="info" %}
-_note: starting 1 October 2023, Spread will be clamped to 0.005% or 0.00005._ \
+_Note: starting 1 October 2023, Spread will be clamped to 0.005% or 0.00005._ \
 _Spread = max(0.00005, Spread)_
 {% endhint %}
 
@@ -63,7 +63,7 @@ Calculation steps:
 
 for each order where BidDepth > MinDepth and with Spread < MaxSpread(Mid-Market)
 
-For example, Assume a liquidity provider has multiple open bid orders (1 BTC at $29,995, 5 BTC at $29960, 10 BTC at $29,500) on the BTC-USD order book and BTC is currently at $30,000 (based on mid price). Assume MinDepth is $5000, MaxSpread vs. mid-market is $60, or 20 Basis Points ($60/30000). A basis point is 0.01% = 0.0001.
+For example, Assume a liquidity provider has multiple open bid orders (1 BTC at $29,995, 5 BTC at $29960, 10 BTC at $29,500) on the BTC-USD order book, and BTC is currently at $30,000 (based on mid price). Assume MinDepth is $5000, MaxSpread vs. mid-market is $60, or 20 Basis Points ($60/30000). A basis point is 0.01% = 0.0001.
 
 The second order, 10 BTC at $29,500, is not qualified, as the order spread exceeds the max spread.
 
@@ -74,7 +74,7 @@ $$Q_{BID} = 1*29995/(5/30000)^{1.5} + 5*29960/(40/30000)^{1.5}$$
 for each order where AskDepth > MinDepth and with Spread < MaxSpread(Mid-Market)
 
 3. Q\_BID and Q\_ASK are calculated every minute at random intervals.
-4. Encourage 2-sided liquidity by taking the minimum of Q\_bid and Q\_ask (that means if the market maker only provides liquidity of one side, they will get 0 by missing the other side)
+4. Encourage 2-sided liquidity by taking the minimum of Q\_bid and Q\_ask (that means if the market maker only provides liquidity on one side, they will get 0 by missing the other side).
 
 $$Q_{MIN}= min(Q_{BID},Q_{ASK})$$
 
@@ -92,8 +92,8 @@ $$UptimeScore=1/(1.1-Uptime_{EPOCH})$$
 <figure><img src=".gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 9. Rewards and uptimes are calculated per market. Each market has a % allocation of total rewards per month.&#x20;
-10. MakerVolume is the total volume that the liquidity provider traded from the maker side
-11. Q\_Final normalizes Q\_epoch to account for uptime and also maker volume
+10. MakerVolume is the total volume that the liquidity provider traded from the maker side.
+11. Q\_Final normalises Q\_epoch to account for uptime and also maker volume
 
 $$Q_{FINAL} = Q_{EPOCH}^{0.65}*MakerVolume^{0.35}*UptimeScore$$
 
@@ -103,7 +103,7 @@ $$reward_{market}=\frac{Q_{FINAL}}{\sum{Q_{FINAL}}}$$
 
 _If a new market is added during the month, the rewards for that market will be distributed pro-rata according to the time remaining in the month._
 
-Parameters of the market maker requirements may change each month based on market makers feedback on the current market conditions.
+Parameters of the market maker's requirements may change each month based on market makers feedback on the current market conditions.
 
 
 
@@ -111,7 +111,7 @@ Parameters of the market maker requirements may change each month based on marke
 
 #### Who is eligible to participate?
 
-Anyone who meets the minimum requirements are eligible to participate in this program. Drop us a message in discord, or apply through the link at the top of this page.
+Anyone who meets the minimum requirements is eligible to participate in this program. Drop us a message in Discord, or apply through the link at the top of this page.
 
 #### **What are the maximum acceptable spreads per market?**
 
@@ -129,7 +129,7 @@ Anyone who meets the minimum requirements are eligible to participate in this pr
 | ETH/USD                 | $50,000   |
 | Other perpetual markets | $25,000   |
 
-#### What are the token rewards allocation per market?
+#### What is the token reward allocation per market?
 
 Rewards allocation per market may change given a 7-day notice. New coin listing rewards are pro-rated based on time.&#x20;
 
@@ -194,7 +194,7 @@ The token rewards earned during each epoch will be subject to a vesting period o
 
 #### Rewards Emission
 
-A total of 7.5% of token supply will be distributed to liquidity providers. 0.18% of token supply will be allocated to early liquidity providers during March and April for supporting our initial launch. Monthly rewards will increase to 4,411,765 RBX tokens for the first 15 months and slowly decrease over time. Emission schedules may change given a 30-day notice. Any changes in the schedule will be communicated well in advance.
+A total of 7.5% of the token supply will be distributed to liquidity providers. 0.18% of token supply will be allocated to early liquidity providers during March and April for supporting our initial launch. Monthly rewards will increase to 4,411,765 RBX tokens for the first 15 months and slowly decrease over time. Emission schedules may change with a 30-day notice. Any changes in the schedule will be communicated well in advance.
 
 <figure><img src=".gitbook/assets/image (2) (3) (1).png" alt=""><figcaption></figcaption></figure>
 

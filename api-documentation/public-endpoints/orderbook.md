@@ -32,10 +32,10 @@ Response
 ### Guide to managing a local orderbook
 
 1. Open a stream to **wss://api.prod.rabbitx.io/ws**
-2. You will receive an orderbook snapshot on initial subscribe
-3. Subsequent websocket events from the orderbook channel will give orderbook updates
-4. Use the sequence number to keep track&#x20;
+2. You will receive an orderbook snapshot upon initial subscribe.
+3. Subsequent websocket events from the orderbook channel will give orderbook updates.
+4. Use the sequence number to keep track.
 5. If a sequence number is skipped, get a depth snapshot from **https://api.prod.rabbitx.io/markets/orderbook**
-6. Drop any event where sequence is <= sequence in the snapshot
-7. The data in each event is the **absolute** quantity for a price level
-8. If the quantity is 0, **remove** the price level
+6. Drop any event where sequence is <= sequence in the snapshot.
+7. The data in each event is the **absolute** quantity for a price level.
+8. If the quantity is 0, **remove** the price level.

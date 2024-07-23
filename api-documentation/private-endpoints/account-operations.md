@@ -2,13 +2,13 @@
 
 Available account operations:
 
-1. Get account information
-2. Set leverage
-3. Update JWT token
+1. Get account information.
+2. Set leverage.
+3. Update JWT token.
 
 ### Get account information
 
-Get your account information
+Get your account information.
 
 ```
 GET /account
@@ -46,7 +46,7 @@ Example response
 
 ### Update leverage
 
-Update the leverage per market
+Update the leverage per market.
 
 ```
 PUT /account/leverage
