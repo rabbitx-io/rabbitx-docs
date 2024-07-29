@@ -1,5 +1,5 @@
 ---
-description: Where the world comes to trade
+description: 'RabbitX: Built For Traders'
 ---
 
 # 👋 Introduction
