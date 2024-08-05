@@ -2,15 +2,13 @@
 
 RabbitX offers “Deadman Switch” functionality to help prevent unexpected losses from network malfunctions. If you are putting up significant risk on RabbitX, it can be nerve-wracking to think of what might happen if you or your datacenter loses connectivity.
 
-The exchange will cancel all orders on all markets for your account if it has yet to receive any new/cancel/amend order requests for a period of time.
+Deadman switch automatically cancels all your orders after a certain period of time (minimum 1 ms) if you get disconnected from your. The deadman switch feature is set up such that if the client does not send any instructions/actions for orders for N seconds then the exchange will automatically cancel all open orders by the client immediately.
+
+{% hint style="info" %}
+After activating the deadman switch, the exchange will cancel all orders for your account if it has yet to receive any **actions including new/cancel/amend order requests** for a period of time.
+{% endhint %}
 
 #### Activating Deadman Switch&#x20;
-
-```
-GET /cancel_all_after
-```
-
-GET /cancel\_all\_after response: profile\_id timeout - in milliseconds last\_updated - time in milliseconds when we saw requests from you status - the current status: "active" means that we see requests, "canceled" means that there were no requests during timeout and orders were cancelled. It will be automatically reactivated once any request is seen.
 
 ```
 POST /cancel_all_after
@@ -39,9 +37,13 @@ Example response
 }
 ```
 
-
-
 Response: profile\_id timeout last\_updated status
+
+```
+GET /cancel_all_after
+```
+
+GET /cancel\_all\_after response: profile\_id timeout - in milliseconds last\_updated - time in milliseconds when we saw requests from you status - the current status: "active" means that we see requests, "canceled" means that there were no requests during timeout and orders were cancelled. It will be automatically reactivated once any request is seen.
 
 ```
 DELETE /cancel_all_after
