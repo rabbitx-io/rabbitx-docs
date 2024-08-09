@@ -9,6 +9,7 @@
 * [Funding Rate](funding-rate.md)
 * [Deposit / Withdrawal](deposit-withdrawal.md)
 * [Fiat Deposits](fiat-deposits.md)
+* [Binance Direct Deposit](binance-direct-deposit.md)
 * [Trading Fees](trading-fees.md)
 * [RabbitX OTC Service](rabbitx-otc-service.md)
 * [RabbitX Fusion AMM](rabbitx-fusion-amm.md)
