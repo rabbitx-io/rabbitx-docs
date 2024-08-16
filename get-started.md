@@ -58,17 +58,6 @@
 
 **A:** Deposits and withdrawals on RabbitX are done on Ethereum layer 1. RabbitX then uses Starknet for settlement services to handle your deposits and withdrawals. Using our L1-to-L2 link, we conveniently take care of all the backend processes for you. This is why you can use an EVM wallet with us and don’t have to use a Cairo-specific wallet.&#x20;
 
-**Q:** Why do withdrawals take so long?
-
-Withdrawals may take up to 12 hours, the length of time for a new batch of transactions to be confirmed from Starknet to Ethereum. Please note the process for withdrawals, in order of occurrence:
-
-* The withdrawn amount will be immediately deducted from your wallet balance on RabbitX.
-* You will see the withdrawn amount initially displayed as 'Pending' in your 'Transfers' tab.
-* Once the withdrawal is accepted by Starknet, the status will change to 'Transferring'.
-* In 'Transferring' status, your withdrawal is now being processed by Starknet. Depending on Starknet’s block time, this process currently takes up to 12 hours, with an estimated time of 6-10 hours.
-* Once completed, the transfer status will change to 'Success' in your 'Transfers' tab.
-* You will be able to claim your requested withdrawal amount back to your wallet.
-
 **Q:** Why do my market orders sometimes not immediately fill?
 
 **A:** To protect traders from adverse price movements when executing a market order, if the execution price of a market order deviates beyond 5%, the exchange will automatically place the remaining unfilled portion of the order at 5% away from the fair price.

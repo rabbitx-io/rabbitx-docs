@@ -2,10 +2,6 @@
 
 ## Deposit
 
-Deposits on RabbitX are done on Ethereum layer 1. RabbitX then uses Starknet for our settlement service to handle your deposits and withdrawals. Using our L1 <> L2 link, we conveniently take care of all the backend processes for you.
-
-So even though you're depositing on Ethereum, you're still using Starknet Layer 2.
-
 Note: RabbitX only accepts **ERC-20 USDT on Ethereum** as deposits. Sending any other coins will result in irretrievable lost coins.
 
 <figure><img src=".gitbook/assets/image (12).png" alt="Connect your wallet"><figcaption><p>Step 1. Connect your wallet</p></figcaption></figure>

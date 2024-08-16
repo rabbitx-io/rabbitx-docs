@@ -57,6 +57,5 @@
 
 * [Twitter](https://twitter.com/rabbitx\_io)
 * [Discord](https://discord.com/invite/rabbitx)
-* [Try Testnet](https://testnet.rabbitx.io)
 * [Apply to become a market maker](mailto:mm@rabbitx.io?Subject=LP%20Application\&Body=Application%20to%20apply%20as%20a%20market%20maker%20for%20RabbitX.)
 * [Audit](https://github.com/strongholdsec/audits/blob/main/RabbitX/RabbitX-contracts/RabbitX%20Audit%20Report.pdf)
