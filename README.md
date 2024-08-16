@@ -65,8 +65,3 @@ No more gas fees. Our game-changing hybrid exchange enables real-time trading wi
 ### Risk Management :bar\_chart:
 
 RabbitX has one of the most powerful risk engines to protect traders and the exchange from insolvency.
-
-_Notes:_
-
-_1. US residents are restricted from using RabbitX._\
-_2. None of this is investment advice._

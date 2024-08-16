@@ -8,7 +8,7 @@ RabbitX Direct Deposit, powered by Mesh, allows users to deposit onto RabbitX fr
 \
 **Direct Deposits:**
 
-* Take ONE simple transaction.
+* Takes one transaction.
 * Are gas-free.
 * Have no maximum transfer limit.\
 
@@ -30,14 +30,15 @@ Click Exchanges in the RabbitX deposit UI, and select the exchange you would lik
 
 * Sign and approve the transaction
 * Complete CEX authentication steps
+* We do not charge any gas fees, any gas fees are charged by Binance
 
 <figure><img src=".gitbook/assets/image (46).png" alt="" width="262"><figcaption></figcaption></figure>
 
 **Step 4:**
 
-* Transaction usually take 1-2 minutes, and should not take more than 10 minutes!
+* Please wait 5-6 minutes for Binance to process the transaction
+* Once processed, the transfer will require 13 chain confirmations to be confirmed
 * Once the transaction is complete, you will be able to see it under the transfers section of your portfolio page on RabbitX
 
 <figure><img src=".gitbook/assets/Untitled (4).png" alt="" width="563"><figcaption></figcaption></figure>
 
-Important: Users never need to worry about losing money with the RabbitX fiat on-ramp. All transactions are tracked, and if there is any issue, RabbitX will ensure your funds are credited.
