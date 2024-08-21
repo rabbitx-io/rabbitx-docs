@@ -8,7 +8,11 @@ Here's how Chart Trader can transform your trading experience:
 
 1. Visualise and Strategise: With Chart Trader, you can effortlessly visualise where to place your orders on the chart. By simply right-clicking on the chart, you can now initiate trades with precision and confidence. 🎯
 
-<figure><img src=".gitbook/assets/Untitled (5).png" alt="" width="364"><figcaption></figcaption></figure>
+<div align="left">
+
+<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 2. Amend Orders with Ease: Experience the freedom to adapt to market changes swiftly. Chart Trader allows you to easily amend your buy and sell orders by dragging and dropping them on the chart. Seamlessly adjust your positions to align with your evolving trading strategies. ⚙️💼
 

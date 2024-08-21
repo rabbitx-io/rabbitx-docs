@@ -4,9 +4,13 @@
 
 Note: RabbitX only accepts **ERC-20 USDT on Ethereum** as deposits. Sending any other coins will result in irretrievable lost coins.
 
-<figure><img src=".gitbook/assets/image (12).png" alt="Connect your wallet"><figcaption><p>Step 1. Connect your wallet</p></figcaption></figure>
+<div align="left">
 
-![](<.gitbook/assets/image (10).png>)
+<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption><p>Step 1. Connect your wallet</p></figcaption></figure>
+
+</div>
+
+![](<.gitbook/assets/image (10) (2).png>)
 
 <figure><img src=".gitbook/assets/image (7) (2) (1) (1).png" alt=""><figcaption><p>Deposits and withdrawals are shown in 'Transfers'</p></figcaption></figure>
 
@@ -27,13 +31,9 @@ Please note the process for withdrawals:
 
 Withdrawals are a two-step process. In order to complete a withdrawal, users must claim their withdrawal from 'Transfers'.
 
-<div align="center">
+<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image.png" alt="" width="347"><figcaption></figcaption></figure>
-
-</div>
-
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Safety and security are the highest priorities for RabbitX. For security, we require more block time to process larger withdrawal transactions based on the withdrawal amounts below.
 
