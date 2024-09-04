@@ -137,7 +137,7 @@ Rewards allocation per market may change given a 7-day notice. New coin listing 
 | --------------- | ------------------ | -------------- |
 | BTC-USD         | 7.50%              | 0.20%          |
 | ETH-USD         | 7.50%              | 0.20%          |
-| SOL-USD         | 7.50%              | 0.50%          |
+| SOL-USD         | 7.50%              | 0.20%          |
 | DOGE-USD        | 1.46%              | 0.50%          |
 | BCH-USD         | 1.46%              | 0.50%          |
 | XRP-USD         | 1.46%              | 0.50%          |
