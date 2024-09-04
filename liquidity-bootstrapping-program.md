@@ -135,16 +135,16 @@ Rewards allocation per market may change given a 7-day notice. New coin listing 
 
 | Market          | Rewards Allocation | Min Spread Req |
 | --------------- | ------------------ | -------------- |
-| BTC-USD         | 9.50%              | 0.20%          |
-| ETH-USD         | 9.50%              | 0.20%          |
-| SOL-USD         | 9.50%              | 0.50%          |
-| DOGE-USD        | 2.30%              | 0.50%          |
-| BCH-USD         | 2.30%              | 0.50%          |
-| XRP-USD         | 2.30%              | 0.50%          |
-| MKR-USD         | 2.30%              | 0.50%          |
-| AAVE-USD        | 2.30%              | 0.50%          |
-| LINK-USD        | 2.30%              | 0.50%          |
-| MATIC-USD       | 2.30%              | 0.50%          |
+| BTC-USD         | 7.50%              | 0.20%          |
+| ETH-USD         | 7.50%              | 0.20%          |
+| SOL-USD         | 7.50%              | 0.50%          |
+| DOGE-USD        | 1.46%              | 0.50%          |
+| BCH-USD         | 1.46%              | 0.50%          |
+| XRP-USD         | 1.46%              | 0.50%          |
+| MKR-USD         | 1.46%              | 0.50%          |
+| AAVE-USD        | 1.46%              | 0.50%          |
+| LINK-USD        | 1.46%              | 0.50%          |
+| MATIC-USD       | 1.46%              | 0.50%          |
 | LDO-USD         | 1.46%              | 0.50%          |
 | SUI-USD         | 1.46%              | 0.50%          |
 | PEPE1000-USD    | 1.46%              | 0.50%          |
@@ -183,6 +183,14 @@ Rewards allocation per market may change given a 7-day notice. New coin listing 
 | BONK-USD        | 1.46%              | 0.50%          |
 | TAIKO-USD       | 1.46%              | 0.50%          |
 | FLOKI-USD       | 1.46%              | 0.50%          |
+| BLAST-USD       | 1.46%              | 0.50%          |
+| AVAX-USD        | 1.46%              | 0.50%          |
+| PENDLE-USD      | 1.46%              | 0.50%          |
+| JUP-USD         | 1.46%              | 0.50%          |
+| FTM-USD         | 1.46%              | 0.50%          |
+| SUN-USD         | 1.46%              | 0.50%          |
+| POPCAT-USD      | 1.46%              | 0.50%          |
+| DOGS-USD        | 1.46%              | 0.50%          |
 
 #### What is the minimum uptime requirement?
 
