@@ -1,5 +1,5 @@
 ---
-description: The global premier Starknet perpetuals exchange
+description: The global permissionless perpetuals exchange
 ---
 
 # Roadmap
@@ -26,7 +26,7 @@ RabbitX is rebuilding a better financial system by offering price transparency, 
 ## Product Roadmap
 
 **Phase 1:**\
-\- Mainnet launch of Starknet's first hybrid perpetuals exchange
+\- Mainnet launch of hybrid perpetuals exchange
 
 **Phase 2:**\
 \- Staking\

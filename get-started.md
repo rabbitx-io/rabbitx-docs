@@ -74,9 +74,9 @@
 
 **A:** You do not need to pay gas for trading. However, you will need to pay gas for deposits and withdrawals.
 
-**Q:** Why am I interacting on an Ethereum if you’re on Starknet?
+**Q:** Why am I interacting on an Ethereum if you’re using ZK tech?
 
-**A:** Deposits and withdrawals on RabbitX are done on Ethereum layer 1. RabbitX then uses Starknet for settlement services to handle your deposits and withdrawals. Using our L1-to-L2 link, we conveniently take care of all the backend processes for you. This is why you can use an EVM wallet with us and don’t have to use a Cairo-specific wallet.&#x20;
+**A:** Deposits and withdrawals on RabbitX are done on Ethereum layer 1. RabbitX then uses ZK technology for settlement services to handle your deposits and withdrawals. Using our L1-to-L2 link, we conveniently take care of all the backend processes for you. This is why you can use an EVM wallet with us and don’t have to use a Cairo-specific wallet.&#x20;
 
 **Q:** Why do my market orders sometimes not immediately fill?
 

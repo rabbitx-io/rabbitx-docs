@@ -8,7 +8,7 @@ description: 'RabbitX: Built For Traders'
 
 RabbitX is a global permissionless perpetuals and derivatives exchange built for traders. Built with secure multichain aggregated liquidity, RabbitX offers the deepest liquidity for traders with a seamless user experience. Giving you 24/7 access to global crypto markets.
 
-Combining the most innovative ZK infrastructure with the most powerful risk engine, and a beautiful user interface. With RabbitX, you can trade 24/7 markets with 20x leverage and the security of Ethereum. Our derivatives DEX is built using state-of-the-art, low-latency [ZK-STARK](https://starkware.co/stark/) technology atop Ethereum, providing blazing fast speed, peak security, and zero gas fees.&#x20;
+Combining the most innovative ZK infrastructure with the most powerful risk engine, and a beautiful user interface. With RabbitX, you can trade 24/7 markets with 20x leverage and the security of Ethereum. Our derivatives DEX is built using state-of-the-art, low-latency [ZK](https://starkware.co/stark/) technology atop Ethereum, providing blazing fast speed, peak security, and zero gas fees.&#x20;
 
 RabbitX is rebuilding a better financial system by offering price transparency, instant settlements, and automated clearing for derivatives trading. RabbitX is where the world comes to trade.
 
@@ -48,11 +48,9 @@ You like to live life fast, we do too. That's why we're one of the fastest decen
 
 RabbitX is based on a unique hybrid orderbook composition. RabbitX combines the speed and efficiency of an off-chain orderbook with the security of on-chain settlements. We are able to achieve millisecond latency that is up to **50x faster** than any other onchain derivatives platform.&#x20;
 
-RabbitX is built on Starknet, the highly scalable blockchain based on ZK-rollup technology. Starknet operates as a layer-2 network over Ethereum, enabling any dApp to achieve unlimited scale of computation. On Starknet, it is cryptographically impossible to have fraudulent transactions (not the case with Optimistic Rollups), and the chain inherits the full security of Ethereum layer 1.
-
 ### Security 🔒
 
-RabbitX is built on the most secure network in crypto, Ethereum. If Ethereum is secure, we are secure. RabbitX transactions are settled on the layer-2 Starknet before being securely broadcasted on layer-1 Ethereum. This enables scaling without making any sacrifices to security. Read more about [Starknet](https://starkware.co/starknet/) and [ZK-STARK](https://starkware.co/stark/) technology.&#x20;
+RabbitX is built on the most secure network in crypto, Ethereum. If Ethereum is secure, we are secure. RabbitX transactions are settled on a layer-2 before being securely broadcasted on layer-1 Ethereum. This enables scaling without making any sacrifices to security. Read more about [ZK](https://starkware.co/stark/) technology.&#x20;
 
 ### No Front Running 🏃‍♂️
 
