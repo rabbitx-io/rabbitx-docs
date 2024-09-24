@@ -14,7 +14,7 @@ where
 
 \*Basis is capped at +/- 2% of the index price unless specified otherwise.
 
-\*Funding rate is capped at 0.25% per hour unless specified otherwise.
+\*Funding rate is capped at 0.1% per hour unless specified otherwise.
 
 ### Interest Rate Component
 
@@ -36,4 +36,4 @@ The funding rate is scaled to realise the premium basis over a period of 8 hours
 
 #### Funding rate caps
 
-RabbitX imposes a funding rate cap to prevent market manipulation. The absolute funding rate is capped at 0.25% per hour.
+RabbitX imposes a funding rate cap to prevent market manipulation. The absolute funding rate is capped at 0.1% per hour.
