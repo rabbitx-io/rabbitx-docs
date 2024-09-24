@@ -8,10 +8,6 @@ description: Frequently Asked Questions
 
 ZK Rollups refers to zero-knowledge rollups, a concept conceived of in 1985 and now the premiere and best means of scaling Ethereum. ZK rollups are a hybrid scaling solution on the Ethereum mainnet that increases throughput and lowers transaction costs. **ZK-rollups** bundle (or 'roll up') transactions into batches that are executed offchain. Offchain computation reduces the amount of data that has to be posted to the blockchain. ZK-rollup operators submit a summary of the changes required to represent all the transactions in a batch rather than sending each transaction individually.&#x20;
 
-### What is Starknet?
-
-Starknet is an open, decentralsed, scaling solution for Ethereum. It enables any decentralised application to achieve unlimited scale without compromising on security, composability, speed and integrity.&#x20;
-
 ### Wen token?
 
 RBX token has been announced. The ERC20 contract address is `0x3Ba925fdeAe6B46d0BB4d424D829982Cb2F7309e` . Please read this twitter announcement for more details [https://twitter.com/rabbitx\_io/status/1651800369578790913](https://twitter.com/rabbitx\_io/status/1651800369578790913).
