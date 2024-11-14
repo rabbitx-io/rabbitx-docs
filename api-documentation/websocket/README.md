@@ -2,7 +2,7 @@
 
 ### General Information
 
-RabbitX uses a centrifuge scalable real-time websocket for publishing messages. We recommend using one of the client SDKs available on the official centrifuge [page](https://centrifugal.dev/docs/transports/client\_sdk).&#x20;
+RabbitX uses Centrifuge v5 scalable real-time websocket for publishing messages. We recommend using one of the client SDKs available on the official centrifuge [page](https://centrifugal.dev/docs/transports/client\_sdk).&#x20;
 
 ### List of centrifuge websocket client SDKs[​](https://centrifugal.dev/docs/transports/client\_sdk#list-of-client-sdks) <a href="#list-of-client-sdks" id="list-of-client-sdks"></a>
 
