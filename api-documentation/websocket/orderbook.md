@@ -1,6 +1,6 @@
 # Orderbook
 
-Subscribe to `orderbook:<symbol>` to get real-time orderbook updates.
+Subscribe to the channel name `orderbook:<symbol>` to get real-time orderbook updates.
 
 The initial snapshot will send all the open orders in the orderbook sorted by price on bids (lowest to highest) and on asks (lowest to highest). A non-decreasing `sequence` number is returned on each update.
 

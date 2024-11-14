@@ -1,6 +1,6 @@
 # Trades
 
-Subscribe to `trade:<symbol>` to get real-time market trades.
+Subscribe to the channel name `trade:<symbol>` to get real-time market trades.
 
 #### Example data
 

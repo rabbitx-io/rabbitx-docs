@@ -1,6 +1,6 @@
 # Market Info
 
-Subscribe to `market:<symbol>` to get real-time market updates.&#x20;
+Subscribe to the channel name `market:<symbol>` to get real-time market updates.&#x20;
 
 #### Example data
 
