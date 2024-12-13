@@ -12,7 +12,7 @@ GET /orders
 Parameters
 {
     order_id: 'BTC-USD@1777'   // (optional)
-    client_order_id: ''        // (optional)
+    client_order_id: ''        // (must be combined with corresponding market_id) (optional)
     status: 'open',            // (optional) 'open', 'closed', 'canceled', 'rejected', 'processing', 'amending', 'cancelingall', 'canceling'
     market_id: 'BTC-USD',      // (optional)
     start_time: 1669629461258298  // (optional) epoch time in microseconds
