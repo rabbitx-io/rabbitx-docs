@@ -4,6 +4,8 @@
 
 Get your account orders.
 
+> Update 13 December 2024: The endpoint now requires **`market_id`** to be included when querying an order by **`client_order_id`**. This change ensures faster and more accurate query performance.
+
 ```
 GET /orders
 ```
