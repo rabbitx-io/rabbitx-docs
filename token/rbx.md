@@ -7,7 +7,7 @@ We are excited to announce a major milestone in the evolution of the RabbitX pla
 Our state-of-the-art platform, built using a hybrid architecture, is optimised to deliver unparalleled speed and security for our traders. With the deepest orderbook liquidity, zero gas fees, and up to 20x leverage, RabbitX is the best derivatives DEX to trade on. The RBX utility token is our commitment to give power back to the community: if we succeed, you succeed.\
 
 
-The RBX token will have an initial supply of 1 billion tokens (1,000,000,000 RBX). Here’s how the tokens will be allocated:
+The RBX token will have a maximum and fixed supply of 1 billion tokens (1,000,000,000 RBX). Here’s how the tokens will be allocated:
 
 1. Community Rewards (32.5%): 325 million RBX tokens will be distributed as community trading and staking rewards and airdrop for trading on the RabbitX platform. These rewards will be given to users based on their trading activity, encouraging more participation and promoting a healthy trading environment.
 2. Liquidity Mining Rewards (7.5%): 75 million RBX tokens will be dedicated to incentivising users and market makers to provide liquidity to RabbitX. Deep liquidity is critical to RabbitX’s goal of becoming the premier global derivatives DEX.
@@ -19,11 +19,7 @@ The RBX token will have an initial supply of 1 billion tokens (1,000,000,000 RBX
 
 <figure><img src="../.gitbook/assets/Allocation (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
-
 RBX will provide utility and significant value to the RabbitX platform, including increased liquidity and rewards for users. Everything we do is committed to delivering the best possible trading experience and value to our users.
-
-RBX will have a maximum potential inflation rate capped at 20% p.a. after year 2, subject to governance voting. The actual inflation rate may be 0%. Ensuring the community continues to have the resources to continue contributing to the Protocol.
 
 We would like to thank our outstanding community for their support. We deeply appreciate you all as we work towards building the most secure, liquid, and accessible derivatives platform for traders worldwide.
 
