@@ -10,8 +10,9 @@ All documentation herein is provided ​“AS IS”. RabbitX makes no other warr
 
 ```go
 // REST
-https://api.prod.rabbitx.io
 https://api.rabbitx.com
+https://api.prod.rabbitx.io
+
 // Websocket
 wss://api.prod.rabbitx.io/ws
 ```
