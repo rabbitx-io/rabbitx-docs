@@ -29,6 +29,7 @@
 ## API Documentation
 
 * [Introduction](api-documentation/introduction.md)
+* [Rate Limits](api-documentation/rate-limits.md)
 * [Generate Your API Keys](api-documentation/generate-your-api-keys.md)
   * [Signing with API Key](api-documentation/generate-your-api-keys/api-key-usage.md)
 * [Public Endpoints](api-documentation/public-endpoints/README.md)
@@ -55,7 +56,7 @@
 
 ***
 
-* [Twitter](https://twitter.com/rabbitx\_io)
+* [Twitter](https://twitter.com/rabbitx_io)
 * [Discord](https://discord.com/invite/rabbitx)
 * [Apply to become a market maker](mailto:mm@rabbitx.io?Subject=LP%20Application\&Body=Application%20to%20apply%20as%20a%20market%20maker%20for%20RabbitX.)
 * [Audit](https://github.com/rabbitx-io/audits)
