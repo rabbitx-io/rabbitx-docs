@@ -4,21 +4,9 @@ description: Frequently Asked Questions
 
 # Frequently Asked Questions
 
-### What are ZK Rollups?
-
-ZK Rollups refers to zero-knowledge rollups, a concept conceived of in 1985 and now the premiere and best means of scaling Ethereum. ZK rollups are a hybrid scaling solution on the Ethereum mainnet that increases throughput and lowers transaction costs. **ZK-rollups** bundle (or 'roll up') transactions into batches that are executed offchain. Offchain computation reduces the amount of data that has to be posted to the blockchain. ZK-rollup operators submit a summary of the changes required to represent all the transactions in a batch rather than sending each transaction individually.&#x20;
-
-### Wen token?
-
-RBX token has been announced. The ERC20 contract address is `0x3Ba925fdeAe6B46d0BB4d424D829982Cb2F7309e` . Please read this twitter announcement for more details [https://twitter.com/rabbitx\_io/status/1651800369578790913](https://twitter.com/rabbitx\_io/status/1651800369578790913).
-
 ### Where can I find the RabbitX API?
 
 Trading APIs are available at [Broken link](broken-reference "mention")
-
-### How did you come up with the name RabbitX
-
-RabbitX is fun and fast as hell. Also, bunnies are adorable.
 
 ### What do I need to do to start trading?
 
@@ -28,17 +16,13 @@ Simply deposit through your wallet and you're ready to start trading!
 
 Yes! As long as you have a wallet, you can deposit on the exchange and start trading. We're completely permissionless.
 
-### Will there be a trader rewards program?
-
-Yes. Coming soon :tm:
-
-### What is TradingView?
-
-TradingView is one of the world’s leading charting and trading platforms, offering an array of technical, drawing and analytical tools. Supercharged by robust technologies across browser, desktop and mobile apps, the platform provides unparalleled access to live data, e.g. [BTC USD](https://www.tradingview.com/symbols/BTCUSD/) and [ETH USD](https://www.tradingview.com/symbols/ETHUSD/), the latest news, financial reports, and integrations with selected brokers. Visit TradingView [here](https://www.tradingview.com/).
-
 ### Why am I experiencing the "POST\_CHECK\_MARGIN" error?
 
 Please read our [Margin Calculation ](margin-calculation.md#faq-why-cant-i-close-my-position-and-i-see-a-post-match-error)documentation for more details.
+
+### Why am I experiencing the "POST\_MATCH\_ERROR\_WB" error?
+
+This message means that placing the order would put your account in a negative margin, leading to an instant liquidation. To avoid this, you should reduce your position size or lower your leverage.
 
 ### How does your liquidation engine work?
 
