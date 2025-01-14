@@ -28,7 +28,7 @@ Take Profit (TP) and Stop Loss (SL) can be set after the opening of a position.
 
 ### Why am I experiencing the "POST\_MATCH\_ERROR\_WB" error?
 
-This message means that placing the order would put your account in a negative margin, leading to an instant liquidation. To avoid this, you should reduce your position size or lower your leverage.
+This message means that placing the order would put your account in a negative margin, leading to an instant liquidation. To avoid this, you should reduce your position size or increase your leverage.
 
 ### Why am I experiencing the "Invalid payload signature" error?
 
