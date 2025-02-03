@@ -6,6 +6,10 @@ Once the API key is created, you can export it into a json file and save it for 
 
 You can renew the API keys, which will extend the expiry date by 30 days each time.&#x20;
 
+### Important: API keys are specific to each chain
+
+API keys are specific to each chain. An API key created on one chain cannot be used for trading on another. For example, credentials generated on Ethereum mainnet will not work on Arbitrum. To trade on a different chain, users must onboard onto the target chain and generate a new API key. Each set of credentials is exclusive to the chain where it was created.
+
 ### How to create an API key and secret
 
 To create an API key and secret, go to the app and click on the :gear: icon.
