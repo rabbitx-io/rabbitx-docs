@@ -6,13 +6,19 @@
 
 The authentication of requests is done by sending the following HTTP headers:
 
-`RBT-SIGNATURE`: Signature of the request generated with your secret key. It is calculated as hex(HMAC\_SHA256(secret, payload)). Example given below.
+`RBT-TS`: A UNIX (in seconds) timestamp after which the request is no longer valid. This is to prevent replay attacks. Only accepts integers. _Note: UNIX timestamps are in seconds. For example, 2018-02-08T04:30:37Z is 1518064237._&#x20;
 
 `RBT-API-KEY`: Your API key.
 
-`RBT-TS`: A UNIX (in seconds) timestamp after which the request is no longer valid. This is to prevent replay attacks. Only accepts integers.
+`RBT-SIGNATURE`: Signature of the request generated with your secret key. It is calculated as hex(HMAC\_SHA256(secret, payload)). Example given below.
 
-_`Note: UNIX timestamps are in seconds. For example, 2018-02-08T04:30:37Z is 1518064237.`_
+`EID` : The blockchain identifier. Currently RabbitX supports several blockchains:
+
+1. Etherium: `rbx`
+2. Blast: `bfx`
+3. Sonic: `rbx_sonic`
+4. Base: `rbx_base`
+5. Arbitrum: `rbx_arbitrum`
 
 #### Example: Generating RBT-SIGNATURE
 
@@ -95,7 +101,8 @@ def sign_request(data):
     _signature = payload.sign(api_secret)
     
 def headers(self) -> dict[str, str]:
-    headers = {'RBT-TS': str(self.expiration_timestamp)}
+    headers = {'RBT-TS': str(self.expiration_timestamp),
+               'EID': 'rbx'}
 
     if self.api_key:
         headers['RBT-API-KEY'] = self.api_key
