@@ -15,7 +15,6 @@
 * [RabbitX Fusion AMM](rabbitx-fusion-amm.md)
 * [Profit / Loss Calculation](profit-loss-calculation.md)
 * [Margin Calculation](margin-calculation.md)
-* [Insurance Fund](insurance-fund.md)
 * [Liquidations](liquidations.md)
 * [Liquidity Bootstrapping Program](liquidity-bootstrapping-program.md)
 * [RabbitX Quantower](rabbitx-quantower.md)

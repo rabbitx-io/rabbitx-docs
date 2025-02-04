@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # RabbitX OTC Service
 
 ## RabbitX OTC Service

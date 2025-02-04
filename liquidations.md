@@ -1,32 +1,45 @@
 # Liquidations
 
-The RabbitX risk-management engine is based on rigorous research and testing to ensure fair and orderly liquidations. The RabbitX cutting-edge risk model is built to protect both our traders and the exchange.&#x20;
+The RabbitX risk-management engine is based on rigorous research and testing to ensure fair and orderly liquidations. The RabbitX cutting-edge risk model is built to protect both our traders and the exchange. RabbitX liquidations ensures a seamless trading experience that safeguards both the platform's integrity and user investments, maintaining a balanced and stable market environment.&#x20;
 
-### Margin Requirements
+### Liquidation Process
 
-<table><thead><tr><th>Name</th><th>Account Margin</th><th data-hidden>Initial Margin</th></tr></thead><tbody><tr><td>Full Liquidation Margin Ratio</td><td>2%</td><td>5%</td></tr><tr><td>Maintenance Margin Ratio</td><td>3%</td><td>5%</td></tr></tbody></table>
+RabbitX employs a comprehensive 2-step waterfall structure to efficiently handle liquidations. Our primary aim is to proactively mitigate potential risks associated with this process. The first step involves assessing the asset's value in real-time, ensuring that collateral requirements are met, thus averting unnecessary liquidations. Positions and unrealised profits/loss are calculated in real time using the fair price.&#x20;
 
-### Liquidation Waterfalls
+#### What Happens During Liquidation?
 
-RabbitX utilises a 3-step waterfall structure to process liquidations.&#x20;
+* When your account falls below the maintenance margin of the position, your account enters a "liqudiating" state
+* System automatically cancels all existing open orders
+* Positions are gradually closed in small increments by a combination VWAP and TWAP algorithm. The process is designed to minimize market impact and protect the trader's capital.
+* Process repeats every few seconds until margin recovers above the maintenance margin. During this process, traders keep 100% of the proceeds and remaining positions.
+* If your margin falls below the auto-close margin fraction, the RabbitX insurance takes over your entire position at the zero price.
 
-#### Waterfall #1
+#### Margin Requirements
 
-When an account's equity falls below the maintenance margin requirement, it will undergo partial liquidation until the account is back above the maintenance margin requirement. While in liquidation, users will not be able to place new orders, cancel orders, or withdraw funds. When the account's equity is back above the maintenance margin requirement, it will no longer be in liquidation.&#x20;
+| Markets | Max Leverage | ACMF  | MMF  | IMF |
+| ------- | ------------ | ----- | ---- | --- |
+| BTC/ETH | 50x          | 0.5%  | 1%   | 2%  |
+| Others  | 20x          | 1.25% | 2.5% | 5%  |
 
-#### Waterfall #2
+### Estimated Liquidation Price
 
-If an account's equity falls below the liquidation margin, the account will be fully liquidated at the zero-price. A portion of the remaining collateral (if any) will go to the Insurance Fund. If RabbitX is unable to liquidate the position at a price better than the zero-price, the losses will be taken by the Insurance Fund.
+The estimated liquidation price of positions on RabbitX follows the following formula:
 
-#### Waterfall #3
+$$
+\boxed{ P_{\mathrm{liqBTC}} = \frac{ \sum \mathrm{MM}_{\text{other}} \;-\; \mathrm{AE} \;+\; \text{side}_{BTC}\,\bigl(M\,\mathrm{size}_{BTC}\bigr) }{ \mathrm{size}_{BTC}\,\bigl(\text{side}_{BTC} \;-\; \mathrm{MMF}\bigr) } }
+$$
+
+### Insurance Fund
 
 If RabbitX Insurance Fund equity falls below zero, then opposing positions will be auto-deleveraged at the Insurance Fund zero-price. Auto-deleveraging is the final step taken only when the Insurance Fund equity falls below zero. RabbitX takes every possible step to avoid auto-deleveraging and has implemented an algorithm to minimise the impact of auto-deleveraging when it does occur.&#x20;
 
+RabbitX uses an Insurance Fund to avoid auto-deleveraging in traders’ positions. The fund is used as a buffer for liquidation orders before they are taken over by the auto-deleveraging system.
+
+The Insurance Fund grows from liquidations that were able to be executed in the market at a price better than the zero price of the liquidated position. If liquidations are executed at a price worse than the zero price, losses will be absorbed by the Insurance Fund.
+
+If RabbitX Insurance Fund equity falls below zero, then opposing positions will be auto-deleveraged at the Insurance Fund zero-price. Auto-deleveraging is the final step taken only when the Insurance Fund equity falls below zero. RabbitX takes every possible step to avoid auto-deleveraging, including algorithmic efforts to minimise its impact when it does occur.&#x20;
 
 
-Read more about the [Insurance Fund](insurance-fund.md).&#x20;
-
-Zero-price is the price of the position that sets the account equity to zero.
 
 Refer to our [Index Price](index-price.md) section for more details.&#x20;
 
