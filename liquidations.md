@@ -16,11 +16,11 @@ RabbitX employs a comprehensive 2-step waterfall structure to efficiently handle
     * Orders are placed in chunks of **10% of the position** per iteration.
     * Minimum order size is enforced ($1000 or 10% of the position, whichever is ).
     * Liquidation size is capped at **0.01% of the exchange’s 30-day ADV** (Average Daily Volume) to prevent excessive market impact.
-    * The order is then split into five child orders and are placed strategically in the order book:
-      * 1/5 at best offer +1 tick
-      * 1/5 at best offer
-      * 1/5 at best bid +1 tick
-      * 2/5 hitting the best bid
+    * The order is then split into five child limit orders and are placed in the order book:
+      * 1/5 of the size @ market best offer +1 tick
+      * 1/5 of the size @ market best offer
+      * 1/5 of the size @ market best bid +1 tick
+      * 2/5  of the size @ market best bid
     * If no bids or offers exist, the last index price is used as the reference.
 * Process repeats every 6 seconds until the margin recovers above the maintenance margin. During this process, traders keep 100% of the proceeds and remaining positions.
 * If prices drop much faster than the liquidation process is able to unwind the position, and if your margin falls below the auto-close margin fraction, the RabbitX insurance takes over your entire position at the zero price.
