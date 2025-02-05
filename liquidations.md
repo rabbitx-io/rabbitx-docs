@@ -11,8 +11,19 @@ RabbitX employs a comprehensive 2-step waterfall structure to efficiently handle
 * When your account falls below the maintenance margin of the position, your account enters a "liqudiating" state
 * System automatically cancels all existing open orders
 * Positions are gradually closed in small increments by a combination VWAP and TWAP algorithm. The process is designed to minimize market impact and protect the trader's capital.
-* Process repeats every few seconds until margin recovers above the maintenance margin. During this process, traders keep 100% of the proceeds and remaining positions.
-* If your margin falls below the auto-close margin fraction, the RabbitX insurance takes over your entire position at the zero price.
+* The liquidation process uses a combination of time-weighted average price (TWAP) and volume-weighted average price (VWAP) algorithms. The following description describes how the liquidation process works:
+  * **Gradual unwinding process begins:**
+    * Orders are placed in chunks of **10% of the position** per iteration.
+    * Minimum order size is enforced ($1000 or 10% of the position, whichever is ).
+    * Liquidation size is capped at **0.01% of the exchange’s 30-day ADV** (Average Daily Volume) to prevent excessive market impact.
+    * The order is then split into five child orders and are placed strategically in the order book:
+      * 1/5 at best offer +1 tick
+      * 1/5 at best offer
+      * 1/5 at best bid +1 tick
+      * 2/5 hitting the best bid
+    * If no bids or offers exist, the last index price is used as the reference.
+* Process repeats every 6 seconds until the margin recovers above the maintenance margin. During this process, traders keep 100% of the proceeds and remaining positions.
+* If prices drop much faster than the liquidation process is able to unwind the position, and if your margin falls below the auto-close margin fraction, the RabbitX insurance takes over your entire position at the zero price.
 
 #### Margin Requirements
 
