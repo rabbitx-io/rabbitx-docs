@@ -6,41 +6,39 @@ description: 'RabbitX: Built For Traders'
 
 ## What is RabbitX?
 
-RabbitX is a global permissionless perpetuals and derivatives exchange built for traders. Built with secure multichain aggregated liquidity, RabbitX offers the deepest liquidity for traders with a seamless user experience. Giving you 24/7 access to global crypto markets.
+RabbitX is a global cryptocurrency perpetuals exchange designed for everyday traders, offering a seamless and efficient trading experience. As the first zero-fee cryptocurrency exchange, RabbitX eliminates trading fees entirely—forever. By combining liquidity across multiple blockchain networks, RabbitX addresses the challenge of fragmented liquidity, creating a unified order book that enhances market depth and execution efficiency.
 
-Combining the most innovative ZK infrastructure with the most powerful risk engine, and a beautiful user interface. With RabbitX, you can trade 24/7 markets with 20x leverage and the security of Ethereum. Our derivatives DEX is built using state-of-the-art, low-latency [ZK](https://starkware.co/stark/) technology atop Ethereum, providing blazing fast speed, peak security, and zero gas fees.&#x20;
+RabbitX is where the world comes to trade.
 
-RabbitX is rebuilding a better financial system by offering price transparency, instant settlements, and automated clearing for derivatives trading. RabbitX is where the world comes to trade.
+How RabbitX stands out:
 
-RabbitX provides:
+* Millisecond Latency
+* Zero Fee Trading
+* 50x Leverage
+* Cross-chain Liquidity
+* 24/7 AI Customer Support
+* 100+ Markets
+* Mobile Trading&#x20;
 
-* Millisecond latency
-* Zero gas trading
-* 20x leverage
-* Orderbook liquidity
-* 24/7 customer support
-* Global markets (stocks, FX, commodities, and interest rates coming soon!)
-* A trader-focused user interface
+## Say Hello to the Future of Trading
 
-In addition to our signature perpetual futures, RabbitX has plans for exotic crypto-native derivatives, interest rates, FX trading, and more in our [roadmap](roadmap.md).
+RabbitX started with the idea that crypto should be made for everyone.&#x20;
 
-## Our Purpose
-
-We're here to build the best exchange. Period.
-
-Today's financial infrastructure is archaic, expensive and inefficient. RabbitX is building a better way of trading global markets by offering a trusted platform, instant speed and multichain liquidity, powered by the best technology.&#x20;
-
-Spread the word. Tell your friends. It's time for the best trading experience.
+RabbitX lets you trade and invest in crypto for free. We believe that cryptocurrencies should help everyone, not just the wealthy. We've made it easy for everyone to get started with as little as $1 and trade with zero trading fees.&#x20;
 
 ## Our History
 
-Founded in 2021, RabbitX brought together a seasoned team of skilled builders, accomplished derivatives traders, and billion-dollar portfolio managers. Originally launched as Strips Finance—a decentralised interest rate swaps exchange on Arbitrum—the team soon expanded its mission and vision and rebranded as RabbitX. The focus shifted from creating solely decentralized interest rate derivatives to building a comprehensive suite of derivatives for every single global asset class.&#x20;
+Founded in 2021, RabbitX brought together a seasoned team of skilled builders, accomplished traders and technologists. Originally launched as Strips Finance—a decentralised interest rate swaps exchange on Arbitrum—the team soon expanded its mission and vision and rebranded as RabbitX. The focus shifted from creating solely decentralized interest rate derivatives to building a comprehensive suite of derivatives for every single global asset class.&#x20;
 
 From inception, the RabbitX team has remained dedicated to a first-principles approach to product development, emphasising a robust risk engine, trader-centric design, and equipping traders with powerful, innovative tools.
 
-RabbitX is backed by the biggest and most successful investors in the world, including Sequoia Capital US, Peak XV Partners (previously Sequoia India), Multicoin Capital, Crypto.com, OKX Ventures and more.
+RabbitX is backed by the biggest and most successful investors in the world, including Sequoia Capital US, Peak XV Partners, Multicoin Capital, Crypto.com, OKX Ventures and more.
 
 ## Features
+
+### Zero Fees 0️⃣
+
+Save on every trade. Our game-changing exchange allows you to trade with zero trading fees and zero gas fees.&#x20;
 
 ### Unparalleled Speed ⚡
 
@@ -55,10 +53,6 @@ RabbitX is built on the most secure network in crypto, Ethereum. If Ethereum is 
 ### No Front Running 🏃‍♂️
 
 RabbitX operates independently and is not owned by any market-making firms. Trade with peace of mind knowing that RabbitX will never front-run your orders.&#x20;
-
-### Zero Gas Fees 0️⃣
-
-No more gas fees. Our game-changing hybrid exchange enables real-time trading without paying a single dollar in gas fees. Place limit, market and stop orders instantly.&#x20;
 
 ### Risk Management :bar\_chart:
 
