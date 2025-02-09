@@ -2,13 +2,15 @@
 
 ## Deposit
 
-Note: RabbitX only accepts **ERC-20 USDT on Ethereum** as deposits. Sending any other coins will result in irretrievable lost coins.
+Note: RabbitX accepts these forms of deposits
 
-<div align="left">
+* **Ethereum:** ETH, USDT, USDC, WETH and WBTC&#x20;
+* **Base:** USDC
+* **Sonic:** USDC
+* **Arbitrum:** USDC
+* **Blast:** ETH, USDB and WBTC
 
-<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption><p>Step 1. Connect your wallet</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption><p>Step 1. Connect your wallet</p></figcaption></figure></div>
 
 ![](<.gitbook/assets/image (10) (2).png>)
 
