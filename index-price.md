@@ -25,7 +25,7 @@ Note: 30min, 60min basis is clamped within +/- 1%.
 
 Our fair price uses a robust methodology in order to protect traders against unfair liquidations caused by sharp price moves.
 
-### Sharp Drop Protection
+### Sharp Price Drop Protection
 
 RabbitX employs a 10% soft circuit breaker that utilizes the last index price recorded before any sharp drops (or increase) with a rolling window. This mechanism then triggers a cooldown period, allowing for market stabilization and informed trader responses.
 
