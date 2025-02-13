@@ -27,7 +27,7 @@ Our fair price uses a robust methodology in order to protect traders against unf
 
 ### Sharp Drop Protection
 
-RabbitX employs a 10% soft circuit breaker that utilizes the last index price recorded before any sharp drops or increases with a rolling window. This mechanism engages after a 1-2 minute cooldown period, allowing for market stabilization and informed trader responses.
+RabbitX employs a 10% soft circuit breaker that utilizes the last index price recorded before any sharp drops or increases with a rolling window. This mechanism then triggers a cooldown period, allowing for market stabilization and informed trader responses.
 
 This mechanism acts as a buffer, giving traders and liquidity providers a short window to assess the situation and make informed decisions. During the cooldown period, the index price uses the last index price before the soft circuit breaker was triggered to prevent market anomalies and protect against anomalous liquidity events.
 
