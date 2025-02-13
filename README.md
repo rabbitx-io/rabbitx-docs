@@ -16,7 +16,7 @@ How RabbitX stands out:
 * Zero Fee Trading
 * 50x Leverage
 * Cross-chain Liquidity
-* 24/7 AI Customer Support
+* 24/7 Customer Support
 * 100+ Markets
 * Mobile Trading&#x20;
 
