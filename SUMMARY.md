@@ -52,6 +52,7 @@
   * [Market Info](api-documentation/websocket/market-info.md)
   * [Account](api-documentation/websocket/account.md)
 * [Responses Data Structure](api-documentation/data-structure.md)
+* [API Fees](api-documentation/api-fees.md)
 
 ***
 

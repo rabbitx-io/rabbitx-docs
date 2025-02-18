@@ -1,20 +1,17 @@
 # Trading Fees
 
-RabbitX offers the most competitive trading fees.
+### Trading Activity Fees
 
-* **Maker** orders are orders that do not immediately fill and rest on the order book. These orders add depth and liquidity to the order book.
-* **Taker** orders, on the other hand, immediately cross existing Maker orders. They remove liquidity from the order book.
+Trading on RabbitX is commission free for placing and executing trades through our website or mobile app.&#x20;
 
-### Fee Tiers
+### Order Gas Fees
 
-| Tier                | Maker   | Taker  | Volume (30day) |
-| ------------------- | ------- | ------ | -------------- |
-| VIP 0 (Bronze)      | 0%      | 0.070% | 0              |
-| VIP 1 (Silver)      | 0%      | 0.065% | > $1M          |
-| VIP 2 (Gold)        | 0%      | 0.06%  | > $5M          |
-| VIP 3 (Platinum)    | 0%      | 0.04%  | > $10M         |
-| VIP 4 (Diamond)     | -0.01%  | 0.037% | > $50M         |
-| VIP 5 (Black)       | -0.01%  | 0.035% | > $250M        |
-| VIP 6 (Black Elite) | -0.015% | 0.025% | > $1.5B        |
-|                     |         |        |                |
+Trading and placing orders on RabbitX is gas free. Users can enjoy instant order placement without signing any transactions.
 
+### Account Fees
+
+RabbitX does not charge any account fees on idle balances on the platform. For deposits on Blast network, users get to enjoy up to 12% interest accrued daily.
+
+### Deposit Fees
+
+RabbitX does not charge any additional fees for deposits other than the network gas fees. Gas fees, also known as network fees, are payments that blockchain users make to miners or validators to complete a transaction on the blockchain.
