@@ -14,4 +14,4 @@ RabbitX does not charge any account fees on idle balances on the platform. For d
 
 ### Deposit Fees
 
-RabbitX does not charge any additional fees for deposits other than the network gas fees and payment provider fees. Gas fees, also known as network fees, are payments that blockchain users make to miners or validators to complete a transaction on the blockchain.
+RabbitX does not charge any additional fees for deposits other than the network gas fees. Gas fees, also known as network fees, are payments that blockchain users make to miners or validators to complete a transaction on the blockchain.

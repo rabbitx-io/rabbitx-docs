@@ -1,5 +1,6 @@
 ---
 description: Invite your friends and get rewarded
+hidden: true
 ---
 
 # Referral Rewards
