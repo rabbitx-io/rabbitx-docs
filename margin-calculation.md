@@ -34,6 +34,20 @@ $$
 2. The order is then simulated in our CoreGuard Risk Engine, and the Account Margin, Position Margin and Order Margin are all recalculated based on the post-match simulation.
 3. If the order results in the account Withdrawable Balance < 0 OR the account margin < 3%, then the order is rejected.
 
+### Position Limits
+
+|   |   |   |
+| - | - | - |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+
+
+
+
+
+
+
 #### FAQ: Why can't I close my position and I see a post-match error?
 
 Unfortunately, due to the very strict nature of our CoreGuard Risk Engine, if the order placed results in a negative Withdrawable Balance, your order will be rejected. Try the following to increase your Withdrawable Balance:
