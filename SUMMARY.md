@@ -59,3 +59,4 @@
 * [Twitter](https://twitter.com/rabbitx_io)
 * [Discord](https://discord.com/invite/rabbitx)
 * [Audit](https://github.com/rabbitx-io/audits)
+* [Bug Bounty](bug-bounty.md)

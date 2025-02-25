@@ -5,40 +5,24 @@
 1. Visit [https://app.rabbitx.io](https://testnet.rabbitx.io).
 2. Click the 'Connect Wallet' button in the upper-right corner.
 
-<div align="left">
-
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 3. If you already have a Metamask wallet, simply click 'Metamask' at the connect page.
 4. If you don’t have a Metamask wallet, you can register for a new wallet by clicking 'Connect With Socials'.
 
-<div align="left">
-
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 5. Next, click 'Sign and verify' to connect your decentralised wallet with the platform.
 
-<div align="left">
-
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
 
 6. If you have connected with your email address, there will be a new Particle Wallet created for you. Copy the wallet address. You will need to deposit a small amount of ETH to pay the gas fee. Next, deposit the USDT to your Particle Wallet.
 
-![](https://lh7-us.googleusercontent.com/YVoNKn5C5R4vxfPMo4DaJEUbzc-IH1FKbrfnUabldXYmg4kdM0Xoa8yBx8rOCXS0nW35KAU4e3wwEQnxaybgZGW\_bfAckFhl\_dCrlsLGw4ip7laWTiG1\_A399hStPYFPcep3Fi7p0gGOxSnaQePR8V0)
+![](https://lh7-us.googleusercontent.com/YVoNKn5C5R4vxfPMo4DaJEUbzc-IH1FKbrfnUabldXYmg4kdM0Xoa8yBx8rOCXS0nW35KAU4e3wwEQnxaybgZGW_bfAckFhl_dCrlsLGw4ip7laWTiG1_A399hStPYFPcep3Fi7p0gGOxSnaQePR8V0)
 
 7. Next, deposit USDT to start trading by clicking on the 'Deposit' button. Deposits will automatically be in your exchange balance after 16 confirmations on the Ethereum chain.
 
-<div align="left">
-
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
 
 ### **Trading**
 
@@ -46,11 +30,7 @@
 * The order panel is on the right-hand side. There you can input your order type, limit price (if applicable), and the size of your trade.
 * You can also right-click on a price level in the orderbook to quickly place a trade at that price.&#x20;
 
-<div align="left">
-
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure></div>
 
 * RabbitX also features advanced chart trading features that allow you to right-click on the chart to place trades! You will also be able to see your positions and orders directly from the chart. Learn more about our [chart trader](chart-trader.md).
 
