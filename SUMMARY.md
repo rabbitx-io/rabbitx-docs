@@ -6,6 +6,8 @@
 * [Referral Rewards](referral-rewards.md)
 * [Chart Trader](chart-trader.md)
 * [Index Price](index-price.md)
+* [Vaults](vaults/README.md)
+  * [RabbitX Liquidity Pool Vault](vaults/rabbitx-liquidity-pool-vault.md)
 * [Funding Rate](funding-rate.md)
 * [Deposit / Withdrawal](deposit-withdrawal.md)
 * [Fiat Deposits](fiat-deposits.md)
