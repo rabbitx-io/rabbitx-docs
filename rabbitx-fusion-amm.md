@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # RabbitX Fusion AMM
 
 <figure><img src=".gitbook/assets/image (32).png" alt="" width="563"><figcaption></figcaption></figure>
