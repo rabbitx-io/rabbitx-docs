@@ -10,7 +10,7 @@ RLP is currently live on Sonic chain and LPers can earn $S rewards from Sonic Po
 
 #### **Eliminating Impermanent Loss and Monetizing Efficiency**
 
-Automated Market Makers (AMMs) have been the backbone of DeFi liquidity, but they come with **fundamental inefficiencies**—impermanent loss, MEV losses, and lack of real-time price adjustments. The **RabbitX Real-time Liquidity Provider (RLP)** is designed to solve these challenges using **high-frequency market making, real-time prices, and cross-margined liquidity.** It makes advanced market making more transparent and equitable to every investor. Simultaneously, it solves the cold-start problem of liquidity on exchanges.
+Automated Market Makers (AMMs) have been the backbone of DeFi liquidity, but they come with **fundamental inefficiencies**—impermanent loss, MEV arbitrage, and lack of real-time price adjustments. The **RabbitX Real-time Liquidity Provider (RLP)** is designed to solve these challenges using **high-frequency market making, real-time prices, and cross-margined liquidity.** It makes advanced market making more transparent and equitable to every investor. Simultaneously, it solves the cold-start problem of liquidity on exchanges.
 
 * **RabbitX RLP** **Vault operates at a high-frequency level, pulling live bid-ask data every millisecond** from multiple sources, dynamically adjusting the liquidity range in real-time without any input from the user, ensuring optimal price discovery.
 
