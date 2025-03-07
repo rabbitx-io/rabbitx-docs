@@ -1,6 +1,6 @@
 # RabbitX Liquidity Pool Vault
 
-### Real-time Liquidity Provider: A New Paradigm in Automated Market Making
+### Real-time Liquidity Provisioning: A New Paradigm in Automated Market Making
 
 > The only constant in life is change — Heraclitus
 
