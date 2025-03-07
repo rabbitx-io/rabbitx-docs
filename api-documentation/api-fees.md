@@ -8,5 +8,5 @@ RabbitX offers professional API infrastructure to algorithmic traders, applying 
 
 | Maker Fee | Taker Fee |
 | --------- | --------- |
-| 0.00%     | 0.10%     |
+| 0.00%     | 0.07%     |
 
