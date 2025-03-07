@@ -6,9 +6,9 @@
 
 #### **Eliminating Impermanent Loss and Monetizing Efficiency**
 
-Automated Market Makers (AMMs) have been the backbone of DeFi liquidity, but they come with **fundamental inefficiencies**—impermanent loss, static liquidity positioning, and lack of real-time price adjustments. **RLP** is designed to solve these challenges using **high-frequency market making, real-time prices, and cross-chain liquidity aggregation.** It makes advanced market making more transparent and equitable to every investor. Simultaneously, it solves the cold-start problem of liquidity on exchanges.
+Automated Market Makers (AMMs) have been the backbone of DeFi liquidity, but they come with **fundamental inefficiencies**—impermanent loss, MEV losses, and lack of real-time price adjustments. The **RabbitX Real-time Liquidity Provider (RLP)** is designed to solve these challenges using **high-frequency market making, real-time prices, and cross-margined liquidity.** It makes advanced market making more transparent and equitable to every investor. Simultaneously, it solves the cold-start problem of liquidity on exchanges.
 
-* **RabbitX RLP** **Vault operates at a high-frequency level, pulling live bid-ask data every millisecond** from multiple sources, dynamically adjusting the liquidity range in real-time without any input from the user, ensuring **optimal price discovery**.
+* **RabbitX RLP** **Vault operates at a high-frequency level, pulling live bid-ask data every millisecond** from multiple sources, dynamically adjusting the liquidity range in real-time without any input from the user, ensuring optimal price discovery.
 
 Built by a veteran team of HFT engineers, **RLP is built from the ground up with a high-frequency trading (HFT) architecture** that dynamically adjusts liquidity, spreads, and risk exposure **every millisecond**. This makes RLP the most efficient market-making algorithm available.
 
@@ -44,8 +44,8 @@ RLP eliminates this by **dynamically shifting price ranges in real-time** based 
 
 **How it works:**
 
-* RLP **aggregates over 10,000 price points per second** from centralized exchanges (Binance, OKX, Bybit, Hyperliquid) and decentralized oracles (Pyth, Stork).
-* The AMM **dynamically recalculates optimal price ranges and liquidity positioning every millisecond**, ensuring capital is deployed efficiently across different markets.
+* **RLP** **aggregates over 10,000 price points per second** from centralized exchanges (Binance, OKX, Bybit, Hyperliquid) and decentralized oracles (Pyth, Stork).
+* RLP **dynamically recalculates optimal price ranges and liquidity positioning every millisecond**, ensuring capital is deployed efficiently across different markets.
 * This prevents LPs from losing to MEV when prices move, effectively eliminating impermanent loss, and capturing pure alpha.
 
 **2. High-Frequency Trading for Superior Market Efficiency**
@@ -54,9 +54,9 @@ Instead of relying on a single price oracle, our **RLP integrates a wide range o
 
 **Why this matters:**
 
+* **RLP operates at a high-frequency level, pulling live bid-ask data every millisecond** from multiple sources, dynamically adjusting the liquidity range in real-time without any input from the user, ensuring **optimal price discovery**.
 * Traditional AMMs do not update their pricing, creating impermanent loss for LPs.
 * Furthermore, changing liquidity ranges requires further intervention to unstake from LP and change the liquidity range. This delay creates arbitrage opportunities against LPs, and each change in the liquidity range requires gas fees which can add up to thousands of dollars a day.
-* **RLP operates at a high-frequency level, pulling live bid-ask data every millisecond** from multiple sources, dynamically adjusting the liquidity range in real-time without any input from the user, ensuring **optimal price discovery**.
 
 **3. Dynamic Spreads, Quote Sizes Based on Market Volatility**
 
@@ -86,9 +86,9 @@ One of the biggest capital inefficiencies in DeFi is liquidity fragmentation. Tr
 
 **Why this is groundbreaking:**
 
+* **RLP** **supports over 100+ markets** within a single asset pool, maximizing capital efficiency.
 * Liquidity providers no longer need to manually **split their capital across multiple pools**. LP across diverse markets in a single pool.
 * The system dynamically **allocates liquidity where it’s needed**, ensuring that markets stay deep and liquid without overcapitalization.
-* **RLP** **supports over 100+ markets** within a single asset pool, maximizing capital efficiency.
 
 **6. Millisecond-Level Updates: The Fastest AMM in DeFi**
 
@@ -106,7 +106,7 @@ RLP is different:
 
 Uniswap V3 introduced **concentrated liquidity**, allowing liquidity providers (LPs) to allocate their capital within a chosen price range rather than across the entire price spectrum. This significantly improved capital efficiency compared to Uniswap V2. However, it also introduced **a major flaw**: liquidity must be **manually managed and rebalanced**, leaving LPs exposed to **impermanent loss and inefficient capital utilization** if the market moves outside their chosen range.
 
-**RLPs vs. Uniswap V3: The Key Differences**
+**RLP vs. Uniswap V3: The Key Differences**
 
 | **Feature**                    | **Uniswap V3**                                   | **RLP**                                                |
 | ------------------------------ | ------------------------------------------------ | ------------------------------------------------------ |
@@ -116,6 +116,8 @@ Uniswap V3 introduced **concentrated liquidity**, allowing liquidity providers (
 | **Market Data Sources**        | None. Zero information advantage.                | Aggregates 10,000+ price points/sec from CeFi & DeFi   |
 | **Spread & Quote Adjustments** | Fixed user-defined range                         | Dynamically adjusts based on volatility & liquidity    |
 | **Capital Allocation**         | Fragmented across trading pairs                  | Shared asset pool, cross-margining across 100+ markets |
+
+***
 
 **\*Liquidity Efficiency Methodology**
 
