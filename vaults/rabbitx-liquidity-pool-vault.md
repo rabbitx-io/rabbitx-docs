@@ -147,3 +147,20 @@ Uniswap V3 introduced **concentrated liquidity**, allowing liquidity providers (
   * Leading to a much lower slippage-to-TVL ratio compared to Uniswap V3.
 
 The comparative analysis revealed that RabbitX's slippage-to-TVL ratio was approximately **150 times lower** than that of Uniswap V3. This substantial difference underscores RabbitX's superior capital efficiency, as it can facilitate large trades with minimal price impact relative to its liquidity reserves.
+
+***
+
+_**RabbitX Liquidity Pool Risk Disclaimer**_
+
+Participating in the RabbitX Liquidity Pool Vault involves inherent risks and may result in substantial financial losses. Before contributing funds, please carefully consider the following risks:
+
+1. **Market Volatility:** Crypto markets can experience extreme volatility. Rapid price movements can amplify your impermanent loss or cause significant deviations in the value of your pool share.
+2. **Smart Contract and Technical Risks:** RabbitX's Liquidity Pool operates on blockchain smart contracts, which carry risks of coding errors, security vulnerabilities, hacks, or other technological issues that could result in partial or total loss of funds.
+3. **Liquidity Risks:** In certain market conditions, liquidity may become constrained, making it difficult to withdraw or trade your position without incurring significant losses.
+4. **External Vaults:** Vaults associated with the RabbitX ecosystem are operated by external third parties and are not endorsed or directly managed by RabbitX. Users participating in these vaults assume additional risks, including counterparty risks, operational risks, and risks related to third-party management practices.
+
+**How the Liquidity Pool Works:**
+
+RabbitX Liquidity Pool earns revenue primarily through trading activities on RabbitX which are then proportionally distributed among liquidity providers based on their share in the pool. Additionally, the RabbitX Liquidity Pool dynamically adjusts liquidity to maximize capital efficiency, potentially enhancing returns by continuously optimizing spreads and inventory in response to real-time market conditions.
+
+By contributing funds to the liquidity pool, you acknowledge these risks and confirm your understanding that RabbitX is not responsible for any financial losses incurred due to participation in the pool.
