@@ -64,3 +64,4 @@
 * [Discord](https://discord.com/invite/rabbitx)
 * [Audit](https://github.com/rabbitx-io/audits)
 * [Bug Bounty](bug-bounty.md)
+* [Terms of Use](terms-of-use.md)
