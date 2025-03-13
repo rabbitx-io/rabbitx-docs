@@ -117,7 +117,7 @@ You hereby grant to us a royalty-free, fully paid-up, sublicensable (through mul
 \
 8\. DEPOSITS AND NON-CUSTODIAL SERVICES\
 \
-8.1. The Services are non-custodial. When you deposit Digital Assets into your account wallet on our Interface (“**RabbitX Wallet**”) and/or trade in any Digital Assets on RabbitX, you are not transferring Digital Assets to RabbitX, and you retain control over those Digital Assets at all times.\
+8.1. The Services are non-custodial. When you deposit Digital Assets into your account wallet on our Interface (“**RabbitX Wallet**”) and/or trade in any Digital Assets on RabbitX, you are not transferring Digital Assets to the RabbitX entity.\
 \
 8.2. The RabbitX Wallet currently only supports deposits of cryptocurrency e.g. ERC-20 USDT on Ethereum. RabbitX reserves the right to add additional digital assets which can be supported by the RabbitX Wallet in the future.\
 \
