@@ -11,6 +11,8 @@ All documentation herein is provided ​“AS IS”. RabbitX makes no other warr
 ```go
 // REST
 https://api.rabbitx.com
+
+// Alternative REST
 https://api.prod.rabbitx.io
 
 // Websocket
