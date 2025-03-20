@@ -1,4 +1,10 @@
-# Platform Fees
+---
+description: >-
+  RabbitX is the first exchange that charges no additional trading fees for
+  regular users.
+---
+
+# Zero Fees
 
 ### Zero Trading Fees
 
