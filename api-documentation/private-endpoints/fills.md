@@ -12,8 +12,8 @@ GET /fills
 Parameters
 {
     market_id: 'BTC-USD'    // (optional)
-    start_time: 1669629461258298  // (optional)
-    end_time: 1669629461258298  // (optional)
+    start_time: 1669629461258298  // (optional) timestamp in microseconds
+    end_time: 1669629461258298  // (optional) timestamp in microseconds
     p_limit: 100, // max rows returned, max 1000
     p_page: 0, // pagination page, index begins at 0
     p_order: "DESC" // default "DESC" for descending and "ASC" for ascending

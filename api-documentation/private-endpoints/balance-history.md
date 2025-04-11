@@ -12,8 +12,8 @@ GET /balanceops
 Params:
 {
     ops_type: 'deposit',       // (optional) 'deposit', 'withdraw', 'funding', 'pnl', 'fee'
-    start_time: 1673668624     // (optional)
-    end_time: 1673668624       // (optional)
+    start_time: 1673668624000000     // (optional) timestamp in microseconds
+    end_time: 1673668624000000       // (optional) timestamp in microseconds
     p_limit: 100, // max rows returned, max 1000
     p_page: 0, // pagination page, index begins at 0
     p_order: "DESC" // default "DESC" for descending and "ASC" for ascending
