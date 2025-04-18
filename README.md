@@ -14,33 +14,79 @@ RabbitX was built with the simple and yet powerful idea that **crypto trading sh
 
 RabbitX lets anyone trade and invest in crypto without charging additional trading fees. We believe that cryptocurrencies should help everyone, not just the wealthy.&#x20;
 
-### Key Features
+### More Features
 
-* 0️⃣ **Zero Fee Trading**: Trade across a broad range of cryptocurrencies without any trading fees.
-* ⚡**Instant Deposits:** Choose from a range of  deposit options and get started instantly.
-* **Easy to Use**: User-friendly and seamless trading platform.&#x20;
-* **Largest Markets**: Trade from a selection of the largest markets on RabbitX.
+#### **1. Seamless Onboarding & Smart Accounts**
 
-## Features
+RabbitX makes it effortless to get started
 
-### Zero Fees 0️⃣
+* **Wallet Integrations** with 30+ wallets including Metamask, Rabby, Phantom, OKX Wallet & more!&#x20;
+* **Multiple Login Options** including **email, Apple ID, and phone number**, removing the need for complicated seed phrases.
+* **Smart Accounts** that simplify user wallet management! Don't worry about losing you seed phrase.
 
-Save on every trade. Our game-changing exchange allows you to trade with zero trading fees and zero gas fees.&#x20;
+#### 2. Advanced Order Types
 
-### **Instant Deposits** ⚡
+* **Limit, Market, Grid, Stop Limit, Stop Market** orders offer flexible trading for any market situation
+* **Position Stop-loss & Take-Profits** fully or partially unwind your position using stop-loss and take-profit on RabbitX
+* **Chart Order Entry** point, click and trade directly from the chart. Drag orders to amend prices and set trigger orders
+* **Orderbook Order Entry** get even more precise order entries by placing orders directly clicking on the orderbook level
 
-You like to live life fast, we do too. That's why we're one of the fastest decentralised exchanges in the world.
+#### **3. Multiple Funding Options**
 
-RabbitX is based on a unique hybrid orderbook composition. RabbitX combines the speed and efficiency of an off-chain orderbook with the security of on-chain settlements. We are able to achieve millisecond latency that is up to **50x faster** than any other onchain derivatives platform.&#x20;
+Bringing assets into RabbitX is frictionless thanks to:
 
-### Security 🔒
+* **Fiat On-Ramps** via **Visa, MasterCard, FPS (Hong Kong), UPI (India), and SEPA (Europe)**.
+* **Direct Binance Transfers** using our **Finance Deposit** feature—instantly fund your account from Binance.
+* **Gasless Deposits and Withdrawals**, making onboarding and exiting smooth, even for users unfamiliar with crypto gas fees.
 
-RabbitX is built on the most secure network in crypto, Ethereum. If Ethereum is secure, we are secure. RabbitX transactions are settled on a layer-2 before being securely broadcasted on layer-1 Ethereum. This enables scaling without making any sacrifices to security. Read more about [ZK](https://starkware.co/stark/) technology.&#x20;
+#### **4. Gasless Deposits, Intuitive Trading Experience**
 
-### No Front Running 🏃‍♂️
+Once funded, users can trade freely:
 
-RabbitX operates independently and is not owned by any market-making firms. Trade with peace of mind knowing that RabbitX will never front-run your orders.&#x20;
+* **Gasless Trading** removes network fee concerns entirely.
+* **50x Leverage and Deep Liquidity** across **100+ markets** for high-performance trading.
+* A **Professional Order Book** and **Chart Trading Interface** support advanced strategies.
+* **Intuitive UI** design keeps things easy for beginners, while still offering pro-level tools.
 
-### Risk Management :bar\_chart:
+#### **5. Yield Generation**
 
-RabbitX has one of the most powerful risk engines to protect traders and the exchange from insolvency.
+* **Our RabbitX Liquidity Provider Vault** offers a stable **APY in stablecoin yield**, helping users earn while they trade or wait for entries.
+
+#### **6. Mobile Accessibility**
+
+* The RabbitX **Mobile App** is available in **135+ countries**, including **the US, Europe, and Japan**, ensuring global reach and compliance.
+
+#### **7. Ecosystem & Expansion**
+
+* **Multi-Chain Native Support** includes **Ethereum, Arbitrum, Base, Blast, and Sonic**, offering flexibility and low-cost transactions across ecosystems.
+
+#### **8. Growth & Community Tools**
+
+* **Customizable Referral Links** with **real-time tracking** make it easy for users and influencers to grow with RabbitX.
+
+#### **9. Advanced Trader Tools**
+
+* **Quantower trading** for professional traders
+* **Deltix integration** for algorithmic trading
+
+#### **10. Advanced & Robust API**
+
+* **Advanced APIs** that support both REST and Websockets
+* **Low-latency** with < 1ms market data latency
+
+## Key Features
+
+### Trade Bitcoin with Zero Fees 0️⃣
+
+Trade Bitcoin and Save on every trade. Our game-changing exchange allows you to trade with zero trading fees and zero gas fees.&#x20;
+
+### **Gasless Deposits: Onboarding Without the Friction**
+
+RabbitX removes one of the most common barriers in crypto: network fees. With **gasless deposits and withdrawals**, users can move assets in and out of the platform without paying gas, no matter the underlying blockchain. This is particularly valuable for new users who might not hold native tokens like ETH or ARB to cover fees. By abstracting away these costs, RabbitX creates a seamless experience that feels closer to using a traditional fintech app than a DeFi protocol. It’s ideal for both first-timers and power users who want to move fast without operational drag.
+
+***
+
+#### **💸 AMM Vault: High-Yield Passive Earnings in Stablecoins**
+
+For users looking to earn yield without active trading, the **RabbitX AMM Vault** offers a powerful alternative. Designed to generate **over 60% APY** in stablecoin returns, the vault taps into trading activity across the platform to deliver consistent, high-yield returns. Users deposit stablecoins, and the vault automatically allocates liquidity into AMM pools that fuel RabbitX’s decentralized order book. Unlike speculative yield farms, the vault focuses on sustainable returns powered by real trading volume and fees. It’s an ideal place to park idle funds and earn passively—no active management or exposure to volatile assets required.
+

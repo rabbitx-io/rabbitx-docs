@@ -14,7 +14,6 @@
 * [Deposit / Withdrawal](deposit-withdrawal.md)
 * [Fiat Deposits](fiat-deposits.md)
 * [Binance Direct Deposit](binance-direct-deposit.md)
-* [Zero Fees](trading-fees.md)
 * [RabbitX OTC Service](rabbitx-otc-service.md)
 * [RabbitX Fusion AMM](rabbitx-fusion-amm.md)
 * [Profit / Loss Calculation](profit-loss-calculation.md)
@@ -22,6 +21,8 @@
 * [Liquidations](liquidations.md)
 * [Liquidity Bootstrapping Program](liquidity-bootstrapping-program.md)
 * [RabbitX Quantower](rabbitx-quantower.md)
+* [Fees](trading-fees/README.md)
+  * [API Fees](trading-fees/api-fees.md)
 * [Frequently Asked Questions](faq.md)
 
 ## Token

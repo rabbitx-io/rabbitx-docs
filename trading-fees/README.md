@@ -1,10 +1,10 @@
 ---
 description: >-
-  RabbitX is the first exchange that charges no additional trading fees for
-  regular users.
+  RabbitX is the first exchange that charges zero trading fees for everyday
+  traders.
 ---
 
-# Zero Fees
+# Fees
 
 ### Zero Trading Fees
 
@@ -16,7 +16,7 @@ Trading and placing orders on RabbitX is gas free. Additionally, users can enjoy
 
 ### Zero Account Fees
 
-RabbitX does not charge any account fees on idle balances on the platform. For deposits on Blast network, users get to enjoy up to 12% APY interest accrued daily.
+RabbitX does not charge any account fees on idle balances on the platform. For deposits on Blast network, users get to enjoy up to 8% APY interest accrued daily.
 
 ### Deposit Fees
 
