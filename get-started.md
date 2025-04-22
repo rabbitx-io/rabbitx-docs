@@ -2,8 +2,8 @@
 
 ### **Connect your wallet**
 
-1. Visit  https://rabbitx.com/trade/BTC
-2. Click the 'Connect Wallet' button in the upper-right corner.
+1. Visit [https://rabbitx.com/trade/BTC](https://rabbitx.com/trade/BTC)
+2. Click the 'Connect Wallet' button in the upper-ight corner.
 
 <div align="left"><figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
