@@ -2,7 +2,7 @@
 
 ### **Connect your wallet**
 
-1. Visit [https://app.rabbitx.io](https://testnet.rabbitx.io).
+1. Visit [https://](https://testnet.rabbitx.io)rabbitx.com/trade
 2. Click the 'Connect Wallet' button in the upper-right corner.
 
 <div align="left"><figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
