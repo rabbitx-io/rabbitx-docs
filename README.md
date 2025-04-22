@@ -18,7 +18,7 @@ RabbitX is rebuilding a better financial system by offering price transparency, 
 
 ### :tada: Trade for Free&#x20;
 
-Trade Bitcoin and other markets for free, with no fees! We’ve cut out the middlemen so that anyone can trade without fees. Our game-changing business model allows everyday investors and traders to save thousands.&#x20;
+Trade Bitcoin and other markets for free, with no fees! We’ve cut out the middlemen so that anyone can trade without fees. Our game-changing business model allows everyday investors and traders to save thousands in fees.
 
 ### 0️⃣**Gasless Deposits: Onboarding Without the Friction**
 
