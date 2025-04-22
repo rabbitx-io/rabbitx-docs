@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Liquidity Bootstrapping Program
 
 ### Liquidity Incentive Program
