@@ -6,13 +6,27 @@ description: 'RabbitX: Pioneering Zero Fee Crypto Trading'
 
 ## What is RabbitX?
 
-RabbitX is pioneering a new way of investing in crypto by eliminating trading fees entirely. We’ve cut out the middlemen so that you can enjoy free trading. By eliminating trading fees, RabbitX democratized finance, giving everyday investors the ability to trade cryptocurrencies without friction.
+RabbitX is a global perpetual futures exchange. It launched in 2023 with a clear goal: to give traders a better way to access global markets. One that offers speed, transparency and free trading.
+
+The platform combines 50x leverage with 100+ markets. Traders can trade futures on cryptocurrencies, stocks, gold and more! Sign up and start trading in less than 5 minutes.
 
 ## Say Hello to the Future of Trading
 
-RabbitX was built with the simple and yet powerful idea that **crypto trading should be free**.&#x20;
+RabbitX is rebuilding a better financial system by offering price transparency, instant settlement, and automated clearing for perpetual futures trading.
 
-RabbitX lets anyone trade and invest in crypto without charging additional trading fees. We believe that cryptocurrencies should help everyone, not just the wealthy.&#x20;
+## Key Features
+
+### :tada: Trade for Free&#x20;
+
+Trade Bitcoin and other markets for free, with no fees! We’ve cut out the middlemen so that anyone can trade without fees. Our game-changing business model allows everyday investors and traders to save thousands.&#x20;
+
+### 0️⃣**Gasless Deposits: Onboarding Without the Friction**
+
+RabbitX removes one of the most common barriers in crypto: network fees. With **gasless deposits and withdrawals**, users can move assets in and out of the platform without paying gas, no matter the underlying blockchain. This is particularly valuable for new users who might not hold native tokens like ETH or ARB to cover fees. By abstracting away these costs, RabbitX creates a seamless experience that feels closer to using a traditional fintech app than a DeFi protocol. It’s ideal for both first-timers and power users who want to move fast without operational drag.
+
+### **💸 AMM Vault: High-Yield Earnings on Stablecoins**
+
+For users looking to earn yield without active trading, the **RabbitX AMM Vault** offers a powerful alternative. Designed to generate **over 60% APY** in stablecoin returns, the vault taps into trading activity across the platform to deliver consistent, high-yield returns. Users deposit stablecoins, and the vault automatically allocates liquidity into AMM pools that fuel RabbitX’s decentralized order book. Unlike speculative yield farms, the vault focuses on sustainable returns powered by real trading volume and fees. It’s an ideal place to park idle funds and earn passively—no active management or exposure to volatile assets required.
 
 ### More Features
 
@@ -73,20 +87,4 @@ Once funded, users can trade freely:
 
 * **Advanced APIs** that support both REST and Websockets
 * **Low-latency** with < 1ms market data latency
-
-## Key Features
-
-### Trade Bitcoin with Zero Fees 0️⃣
-
-Trade Bitcoin and Save on every trade. Our game-changing exchange allows you to trade with zero trading fees and zero gas fees.&#x20;
-
-### **Gasless Deposits: Onboarding Without the Friction**
-
-RabbitX removes one of the most common barriers in crypto: network fees. With **gasless deposits and withdrawals**, users can move assets in and out of the platform without paying gas, no matter the underlying blockchain. This is particularly valuable for new users who might not hold native tokens like ETH or ARB to cover fees. By abstracting away these costs, RabbitX creates a seamless experience that feels closer to using a traditional fintech app than a DeFi protocol. It’s ideal for both first-timers and power users who want to move fast without operational drag.
-
-***
-
-#### **💸 AMM Vault: High-Yield Passive Earnings in Stablecoins**
-
-For users looking to earn yield without active trading, the **RabbitX AMM Vault** offers a powerful alternative. Designed to generate **over 60% APY** in stablecoin returns, the vault taps into trading activity across the platform to deliver consistent, high-yield returns. Users deposit stablecoins, and the vault automatically allocates liquidity into AMM pools that fuel RabbitX’s decentralized order book. Unlike speculative yield farms, the vault focuses on sustainable returns powered by real trading volume and fees. It’s an ideal place to park idle funds and earn passively—no active management or exposure to volatile assets required.
 
