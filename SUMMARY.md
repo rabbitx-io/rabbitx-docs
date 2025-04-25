@@ -65,4 +65,5 @@
 * [Discord](https://discord.com/invite/rabbitx)
 * [Audit](https://github.com/rabbitx-io/audits)
 * [Bug Bounty](bug-bounty.md)
+* [Bug Bounty Postmortem Report](bug-bounty-postmortem-report.md)
 * [Terms of Use](terms-of-use.md)
