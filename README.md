@@ -1,12 +1,12 @@
 ---
-description: 'RabbitX: Pioneering Zero Fee Crypto Trading'
+description: 'RabbitX: Trade Global Markets for Free'
 ---
 
 # 👋 Introduction
 
-## What is RabbitX?
+## Bringing Global Markets to Traders
 
-RabbitX is a global perpetual futures exchange. It launched in 2023 with a clear goal: to give traders a better way to access global markets. One that offers speed, transparency and free trading.
+RabbitX is a global perpetual futures exchange. It launched in 2023 with a clear goal: to bring global markets to traders. One that offers security, transparency and zero fees trading.
 
 The platform combines 50x leverage with 100+ markets. Traders can trade futures on cryptocurrencies, stocks, gold and more! Sign up and start trading in less than 5 minutes.
 
