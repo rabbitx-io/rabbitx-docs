@@ -2,6 +2,7 @@
 
 * [👋 Introduction](README.md)
 * [Get Started](get-started.md)
+* [Sonic rGEMs Rewards Program](sonic-rgems-rewards-program.md)
 * [Roadmap](roadmap.md)
 * [Referral Rewards](referral-rewards.md)
 * [Chart Trader](chart-trader.md)

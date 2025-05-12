@@ -1,5 +1,6 @@
 ---
 description: The global permissionless perpetuals exchange
+hidden: true
 ---
 
 # Roadmap
