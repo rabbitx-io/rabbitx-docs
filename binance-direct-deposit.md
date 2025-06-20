@@ -2,9 +2,7 @@
 
 We're onboarding the next million traders into DeFi. Here’s how to direct to RabbitX directly in one transaction from your Binance Wallet.
 
-{% embed url="https://www.youtube.com/watch?v=8ctxEr4k9kM" %}
-
-RabbitX Direct Deposit, powered by Mesh, allows users to deposit onto RabbitX from their CEX wallets.\
+RabbitX Direct Deposit allows users to deposit onto RabbitX from their CEX wallets.\
 \
 **Direct Deposits:**
 
